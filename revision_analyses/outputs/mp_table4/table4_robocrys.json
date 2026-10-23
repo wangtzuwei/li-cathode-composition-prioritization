@@ -1,0 +1,268 @@
+{
+ "mp-18988": [
+  {
+   "builder_meta": {
+    "emmet_version": "0.87.0rc7",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "ae69790c-1c1e-48e7-ac4b-5cd0b974d935",
+    "batch_id": null,
+    "database_version": "2026.09.28",
+    "build_date": "2026-05-31T21:27:15.033000",
+    "license": null
+   },
+   "nsites": 24,
+   "elements": [
+    "Li",
+    "Mn",
+    "O"
+   ],
+   "nelements": 3,
+   "composition": {
+    "Li": 8.0,
+    "Mn": 4.0,
+    "O": 12.0
+   },
+   "composition_reduced": {
+    "Li": 2.0,
+    "Mn": 1.0,
+    "O": 3.0
+   },
+   "formula_pretty": "Li2MnO3",
+   "formula_anonymous": "AB2C3",
+   "chemsys": "Li-Mn-O",
+   "volume": 195.46738339598636,
+   "density": 3.9695883050154244,
+   "density_atomic": 8.144474308166098,
+   "symmetry": {
+    "crystal_system": "Monoclinic",
+    "symbol": "C2/m",
+    "hall": "-C 2y",
+    "number": 12,
+    "point_group": "2/m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+   },
+   "material_id": "mp-aaaabcci",
+   "deprecated": false,
+   "deprecation_reasons": null,
+   "last_updated": "2026-05-31T21:27:15.033000",
+   "origins": null,
+   "warnings": [],
+   "property_name": "robocrys",
+   "description": "Li₂MnO₃ is Caswellsilverite-like structured and crystallizes in the monoclinic C2/m space group. There are three inequivalent Li sites. In the first Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share corners with six LiO₆ octahedra, edges with six LiO₆ octahedra, and edges with six equivalent MnO₆ octahedra. The corner-sharing octahedral tilt angles range from 8-9°. There are four shorter (2.04 Å) and two longer (2.05 Å) Li-O bond lengths. In the second Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share corners with two equivalent LiO₆ octahedra, corners with four equivalent MnO₆ octahedra, edges with four equivalent MnO₆ octahedra, and edges with eight LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-8°. There are two shorter (2.00 Å) and four longer (2.13 Å) Li-O bond lengths. In the third Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share corners with two equivalent LiO₆ octahedra, corners with four equivalent MnO₆ octahedra, edges with four equivalent MnO₆ octahedra, and edges with eight LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-9°. There are a spread of Li-O bond distances ranging from 2.02-2.14 Å. Mn is bonded to six O atoms to form MnO₆ octahedra that share corners with six LiO₆ octahedra, edges with three equivalent MnO₆ octahedra, and edges with nine LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-8°. There are four shorter (1.90 Å) and two longer (1.91 Å) Mn-O bond lengths. There are two inequivalent O sites. In the first O site, O is bonded to four Li and two equivalent Mn atoms to form a mixture of corner and edge-sharing OLi₄Mn₂ octahedra. The corner-sharing octahedral tilt angles range from 0-6°. In the second O site, O is bonded to four Li and two equivalent Mn atoms to form a mixture of corner and edge-sharing OLi₄Mn₂ octahedra. The corner-sharing octahedral tilt angles range from 0-8°.",
+   "condensed_structure": {
+    "mineral": {
+     "type": "Caswellsilverite",
+     "name": null
+    },
+    "dimensionality": 3,
+    "formula": "Li2MnO3",
+    "spg_symbol": "C2/m",
+    "crystal_system": "monoclinic"
+   },
+   "robocrys_version": "0.87.0rc7"
+  }
+ ],
+ "mp-775130": [
+  {
+   "builder_meta": {
+    "emmet_version": "0.87.0rc7",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "ae69790c-1c1e-48e7-ac4b-5cd0b974d935",
+    "batch_id": null,
+    "database_version": "2026.09.28",
+    "build_date": "2026-05-31T23:58:26.677000",
+    "license": null
+   },
+   "nsites": 12,
+   "elements": [
+    "Cr",
+    "Li",
+    "O"
+   ],
+   "nelements": 3,
+   "composition": {
+    "Li": 4.0,
+    "Cr": 2.0,
+    "O": 6.0
+   },
+   "composition_reduced": {
+    "Li": 2.0,
+    "Cr": 1.0,
+    "O": 3.0
+   },
+   "formula_pretty": "Li2CrO3",
+   "formula_anonymous": "AB2C3",
+   "chemsys": "Cr-Li-O",
+   "volume": 106.31338376783465,
+   "density": 3.5573328300225917,
+   "density_atomic": 8.859448647319555,
+   "symmetry": {
+    "crystal_system": "Monoclinic",
+    "symbol": "C2/m",
+    "hall": "-C 2y",
+    "number": 12,
+    "point_group": "2/m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+   },
+   "material_id": "mp-aaabscqs",
+   "deprecated": false,
+   "deprecation_reasons": null,
+   "last_updated": "2026-05-31T23:58:26.677000",
+   "origins": null,
+   "warnings": [],
+   "property_name": "robocrys",
+   "description": "Li₂CrO₃ is Caswellsilverite-like structured and crystallizes in the monoclinic C2/m space group. There are three inequivalent Li sites. In the first Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share corners with six LiO₆ octahedra, edges with four equivalent CrO₆ octahedra, and edges with eight LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 8-11°. There are two shorter (2.08 Å) and four longer (2.09 Å) Li-O bond lengths. In the second Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share corners with two equivalent CrO₆ octahedra, corners with four equivalent LiO₆ octahedra, edges with four equivalent CrO₆ octahedra, and edges with eight LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 8-9°. There are four shorter (2.09 Å) and two longer (2.12 Å) Li-O bond lengths. In the third Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share  a cornercorner with one LiO₆ octahedra, corners with five equivalent CrO₆ octahedra, edges with four equivalent CrO₆ octahedra, and edges with eight LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 2-11°. There are a spread of Li-O bond distances ranging from 2.10-2.22 Å. Cr is bonded to six O atoms to form CrO₆ octahedra that share corners with six LiO₆ octahedra, edges with four equivalent CrO₆ octahedra, and edges with eight LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 2-11°. There are a spread of Cr-O bond distances ranging from 1.78-2.08 Å. There are three inequivalent O sites. In the first O site, O is bonded to four Li and two equivalent Cr atoms to form a mixture of corner and edge-sharing OLi₄Cr₂ octahedra. The corner-sharing octahedral tilt angles range from 0-10°. In the second O site, O is bonded to three Li and three equivalent Cr atoms to form a mixture of corner and edge-sharing OLi₃Cr₃ octahedra. The corner-sharing octahedral tilt angles range from 0-10°. In the third O site, O is bonded to five Li and one Cr atom to form a mixture of corner and edge-sharing OLi₅Cr octahedra. The corner-sharing octahedral tilt angles range from 0-7°.",
+   "condensed_structure": {
+    "mineral": {
+     "type": "Caswellsilverite",
+     "name": null
+    },
+    "dimensionality": 3,
+    "formula": "Li2CrO3",
+    "spg_symbol": "C2/m",
+    "crystal_system": "monoclinic"
+   },
+   "robocrys_version": "0.87.0rc7"
+  }
+ ],
+ "mp-850919": [
+  {
+   "builder_meta": {
+    "emmet_version": "0.87.0rc7",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "ae69790c-1c1e-48e7-ac4b-5cd0b974d935",
+    "batch_id": null,
+    "database_version": "2026.09.28",
+    "build_date": "2026-05-31T20:50:52.131000",
+    "license": null
+   },
+   "nsites": 33,
+   "elements": [
+    "Cr",
+    "Li",
+    "Mn",
+    "O"
+   ],
+   "nelements": 4,
+   "composition": {
+    "Li": 6.0,
+    "Mn": 3.0,
+    "Cr": 6.0,
+    "O": 18.0
+   },
+   "composition_reduced": {
+    "Li": 2.0,
+    "Mn": 1.0,
+    "Cr": 2.0,
+    "O": 6.0
+   },
+   "formula_pretty": "Li2MnCr2O6",
+   "formula_anonymous": "AB2C2D6",
+   "chemsys": "Cr-Li-Mn-O",
+   "volume": 333.0794810555937,
+   "density": 4.020367051773846,
+   "density_atomic": 10.093317607745263,
+   "symmetry": {
+    "crystal_system": "Monoclinic",
+    "symbol": "C2/m",
+    "hall": "-C 2y",
+    "number": 12,
+    "point_group": "2/m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+   },
+   "material_id": "mp-aaabwktr",
+   "deprecated": false,
+   "deprecation_reasons": null,
+   "last_updated": "2026-05-31T20:50:52.131000",
+   "origins": null,
+   "warnings": [],
+   "property_name": "robocrys",
+   "description": "Li₂Cr₂MnO₆ crystallizes in the monoclinic C2/m space group. There are two inequivalent Li sites. In the first Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share  a cornercorner with one MnO₆ octahedra, corners with five CrO₆ octahedra, edges with two MnO₆ octahedra, edges with three LiO₆ octahedra, and edges with four CrO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-11°. There are a spread of Li-O bond distances ranging from 2.17-2.23 Å. In the second Li site, Li is bonded to six O atoms to form LiO₆ octahedra that share corners with two equivalent CrO₆ octahedra, corners with four MnO₆ octahedra, edges with two equivalent MnO₆ octahedra, edges with three LiO₆ octahedra, and edges with four CrO₆ octahedra. The corner-sharing octahedral tilt angles range from 8-10°. There are a spread of Li-O bond distances ranging from 2.16-2.24 Å. There are two inequivalent Cr sites. In the first Cr site, Cr is bonded to six O atoms to form CrO₆ octahedra that share corners with four LiO₆ octahedra, edges with two MnO₆ octahedra, edges with four LiO₆ octahedra, and edges with four CrO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-11°. There are a spread of Cr-O bond distances ranging from 1.98-2.07 Å. In the second Cr site, Cr is bonded to six O atoms to form CrO₆ octahedra that share corners with four equivalent LiO₆ octahedra, edges with two equivalent MnO₆ octahedra, edges with four LiO₆ octahedra, and edges with four equivalent CrO₆ octahedra. The corner-sharing octahedral tilt angles range from 8-10°. There are a spread of Cr-O bond distances ranging from 1.97-2.05 Å. There are two inequivalent Mn sites. In the first Mn site, Mn is bonded to six O atoms to form MnO₆ octahedra that share corners with four LiO₆ octahedra, edges with two MnO₆ octahedra, edges with four LiO₆ octahedra, and edges with four CrO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-8°. There are four shorter (1.95 Å) and two longer (1.97 Å) Mn-O bond lengths. In the second Mn site, Mn is bonded to six O atoms to form MnO₆ octahedra that share corners with four equivalent LiO₆ octahedra, edges with two equivalent MnO₆ octahedra, edges with four equivalent LiO₆ octahedra, and edges with four equivalent CrO₆ octahedra. The corner-sharing octahedral tilt angles are 10°. There are two shorter (1.91 Å) and four longer (1.99 Å) Mn-O bond lengths. There are six inequivalent O sites. In the first O site, O is bonded to two equivalent Li, two Cr, and one Mn atom to form a mixture of corner and edge-sharing OLi₂MnCr₂ square pyramids. In the second O site, O is bonded to two equivalent Li and three Cr atoms to form a mixture of corner and edge-sharing OLi₂Cr₃ square pyramids. In the third O site, O is bonded to two equivalent Li, two equivalent Cr, and one Mn atom to form OLi₂MnCr₂ square pyramids that share corners with nine OLi₂MnCr₂ square pyramids and edges with eight OLi₂Mn₂Cr square pyramids. In the fourth O site, O is bonded to two Li, one Cr, and two Mn atoms to form a mixture of corner and edge-sharing OLi₂Mn₂Cr square pyramids. In the fifth O site, O is bonded to two equivalent Li, one Cr, and two equivalent Mn atoms to form a mixture of corner and edge-sharing OLi₂Mn₂Cr square pyramids. In the sixth O site, O is bonded to two Li and three Cr atoms to form a mixture of corner and edge-sharing OLi₂Cr₃ square pyramids.",
+   "condensed_structure": {
+    "mineral": {
+     "type": null,
+     "name": null
+    },
+    "dimensionality": 3,
+    "formula": "Li2Cr2MnO6",
+    "spg_symbol": "C2/m",
+    "crystal_system": "monoclinic"
+   },
+   "robocrys_version": "0.87.0rc7"
+  }
+ ],
+ "mp-753906": [
+  {
+   "builder_meta": {
+    "emmet_version": "0.87.0rc7",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "ae69790c-1c1e-48e7-ac4b-5cd0b974d935",
+    "batch_id": null,
+    "database_version": "2026.09.28",
+    "build_date": "2026-05-31T21:12:35.050000",
+    "license": null
+   },
+   "nsites": 12,
+   "elements": [
+    "F",
+    "Li",
+    "Mn",
+    "O"
+   ],
+   "nelements": 4,
+   "composition": {
+    "Li": 4.0,
+    "Mn": 2.0,
+    "O": 4.0,
+    "F": 2.0
+   },
+   "composition_reduced": {
+    "Li": 2.0,
+    "Mn": 1.0,
+    "O": 2.0,
+    "F": 1.0
+   },
+   "formula_pretty": "Li2MnO2F",
+   "formula_anonymous": "ABC2D2",
+   "chemsys": "F-Li-Mn-O",
+   "volume": 113.96090667660569,
+   "density": 3.4917451531197408,
+   "density_atomic": 9.496742223050473,
+   "symmetry": {
+    "crystal_system": "Monoclinic",
+    "symbol": "C2/m",
+    "hall": "-C 2y",
+    "number": 12,
+    "point_group": "2/m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+   },
+   "material_id": "mp-aaabqxgk",
+   "deprecated": false,
+   "deprecation_reasons": null,
+   "last_updated": "2026-05-31T21:12:35.050000",
+   "origins": null,
+   "warnings": [],
+   "property_name": "robocrys",
+   "description": "Li₂MnO₂F is beta Polonium-derived structured and crystallizes in the monoclinic C2/m space group. There are three inequivalent Li sites. In the first Li site, Li is bonded to four equivalent O and two equivalent F atoms to form LiO₄F₂ octahedra that share corners with two equivalent LiO₄F₂ octahedra, corners with four equivalent MnO₄F₂ octahedra, edges with four equivalent MnO₄F₂ octahedra, and edges with eight LiO₄F₂ octahedra. The corner-sharing octahedral tilt angles range from 1-8°. All Li-O bond lengths are 2.21 Å. Both Li-F bond lengths are 2.01 Å. In the second Li site, Li is bonded to four equivalent O and two equivalent F atoms to form LiO₄F₂ octahedra that share corners with six LiO₄F₂ octahedra, edges with six LiO₄F₂ octahedra, and edges with six equivalent MnO₄F₂ octahedra. The corner-sharing octahedral tilt angles range from 1-8°. All Li-O bond lengths are 2.20 Å. Both Li-F bond lengths are 2.04 Å. In the third Li site, Li is bonded to four equivalent O and two equivalent F atoms to form LiO₄F₂ octahedra that share corners with two equivalent LiO₄F₂ octahedra, corners with four equivalent MnO₄F₂ octahedra, edges with four equivalent MnO₄F₂ octahedra, and edges with eight LiO₄F₂ octahedra. The corner-sharing octahedral tilt angles range from 1-8°. There are two shorter (2.05 Å) and two longer (2.15 Å) Li-O bond lengths. Both Li-F bond lengths are 2.27 Å. Mn is bonded to four equivalent O and two equivalent F atoms to form MnO₄F₂ octahedra that share corners with six LiO₄F₂ octahedra, edges with three equivalent MnO₄F₂ octahedra, and edges with nine LiO₄F₂ octahedra. The corner-sharing octahedral tilt angles range from 1-8°. There are two shorter (1.91 Å) and two longer (2.04 Å) Mn-O bond lengths. Both Mn-F bond lengths are 2.24 Å. O is bonded to four Li and two equivalent Mn atoms to form OLi₄Mn₂ octahedra that share corners with two equivalent FLi₄Mn₂ octahedra, corners with four equivalent OLi₄Mn₂ octahedra, edges with five equivalent FLi₄Mn₂ octahedra, and edges with seven equivalent OLi₄Mn₂ octahedra. The corner-sharing octahedral tilt angles range from 0-7°. F is bonded to four Li and two equivalent Mn atoms to form FLi₄Mn₂ octahedra that share corners with two equivalent FLi₄Mn₂ octahedra, corners with four equivalent OLi₄Mn₂ octahedra, edges with two equivalent FLi₄Mn₂ octahedra, and edges with ten equivalent OLi₄Mn₂ octahedra. The corner-sharing octahedral tilt angles range from 0-7°.",
+   "condensed_structure": {
+    "mineral": {
+     "type": "beta Polonium",
+     "name": null
+    },
+    "dimensionality": 3,
+    "formula": "Li2MnO2F",
+    "spg_symbol": "C2/m",
+    "crystal_system": "monoclinic"
+   },
+   "robocrys_version": "0.87.0rc7"
+  }
+ ]
+}

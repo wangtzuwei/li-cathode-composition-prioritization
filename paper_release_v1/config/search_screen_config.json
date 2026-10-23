@@ -1,0 +1,95 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "checkpoint_schema_version": 3,
+  "algorithm": "canonical elitist NSGA-II with parent-offspring union",
+  "population_per_prototype": 100,
+  "generations": 25,
+  "evaluations_per_prototype": 2500,
+  "topk": 500,
+  "floor_per_prototype": 10,
+  "fixed_context": {
+    "temperature_K": 298.15,
+    "current_rate_C": 0.5,
+    "cycle": 1.0
+  },
+  "distance_discount": {
+    "k": 5,
+    "reference": "training_unique_composition_p95",
+    "decay": 0.5
+  },
+  "hard_knn_gate": false,
+  "chemistry_filter_inside_search": false,
+  "shared_initial_batch_per_prototype_and_seed": 100,
+  "ranking_shared_across_arms": "global final Pareto rank + crowding distance + discounted capacity",
+  "determinism": {
+    "catboost_prediction_threads": 1,
+    "nearest_neighbor_threads": 1,
+    "csv_float_format": "%.17g",
+    "gzip_mtime": 0,
+    "model_sha256": "e7550729a9905879894be6486bdbe5bf601892853c8db1cce887b7182ee13bf9",
+    "runtime_fingerprint": {
+      "python": "3.12.13",
+      "packages": {
+        "catboost": "1.2.8",
+        "matminer": "0.9.3",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "pymatgen": "2025.6.14",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.18.0"
+      },
+      "sha256": "d9f689e857994ca8f5e786b3f848fcf01477e27d3df0fe5f4363946f67418a27"
+    }
+  },
+  "parameter_space_projection": {
+    "applied_to": "every NSGA-II and random proposal before evaluation",
+    "li_site_total": [
+      -0.1,
+      0.2
+    ],
+    "maximum_nonbase_framework_dopant_fraction": 0.3,
+    "framework_cation_total_preserved": true,
+    "anion_total_preserved": true,
+    "runtime_assertion": "parameter_bounds_ok for every evaluated candidate"
+  },
+  "screening": {
+    "G1": "charge-neutrality plus Pauling ordering",
+    "G2": "prototype Li/TM window",
+    "G3": {
+      "descriptor": "concentration-weighted RMS relative radius mismatch",
+      "legacy_maximum_mismatch": "diagnostic only",
+      "primary_policy": {
+        "name": "positive-control P95",
+        "threshold": 0.10867468190417125
+      },
+      "nested_conservative_policy": {
+        "name": "positive-control P90",
+        "threshold": 0.1016949152542372
+      },
+      "validation": "leave-one-control-out retention plus 20,000-bootstrap threshold intervals"
+    },
+    "G4": "predicted capacity <= conservative cationic redox budget",
+    "JT": "supplementary proxy only"
+  }
+}

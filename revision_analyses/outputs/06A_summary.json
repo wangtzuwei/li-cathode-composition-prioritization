@@ -1,0 +1,605 @@
+{
+  "definition": "max(0, capacity - strict budget) / capacity; controls use measured median and max, candidates and counterparts use the saved CatBoost prediction (298.15 K, 0.5 C, cycle 1)",
+  "controls_by_template": {
+    "LNMO-spinel": {
+      "median_based": {
+        "n": 7,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "max_based": {
+        "n": 7,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "Li-rich-NMC": {
+      "median_based": {
+        "n": 17,
+        "n_positive": 14,
+        "min": 0.0,
+        "p25": 0.16980185735517864,
+        "median": 0.2811577283592616,
+        "p75": 0.44850043122749517,
+        "max": 0.5631115154915517,
+        "mean": 0.28545886278541016
+      },
+      "max_based": {
+        "n": 17,
+        "n_positive": 17,
+        "min": 0.0003556057109741805,
+        "p25": 0.34378780542779075,
+        "median": 0.5164303145670437,
+        "p75": 0.545815690369269,
+        "max": 0.6273522186870246,
+        "mean": 0.4033668068471796
+      }
+    },
+    "Li2MnO3": {
+      "median_based": {
+        "n": 4,
+        "n_positive": 4,
+        "min": 0.8000582497582879,
+        "p25": 0.8224485126966704,
+        "median": 0.8416773932461878,
+        "p75": 0.8651797179667536,
+        "max": 0.9003903134182809,
+        "mean": 0.8459508374172361
+      },
+      "max_based": {
+        "n": 4,
+        "n_positive": 4,
+        "min": 0.8667054998388586,
+        "p25": 0.8849743732013011,
+        "median": 0.894297809407677,
+        "p75": 0.9120770758238155,
+        "max": 0.9557134398155455,
+        "mean": 0.9027536396174395
+      }
+    },
+    "LiCoO2": {
+      "median_based": {
+        "n": 2,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "max_based": {
+        "n": 2,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "LiFePO4": {
+      "median_based": {
+        "n": 21,
+        "n_positive": 1,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.005514320577452068,
+        "mean": 0.00026258669416438416
+      },
+      "max_based": {
+        "n": 21,
+        "n_positive": 2,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.005514320577452068,
+        "mean": 0.0005035630788973936
+      }
+    },
+    "LiMn2O4": {
+      "median_based": {
+        "n": 11,
+        "n_positive": 1,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.064868375706998,
+        "mean": 0.005897125064272545
+      },
+      "max_based": {
+        "n": 11,
+        "n_positive": 2,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.12826712989635405,
+        "mean": 0.01471740165793242
+      }
+    },
+    "LiMnPO4": {
+      "median_based": {
+        "n": 29,
+        "n_positive": 1,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.01830920297207745,
+        "mean": 0.0006313518266233603
+      },
+      "max_based": {
+        "n": 29,
+        "n_positive": 2,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0805434742043722,
+        "mean": 0.004094745316033886
+      }
+    },
+    "LiNiO2": {
+      "median_based": {
+        "n": 7,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "max_based": {
+        "n": 7,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "NCA": {
+      "median_based": {
+        "n": 1,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "max_based": {
+        "n": 1,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "NMC-532": {
+      "median_based": {
+        "n": 6,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "max_based": {
+        "n": 6,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "NMC-622": {
+      "median_based": {
+        "n": 1,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "max_based": {
+        "n": 1,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "NMC-811": {
+      "median_based": {
+        "n": 6,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "max_based": {
+        "n": 6,
+        "n_positive": 0,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "controls_by_class": {
+    "layered": {
+      "median_based": {
+        "n": 44,
+        "n_positive": 18,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.3605366482037933,
+        "max": 0.9003903134182809,
+        "mean": 0.18719554584138445
+      },
+      "max_based": {
+        "n": 44,
+        "n_positive": 21,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.5255290144130347,
+        "max": 0.9557134398155455,
+        "mean": 0.23791477897435936
+      }
+    },
+    "olivine": {
+      "median_based": {
+        "n": 50,
+        "n_positive": 2,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.01830920297207745,
+        "mean": 0.0004764704709905904
+      },
+      "max_based": {
+        "n": 50,
+        "n_positive": 4,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0805434742043722,
+        "mean": 0.002586448776436559
+      }
+    },
+    "spinel": {
+      "median_based": {
+        "n": 18,
+        "n_positive": 1,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.064868375706998,
+        "mean": 0.0036037986503887776
+      },
+      "max_based": {
+        "n": 18,
+        "n_positive": 2,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.12826712989635405,
+        "mean": 0.00899396767984759
+      }
+    }
+  },
+  "li2mno3_controls": [
+    {
+      "Formula": "Li2Mn1O2.939F0.015",
+      "measured_median": 168.5,
+      "measured_max": 241.0,
+      "strict_budget_mAh_g": 24.69487930046279,
+      "anion_fraction_measured_median": 0.8534428528162445,
+      "anion_fraction_measured_max": 0.8975316211599055
+    },
+    {
+      "Formula": "Li2Mn1O2.9145F0.03",
+      "measured_median": 191.5,
+      "measured_max": 299.0,
+      "strict_budget_mAh_g": 32.571864701020864,
+      "anion_fraction_measured_median": 0.8299119336761313,
+      "anion_fraction_measured_max": 0.8910639976554486
+    },
+    {
+      "Formula": "Li2Mn1O2.903F0.045",
+      "measured_median": 172.0,
+      "measured_max": 258.0,
+      "strict_budget_mAh_g": 34.38998104157448,
+      "anion_fraction_measured_median": 0.8000582497582879,
+      "anion_fraction_measured_max": 0.8667054998388586
+    },
+    {
+      "Formula": "Li2Mn1O2.9795",
+      "measured_median": 94.7,
+      "measured_max": 213.0,
+      "strict_budget_mAh_g": 9.4330373192888,
+      "anion_fraction_measured_median": 0.9003903134182809,
+      "anion_fraction_measured_max": 0.9557134398155455
+    }
+  ],
+  "candidates_counterparts": [
+    {
+      "parent_candidate": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "variant": "candidate",
+      "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "y_pred_saved_model": 215.35295733093767,
+      "G4_strict_budget": 191.21827709353948,
+      "anion_fraction_pred": 0.11207034505827514
+    },
+    {
+      "parent_candidate": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(a) no F",
+      "Formula": "Li2.1Mn0.7Cr0.3O3",
+      "y_pred_saved_model": 202.72718859575812,
+      "G4_strict_budget": 160.85921792974096,
+      "anion_fraction_pred": 0.20652370782639662
+    },
+    {
+      "parent_candidate": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(b) no Cr",
+      "Formula": "Li2.1Mn1O2.865F0.135",
+      "y_pred_saved_model": 187.9480359185227,
+      "G4_strict_budget": 53.41312235774917,
+      "anion_fraction_pred": 0.7158090953347112
+    },
+    {
+      "parent_candidate": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(c) no F, no Cr",
+      "Formula": "Li2.1Mn1O3",
+      "y_pred_saved_model": 178.00380108582007,
+      "G4_strict_budget": 22.807296449482745,
+      "anion_fraction_pred": 0.8718718571718208
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "variant": "candidate",
+      "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "y_pred_saved_model": 208.42781287680745,
+      "G4_strict_budget": 212.8562778529435,
+      "anion_fraction_pred": 0.0
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(a) no F",
+      "Formula": "Li2.2Mn0.7Cr0.3O3",
+      "y_pred_saved_model": 204.38533061200425,
+      "G4_strict_budget": 182.75149519444608,
+      "anion_fraction_pred": 0.105848278605801
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(b) no Cr",
+      "Formula": "Li2.2Mn1O2.865F0.135",
+      "y_pred_saved_model": 188.87739321009363,
+      "G4_strict_budget": 75.69653555868217,
+      "anion_fraction_pred": 0.599229244579404
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(c) no F, no Cr",
+      "Formula": "Li2.2Mn1O3",
+      "y_pred_saved_model": 175.13074035611083,
+      "G4_strict_budget": 45.34674719113482,
+      "anion_fraction_pred": 0.7410691743840816
+    },
+    {
+      "parent_candidate": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "variant": "candidate",
+      "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "y_pred_saved_model": 214.50922696933085,
+      "G4_strict_budget": 202.0692648683776,
+      "anion_fraction_pred": 0.057992666687162374
+    },
+    {
+      "parent_candidate": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(a) no F",
+      "Formula": "Li2.15Mn0.7Cr0.3O3",
+      "y_pred_saved_model": 204.61825338240763,
+      "G4_strict_budget": 171.83783186522103,
+      "anion_fraction_pred": 0.16020282147518783
+    },
+    {
+      "parent_candidate": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(b) no Cr",
+      "Formula": "Li2.15Mn1O2.865F0.135",
+      "y_pred_saved_model": 188.93743480712803,
+      "G4_strict_budget": 64.58752462858604,
+      "anion_fraction_pred": 0.6581539031980689
+    },
+    {
+      "parent_candidate": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(c) no F, no Cr",
+      "Formula": "Li2.15Mn1O3",
+      "y_pred_saved_model": 175.70811532543777,
+      "G4_strict_budget": 34.11020677081645,
+      "anion_fraction_pred": 0.8058700549622353
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "variant": "candidate",
+      "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "y_pred_saved_model": 207.88389334455127,
+      "G4_strict_budget": 203.64834680231436,
+      "anion_fraction_pred": 0.020374577722656065
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "variant": "(a) no F",
+      "Formula": "Li2.2Mn0.72Cr0.28O3",
+      "y_pred_saved_model": 204.95665701660545,
+      "G4_strict_budget": 173.52689524218488,
+      "anion_fraction_pred": 0.15334833340823933
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "variant": "(b) no Cr",
+      "Formula": "Li2.2Mn1O2.865F0.135",
+      "y_pred_saved_model": 188.87739321009363,
+      "G4_strict_budget": 75.69653555868217,
+      "anion_fraction_pred": 0.599229244579404
+    },
+    {
+      "parent_candidate": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "variant": "(c) no F, no Cr",
+      "Formula": "Li2.2Mn1O3",
+      "y_pred_saved_model": 175.13074035611083,
+      "G4_strict_budget": 45.34674719113482,
+      "anion_fraction_pred": 0.7410691743840816
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "variant": "candidate",
+      "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "y_pred_saved_model": 217.81180850522765,
+      "G4_strict_budget": 148.95778433545647,
+      "anion_fraction_pred": 0.31611703994514434
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "variant": "(a) no F",
+      "Formula": "Li1.95Mn0.72Cr0.28O3",
+      "y_pred_saved_model": 184.20085511349745,
+      "G4_strict_budget": 118.19290685662492,
+      "anion_fraction_pred": 0.3583476755099806
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "variant": "(b) no Cr",
+      "Formula": "Li1.95Mn1O2.865F0.135",
+      "y_pred_saved_model": 189.94557984245364,
+      "G4_strict_budget": 19.491742339150637,
+      "anion_fraction_pred": 0.8973824905253512
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "variant": "(c) no F, no Cr",
+      "Formula": "Li1.95Mn1O3",
+      "y_pred_saved_model": 164.64054472015195,
+      "G4_strict_budget": 0.0,
+      "anion_fraction_pred": 1.0
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "variant": "candidate",
+      "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "y_pred_saved_model": 220.81442312143784,
+      "G4_strict_budget": 158.2757226912994,
+      "anion_fraction_pred": 0.28321836746934337
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(a) no F",
+      "Formula": "Li1.95Mn0.7Cr0.3O3",
+      "y_pred_saved_model": 190.03633619555572,
+      "G4_strict_budget": 127.52782214092852,
+      "anion_fraction_pred": 0.32892927376953424
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(b) no Cr",
+      "Formula": "Li1.95Mn1O2.865F0.135",
+      "y_pred_saved_model": 189.94557984245364,
+      "G4_strict_budget": 19.491742339150637,
+      "anion_fraction_pred": 0.8973824905253512
+    },
+    {
+      "parent_candidate": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(c) no F, no Cr",
+      "Formula": "Li1.95Mn1O3",
+      "y_pred_saved_model": 164.64054472015195,
+      "G4_strict_budget": 0.0,
+      "anion_fraction_pred": 1.0
+    },
+    {
+      "parent_candidate": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "variant": "candidate",
+      "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "y_pred_saved_model": 217.14211833930025,
+      "G4_strict_budget": 147.16305895426848,
+      "anion_fraction_pred": 0.3222730805070458
+    },
+    {
+      "parent_candidate": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(a) no F",
+      "Formula": "Li1.9Mn0.7Cr0.3O3",
+      "y_pred_saved_model": 197.9664501298349,
+      "G4_strict_budget": 116.2835201989557,
+      "anion_fraction_pred": 0.4126099643515759
+    },
+    {
+      "parent_candidate": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(b) no Cr",
+      "Formula": "Li1.9Mn1O2.865F0.135",
+      "y_pred_saved_model": 186.33463369319787,
+      "G4_strict_budget": 8.049914846384844,
+      "anion_fraction_pred": 0.9567986117940956
+    },
+    {
+      "parent_candidate": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "variant": "(c) no F, no Cr",
+      "Formula": "Li1.9Mn1O3",
+      "y_pred_saved_model": 163.02767566166466,
+      "G4_strict_budget": 0.0,
+      "anion_fraction_pred": 1.0
+    },
+    {
+      "parent_candidate": "Li2MnO3",
+      "variant": "reference",
+      "Formula": "Li2Mn1O3",
+      "y_pred_saved_model": 146.9743417674126,
+      "G4_strict_budget": 0.0,
+      "anion_fraction_pred": 1.0
+    }
+  ]
+}

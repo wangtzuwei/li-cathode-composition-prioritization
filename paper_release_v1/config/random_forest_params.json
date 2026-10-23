@@ -1,0 +1,41 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "imputer",
+      "SimpleImputer(strategy='median')"
+    ],
+    [
+      "model",
+      "RandomForestRegressor(min_samples_leaf=2, n_estimators=300, n_jobs=4,\n                      random_state=42)"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "imputer": "SimpleImputer(strategy='median')",
+  "model": "RandomForestRegressor(min_samples_leaf=2, n_estimators=300, n_jobs=4,\n                      random_state=42)",
+  "imputer__add_indicator": false,
+  "imputer__copy": true,
+  "imputer__fill_value": null,
+  "imputer__keep_empty_features": false,
+  "imputer__missing_values": NaN,
+  "imputer__strategy": "median",
+  "model__bootstrap": true,
+  "model__ccp_alpha": 0.0,
+  "model__criterion": "squared_error",
+  "model__max_depth": null,
+  "model__max_features": 1.0,
+  "model__max_leaf_nodes": null,
+  "model__max_samples": null,
+  "model__min_impurity_decrease": 0.0,
+  "model__min_samples_leaf": 2,
+  "model__min_samples_split": 2,
+  "model__min_weight_fraction_leaf": 0.0,
+  "model__monotonic_cst": null,
+  "model__n_estimators": 300,
+  "model__n_jobs": 4,
+  "model__oob_score": false,
+  "model__random_state": 42,
+  "model__verbose": 0,
+  "model__warm_start": false
+}

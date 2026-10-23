@@ -1,0 +1,196 @@
+{
+  "limits": {
+    "layered": {
+      "n": 44,
+      "P95": 1.0185833616010855,
+      "max": 1.03125,
+      "min": 0.995,
+      "median": 1.0
+    },
+    "olivine": {
+      "n": 50,
+      "P95": 0.75,
+      "max": 0.8,
+      "min": 0.7,
+      "median": 0.75
+    },
+    "spinel": {
+      "n": 18,
+      "P95": 0.75,
+      "max": 0.75,
+      "min": 0.74375,
+      "median": 0.75
+    }
+  },
+  "P95": {
+    "union": 9815,
+    "consensus_n": 3,
+    "consensus": [
+      {
+        "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      },
+      {
+        "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      },
+      {
+        "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      }
+    ],
+    "seven_retained": [
+      "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "Li1.9Mn0.7Cr0.3O2.865F0.135"
+    ],
+    "seven_dropped": [
+      "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "Li2.2Mn0.7Cr0.3O2.865F0.135"
+    ],
+    "new": [],
+    "per_seed_mean": 53.4,
+    "per_seed_min": 3,
+    "per_seed_max": 142
+  },
+  "max": {
+    "union": 9815,
+    "consensus_n": 3,
+    "consensus": [
+      {
+        "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      },
+      {
+        "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      },
+      {
+        "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      }
+    ],
+    "seven_retained": [
+      "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "Li1.9Mn0.7Cr0.3O2.865F0.135"
+    ],
+    "seven_dropped": [
+      "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "Li2.2Mn0.7Cr0.3O2.865F0.135"
+    ],
+    "new": [],
+    "per_seed_mean": 64.8,
+    "per_seed_min": 20,
+    "per_seed_max": 156
+  },
+  "original": {
+    "union": 9815,
+    "consensus_n": 7,
+    "consensus": [
+      {
+        "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 20
+      },
+      {
+        "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 19
+      },
+      {
+        "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 18
+      },
+      {
+        "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 12
+      },
+      {
+        "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      },
+      {
+        "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      },
+      {
+        "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 10
+      }
+    ],
+    "seven_retained": [
+      "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "Li2.2Mn0.7Cr0.3O2.865F0.135"
+    ],
+    "seven_dropped": [],
+    "new": [],
+    "per_seed_mean": 307.8,
+    "per_seed_min": 234,
+    "per_seed_max": 419
+  },
+  "seven": [
+    {
+      "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "ratio": 1.0333333333333334,
+      "pass_P95": false,
+      "pass_max": false
+    },
+    {
+      "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "ratio": 1.0666666666666667,
+      "pass_P95": false,
+      "pass_max": false
+    },
+    {
+      "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "ratio": 1.05,
+      "pass_P95": false,
+      "pass_max": false
+    },
+    {
+      "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "ratio": 1.0666666666666667,
+      "pass_P95": false,
+      "pass_max": false
+    },
+    {
+      "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "ratio": 0.9833333333333334,
+      "pass_P95": true,
+      "pass_max": true
+    },
+    {
+      "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "ratio": 0.9833333333333333,
+      "pass_P95": true,
+      "pass_max": true
+    },
+    {
+      "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "ratio": 0.9666666666666667,
+      "pass_P95": true,
+      "pass_max": true
+    }
+  ]
+}

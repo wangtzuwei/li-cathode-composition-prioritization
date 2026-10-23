@@ -1,0 +1,19 @@
+{
+  "raw_rows": 907,
+  "raw_formula_strings": 183,
+  "whitespace_normalized_formulas": 177,
+  "canonical_compositions_decimals_6": 171,
+  "canonical_compositions_decimals_8": 171,
+  "canonical_compositions_decimals_10": 171,
+  "parse_failures": 0,
+  "raw_vs_extracted_mismatch_rows": 81,
+  "raw_vs_legacy_feature_mismatch_rows": 81,
+  "legacy_zero_element_vector_rows": 9,
+  "carbon_in_extracted_name_rows": 368,
+  "legacy_is_doped_inconsistent_canonical_groups": 4,
+  "median_records_per_canonical_composition": 3.0,
+  "maximum_records_per_canonical_composition": 116,
+  "composition_only_feature_count": 204,
+  "context_feature_count": 208,
+  "constant_context_columns": 80
+}

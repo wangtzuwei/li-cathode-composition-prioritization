@@ -1,0 +1,161 @@
+{
+  "primary_arm": "nsga2__floor_on",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "consensus_definition": "canonical candidate appears in at least 10 of 20 search seeds",
+  "per_seed_counts": [
+    {
+      "seed": 42,
+      "topk": 500,
+      "conservative_p90": 266,
+      "reference_p95": 269
+    },
+    {
+      "seed": 43,
+      "topk": 500,
+      "conservative_p90": 277,
+      "reference_p95": 341
+    },
+    {
+      "seed": 44,
+      "topk": 500,
+      "conservative_p90": 240,
+      "reference_p95": 250
+    },
+    {
+      "seed": 45,
+      "topk": 500,
+      "conservative_p90": 235,
+      "reference_p95": 240
+    },
+    {
+      "seed": 46,
+      "topk": 500,
+      "conservative_p90": 320,
+      "reference_p95": 334
+    },
+    {
+      "seed": 47,
+      "topk": 500,
+      "conservative_p90": 409,
+      "reference_p95": 415
+    },
+    {
+      "seed": 48,
+      "topk": 500,
+      "conservative_p90": 322,
+      "reference_p95": 324
+    },
+    {
+      "seed": 49,
+      "topk": 500,
+      "conservative_p90": 254,
+      "reference_p95": 266
+    },
+    {
+      "seed": 50,
+      "topk": 500,
+      "conservative_p90": 253,
+      "reference_p95": 256
+    },
+    {
+      "seed": 51,
+      "topk": 500,
+      "conservative_p90": 264,
+      "reference_p95": 265
+    },
+    {
+      "seed": 52,
+      "topk": 500,
+      "conservative_p90": 278,
+      "reference_p95": 281
+    },
+    {
+      "seed": 53,
+      "topk": 500,
+      "conservative_p90": 317,
+      "reference_p95": 328
+    },
+    {
+      "seed": 54,
+      "topk": 500,
+      "conservative_p90": 230,
+      "reference_p95": 234
+    },
+    {
+      "seed": 55,
+      "topk": 500,
+      "conservative_p90": 401,
+      "reference_p95": 406
+    },
+    {
+      "seed": 56,
+      "topk": 500,
+      "conservative_p90": 395,
+      "reference_p95": 398
+    },
+    {
+      "seed": 57,
+      "topk": 500,
+      "conservative_p90": 266,
+      "reference_p95": 273
+    },
+    {
+      "seed": 58,
+      "topk": 500,
+      "conservative_p90": 252,
+      "reference_p95": 252
+    },
+    {
+      "seed": 59,
+      "topk": 500,
+      "conservative_p90": 259,
+      "reference_p95": 281
+    },
+    {
+      "seed": 60,
+      "topk": 500,
+      "conservative_p90": 309,
+      "reference_p95": 324
+    },
+    {
+      "seed": 61,
+      "topk": 500,
+      "conservative_p90": 406,
+      "reference_p95": 419
+    }
+  ],
+  "topk_union": 9815,
+  "topk_all_twenty": 1,
+  "topk_consensus_10_of_20": 7,
+  "topk_mean_pairwise_jaccard": 0.005066495909575324,
+  "conservative_p90_union": 5806,
+  "conservative_p90_all_twenty": 1,
+  "conservative_p90_consensus_10_of_20": 7,
+  "conservative_p90_mean_pairwise_jaccard": 0.00754900226633823,
+  "reference_p95_union": 6009,
+  "reference_p95_all_twenty": 1,
+  "reference_p95_consensus_10_of_20": 7,
+  "reference_p95_mean_pairwise_jaccard": 0.007293463793611827,
+  "primary_scientific_shortlist_n": 7
+}

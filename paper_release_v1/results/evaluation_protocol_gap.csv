@@ -1,0 +1,2 @@
+comparison,record_level_r2,canonical_composition_heldout_r2,delta_r2,cluster_bootstrap_ci95,bootstrap_unit,bootstrap_repetitions,clustered_sign_flip_p_two_sided,permutation_unit,permutation_repetitions
+record_level_cv_minus_exact_canonical_composition_holdout,0.7049890878835565,0.5271508689429464,0.17783821894061014,"[0.11816615970773978, 0.2501300353900836]",canonical_composition,10000,9.99990000099999e-06,canonical_composition,100000

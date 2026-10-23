@@ -1,0 +1,938 @@
+{
+  "thresholds": {
+    "original": {
+      "pooled": {
+        "P90": 0.1016949152542372,
+        "P95": 0.10867468190417122,
+        "n": 108
+      },
+      "layered": {
+        "P90": 0.06400211405987695,
+        "P95": 0.0659489882206248,
+        "n": 40
+      },
+      "olivine": {
+        "P90": 0.054948417445233454,
+        "P95": 0.07874076841805346,
+        "n": 50
+      },
+      "spinel": {
+        "P90": 0.11600326225343136,
+        "P95": 0.12534248275739254,
+        "n": 18
+      }
+    },
+    "valence_A": {
+      "pooled": {
+        "P90": 0.11932929782849254,
+        "P95": 0.12883430357482878,
+        "n": 108
+      },
+      "layered": {
+        "P90": 0.13121418498124168,
+        "P95": 0.13368631679929824,
+        "n": 40
+      },
+      "olivine": {
+        "P90": 0.05947240605139356,
+        "P95": 0.07719258124028328,
+        "n": 50
+      },
+      "spinel": {
+        "P90": 0.12158586920183612,
+        "P95": 0.12219903523311691,
+        "n": 18
+      }
+    },
+    "valence_B": {
+      "pooled": {
+        "P90": 0.1259845223161893,
+        "P95": 0.1385864698538922,
+        "n": 108
+      },
+      "layered": {
+        "P90": 0.14873091400052493,
+        "P95": 0.16904941336137025,
+        "n": 40
+      },
+      "olivine": {
+        "P90": 0.05947240605139356,
+        "P95": 0.07719258124028328,
+        "n": 50
+      },
+      "spinel": {
+        "P90": 0.12158586920183614,
+        "P95": 0.12219903523311694,
+        "n": 18
+      }
+    }
+  },
+  "rescreen": {
+    "original__pooled_P95": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 307.8,
+      "per_seed_min": 234,
+      "per_seed_max": 419
+    },
+    "original__pooled_P90": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 297.65,
+      "per_seed_min": 230,
+      "per_seed_max": 409
+    },
+    "original__class_P95": {
+      "union": 9815,
+      "consensus_n": 0,
+      "consensus": [],
+      "seven_retained": [],
+      "seven_dropped": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "new": [],
+      "per_seed_mean": 175.75,
+      "per_seed_min": 92,
+      "per_seed_max": 295
+    },
+    "original__class_P90": {
+      "union": 9815,
+      "consensus_n": 0,
+      "consensus": [],
+      "seven_retained": [],
+      "seven_dropped": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "new": [],
+      "per_seed_mean": 164.1,
+      "per_seed_min": 84,
+      "per_seed_max": 276
+    },
+    "valence_A__pooled_P95": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 344.25,
+      "per_seed_min": 241,
+      "per_seed_max": 432
+    },
+    "valence_A__pooled_P90": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 316.1,
+      "per_seed_min": 224,
+      "per_seed_max": 429
+    },
+    "valence_A__class_P95": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 363.3,
+      "per_seed_min": 268,
+      "per_seed_max": 431
+    },
+    "valence_A__class_P90": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 350.4,
+      "per_seed_min": 252,
+      "per_seed_max": 431
+    },
+    "valence_B__pooled_P95": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 394.7,
+      "per_seed_min": 314,
+      "per_seed_max": 443
+    },
+    "valence_B__pooled_P90": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 336.15,
+      "per_seed_min": 237,
+      "per_seed_max": 432
+    },
+    "valence_B__class_P95": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 417.05,
+      "per_seed_min": 328,
+      "per_seed_max": 461
+    },
+    "valence_B__class_P90": {
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 408.75,
+      "per_seed_min": 326,
+      "per_seed_max": 452
+    }
+  },
+  "hosts": [
+    {
+      "proto_name": "Li-rich-NMC",
+      "class": "layered",
+      "host_original": 0.54,
+      "host_valence": 0.57,
+      "base_valences": "Mn+4.000, Ni+2.000",
+      "base_G3_original": 0.024497697324672156,
+      "base_G3_valence_A": 0.12154742509255274,
+      "base_G3_valence_B": 0.1398117488013101
+    },
+    {
+      "proto_name": "NMC-532",
+      "class": "layered",
+      "host_original": 0.58,
+      "host_valence": 0.587,
+      "base_valences": "Co+3.000, Mn+4.000, Ni+2.400",
+      "base_G3_original": 0.059601331094632996,
+      "base_G3_valence_A": 0.08733223589762372,
+      "base_G3_valence_B": 0.08920643669156217
+    },
+    {
+      "proto_name": "NMC-622",
+      "class": "layered",
+      "host_original": 0.595,
+      "host_valence": 0.5770000000000001,
+      "base_valences": "Co+3.000, Mn+4.000, Ni+2.667",
+      "base_G3_original": 0.07665044874616044,
+      "base_G3_valence_A": 0.05649665247093081,
+      "base_G3_valence_B": 0.06258482932781595
+    },
+    {
+      "proto_name": "NMC-811",
+      "class": "layered",
+      "host_original": 0.58,
+      "host_valence": 0.5685000000000001,
+      "base_valences": "Co+3.000, Mn+4.000, Ni+2.875",
+      "base_G3_original": 0.0453713702308301,
+      "base_G3_valence_A": 0.027895781050402378,
+      "base_G3_valence_B": 0.03377506555889599
+    },
+    {
+      "proto_name": "NCA",
+      "class": "layered",
+      "host_original": 0.57,
+      "host_valence": 0.5565000000000001,
+      "base_valences": "Co+3.000, Ni+3.000",
+      "base_G3_original": 0.026894227573255804,
+      "base_G3_valence_A": 0.013051068325547135,
+      "base_G3_valence_B": 0.026894227573255804
+    },
+    {
+      "proto_name": "LiNiO2",
+      "class": "layered",
+      "host_original": 0.56,
+      "host_valence": 0.56,
+      "base_valences": "Ni+3.000",
+      "base_G3_original": 0.0,
+      "base_G3_valence_A": 0.0,
+      "base_G3_valence_B": 0.0
+    },
+    {
+      "proto_name": "LiCoO2",
+      "class": "layered",
+      "host_original": 0.545,
+      "host_valence": 0.545,
+      "base_valences": "Co+3.000",
+      "base_G3_original": 0.0,
+      "base_G3_valence_A": 0.0,
+      "base_G3_valence_B": 0.0
+    },
+    {
+      "proto_name": "LiMn2O4",
+      "class": "spinel",
+      "host_original": 0.59,
+      "host_valence": 0.5875,
+      "base_valences": "Mn+3.500",
+      "base_G3_original": 0.1016949152542372,
+      "base_G3_valence_A": 0.0,
+      "base_G3_valence_B": 0.00423728813559313
+    },
+    {
+      "proto_name": "LNMO-spinel",
+      "class": "spinel",
+      "host_original": 0.57,
+      "host_valence": 0.5700000000000001,
+      "base_valences": "Mn+4.000, Ni+2.000",
+      "base_G3_original": 0.0614035087719297,
+      "base_G3_valence_A": 0.12154742509255272,
+      "base_G3_valence_B": 0.12154742509255274
+    },
+    {
+      "proto_name": "Li2MnO3",
+      "class": "layered",
+      "host_original": 0.53,
+      "host_valence": 0.53,
+      "base_valences": "Mn+4.000",
+      "base_G3_original": 0.0,
+      "base_G3_valence_A": 0.0,
+      "base_G3_valence_B": 0.0
+    },
+    {
+      "proto_name": "LiFePO4",
+      "class": "olivine",
+      "host_original": 0.78,
+      "host_valence": 0.78,
+      "base_valences": "Fe+2.000",
+      "base_G3_original": 0.0,
+      "base_G3_valence_A": 0.0,
+      "base_G3_valence_B": 0.0
+    },
+    {
+      "proto_name": "LiMnPO4",
+      "class": "olivine",
+      "host_original": 0.83,
+      "host_valence": 0.83,
+      "base_valences": "Mn+2.000",
+      "base_G3_original": 0.0,
+      "base_G3_valence_A": 0.0,
+      "base_G3_valence_B": 0.0
+    }
+  ],
+  "seven": [
+    {
+      "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "valences": "Cr+3.217, Mn+4.000",
+      "G3_original": 0.08784229695837566,
+      "G3_valence_A": 0.07328803403095839,
+      "G3_valence_B": 0.07328803403095839,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    },
+    {
+      "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "valences": "Cr+3.000, Mn+3.950",
+      "G3_original": 0.08784229695837566,
+      "G3_valence_A": 0.08831002522566603,
+      "G3_valence_B": 0.08831002522566603,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    },
+    {
+      "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "valences": "Cr+3.050, Mn+4.000",
+      "G3_original": 0.08784229695837566,
+      "G3_valence_A": 0.08448362089820226,
+      "G3_valence_B": 0.08448362089820226,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    },
+    {
+      "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "valences": "Cr+3.000, Mn+3.924",
+      "G3_original": 0.08486372129829817,
+      "G3_valence_A": 0.08602125313928996,
+      "G3_valence_B": 0.08602125313928996,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    },
+    {
+      "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "valences": "Cr+3.696, Mn+4.000",
+      "G3_original": 0.08486372129829817,
+      "G3_valence_A": 0.039668441153090865,
+      "G3_valence_B": 0.039668441153090865,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    },
+    {
+      "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "valences": "Cr+3.717, Mn+4.000",
+      "G3_original": 0.08784229695837566,
+      "G3_valence_A": 0.03970127342922653,
+      "G3_valence_B": 0.03970127342922653,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    },
+    {
+      "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "valences": "Cr+3.883, Mn+4.000",
+      "G3_original": 0.08784229695837566,
+      "G3_valence_A": 0.028505686561982428,
+      "G3_valence_B": 0.028505686561982428,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    },
+    {
+      "Formula": "Li2Mn0.7Cr0.3O2.865F0.135",
+      "valences": "Cr+3.550, Mn+4.000",
+      "G3_original": 0.08784229695837566,
+      "G3_valence_A": 0.050896860296470524,
+      "G3_valence_B": 0.050896860296470524,
+      "pass_original_pooled_P95": true,
+      "pass_original_pooled_P90": true,
+      "pass_original_layered_P95": false,
+      "pass_original_layered_P90": false,
+      "pass_valence_A_pooled_P95": true,
+      "pass_valence_A_pooled_P90": true,
+      "pass_valence_A_layered_P95": true,
+      "pass_valence_A_layered_P90": true,
+      "pass_valence_B_pooled_P95": true,
+      "pass_valence_B_pooled_P90": true,
+      "pass_valence_B_layered_P95": true,
+      "pass_valence_B_layered_P90": true
+    }
+  ],
+  "unbalanced_topk_formulas": 169,
+  "unbalanced_controls": 10
+}

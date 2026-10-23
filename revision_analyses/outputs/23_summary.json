@@ -1,0 +1,86 @@
+{
+  "p95": 0.10867468190417125,
+  "saved_model_check_identical_topk": 20,
+  "saved_model_check_max_pred_diff": 0.0,
+  "by_model": [
+    {
+      "model_random_seed": 42,
+      "n_consensus": 7,
+      "seven_recurrent": 7,
+      "consensus_formulas": "Li2.1Mn0.7Cr0.3O2.865F0.135; Li2.2Mn0.7Cr0.3O2.865F0.135; Li2.15Mn0.7Cr0.3O2.865F0.135; Li2.2Mn0.72Cr0.28O2.865F0.135; Li1.95Mn0.7Cr0.3O2.865F0.135; Li1.95Mn0.72Cr0.28O2.865F0.135; Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "new_vs_seven": "",
+      "motif_rank": 1,
+      "motif_position": 1,
+      "motif_seed_count": 20,
+      "n_motifs": 155,
+      "n_motifs_20_seeds": 2,
+      "union_size": 9815
+    },
+    {
+      "model_random_seed": 1,
+      "n_consensus": 9,
+      "seven_recurrent": 4,
+      "consensus_formulas": "Li2.15Mn0.7Cr0.3O2.865F0.135; Li2.2Mn0.7Cr0.3O2.865F0.135; Li2.2Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.75Cr0.25O2.865F0.135; Li2.15Mn0.72Cr0.28O2.865F0.135; Li1.2Cr0.3Fe0.7P1O4; Li2.15Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "new_vs_seven": "Li1.2Cr0.3Fe0.7P1O4; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.75Cr0.25O2.865F0.135; Li2.15Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.7Cr0.3O2.91F0.09",
+      "motif_rank": 1,
+      "motif_position": 1,
+      "motif_seed_count": 20,
+      "n_motifs": 173,
+      "n_motifs_20_seeds": 9,
+      "union_size": 9646
+    },
+    {
+      "model_random_seed": 2,
+      "n_consensus": 9,
+      "seven_recurrent": 3,
+      "consensus_formulas": "Li2.15Mn0.75Cr0.25O2.865F0.135; Li2.1Mn0.75Cr0.25O2.865F0.135; Li2.1Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.7Cr0.3O2.865F0.135; Li2.2Mn0.72Cr0.28O2.865F0.135; Li2.2Mn0.7Cr0.3O2.865F0.135; Li2.05Mn0.75Cr0.25O2.865F0.135; Na0.1Li0.8Mn0.7Cr0.3P1O4",
+      "new_vs_seven": "Li2.05Mn0.75Cr0.25O2.865F0.135; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.75Cr0.25O2.865F0.135; Li2.1Mn0.72Cr0.28O2.865F0.135; Li2.1Mn0.75Cr0.25O2.865F0.135; Na0.1Li0.8Mn0.7Cr0.3P1O4",
+      "motif_rank": 1,
+      "motif_position": 2,
+      "motif_seed_count": 20,
+      "n_motifs": 203,
+      "n_motifs_20_seeds": 4,
+      "union_size": 9707
+    },
+    {
+      "model_random_seed": 3,
+      "n_consensus": 13,
+      "seven_recurrent": 3,
+      "consensus_formulas": "Li2.2Mn0.72Cr0.28O2.865F0.135; Li2.2Mn0.7Cr0.3O2.865F0.135; Li1.2Mn0.1Al0.24Co0.1Ni0.56O2; Li2.15Mn0.75Cr0.25O2.865F0.135; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.1Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.7Cr0.3O2.865F0.135; Li1.2Mn0.1Al0.2Co0.1Ni0.6O2; Li1.2Mn0.1Al0.224Co0.1Ni0.576O2; Li1.2Mn0.1Al0.216Co0.1Ni0.584O2; Li2.15Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.7Cr0.3O2.91F0.09; Li1.2Al0.3Co0.7O2",
+      "new_vs_seven": "Li1.2Al0.3Co0.7O2; Li1.2Mn0.1Al0.216Co0.1Ni0.584O2; Li1.2Mn0.1Al0.224Co0.1Ni0.576O2; Li1.2Mn0.1Al0.24Co0.1Ni0.56O2; Li1.2Mn0.1Al0.2Co0.1Ni0.6O2; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.75Cr0.25O2.865F0.135; Li2.15Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.72Cr0.28O2.865F0.135; Li2.1Mn0.7Cr0.3O2.91F0.09",
+      "motif_rank": 1,
+      "motif_position": 1,
+      "motif_seed_count": 20,
+      "n_motifs": 222,
+      "n_motifs_20_seeds": 6,
+      "union_size": 9668
+    },
+    {
+      "model_random_seed": 4,
+      "n_consensus": 4,
+      "seven_recurrent": 3,
+      "consensus_formulas": "Li2.2Mn0.72Cr0.28O2.865F0.135; Li2.2Mn0.7Cr0.3O2.865F0.135; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "new_vs_seven": "Li2.15Mn0.72Cr0.28O2.865F0.135",
+      "motif_rank": 1,
+      "motif_position": 2,
+      "motif_seed_count": 20,
+      "n_motifs": 213,
+      "n_motifs_20_seeds": 4,
+      "union_size": 9821
+    },
+    {
+      "model_random_seed": 5,
+      "n_consensus": 9,
+      "seven_recurrent": 4,
+      "consensus_formulas": "Li2.1Mn0.7Cr0.3O2.865F0.135; Li2.2Mn0.7Cr0.3O2.865F0.135; Li2.15Mn0.7Cr0.3O2.865F0.135; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.2Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.72Cr0.28O2.865F0.135; Li1.2Cr0.3Fe0.7P1O4",
+      "new_vs_seven": "Li1.2Cr0.3Fe0.7P1O4; Li2.15Mn0.72Cr0.28O2.865F0.135; Li2.15Mn0.7Cr0.3O2.91F0.09; Li2.1Mn0.72Cr0.28O2.865F0.135; Li2.1Mn0.7Cr0.3O2.91F0.09",
+      "motif_rank": 1,
+      "motif_position": 1,
+      "motif_seed_count": 20,
+      "n_motifs": 208,
+      "n_motifs_20_seeds": 7,
+      "union_size": 9722
+    }
+  ],
+  "runtime_s": 148
+}

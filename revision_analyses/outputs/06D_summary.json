@@ -1,0 +1,102 @@
+{
+  "paired": {
+    "n_p95_survivors": {
+      "nsga2_mean": 76.2,
+      "random_mean": 50.4,
+      "n_seeds_both": 20,
+      "mean_diff": 25.8,
+      "seeds_nsga2_higher": 15,
+      "seeds_random_higher": 3,
+      "seeds_equal": 2,
+      "wilcoxon_p": 0.0010882278455951085
+    },
+    "max_y_pred": {
+      "nsga2_mean": 218.98222920933455,
+      "random_mean": 214.5898062530906,
+      "n_seeds_both": 20,
+      "mean_diff": 4.3924229562439505,
+      "seeds_nsga2_higher": 19,
+      "seeds_random_higher": 1,
+      "seeds_equal": 0,
+      "wilcoxon_p": 0.0001620000182134422
+    },
+    "mean_top10_y_pred": {
+      "nsga2_mean": 217.6310218694327,
+      "random_mean": 210.4199415939353,
+      "n_seeds_both": 20,
+      "mean_diff": 7.211080275497396,
+      "seeds_nsga2_higher": 20,
+      "seeds_random_higher": 0,
+      "seeds_equal": 0,
+      "wilcoxon_p": 1.9073486328125e-06
+    },
+    "median_comp_novelty": {
+      "nsga2_mean": 0.1725605848475872,
+      "random_mean": 0.1205484620233861,
+      "n_seeds_both": 20,
+      "mean_diff": 0.05201212282420109,
+      "seeds_nsga2_higher": 20,
+      "seeds_random_higher": 0,
+      "seeds_equal": 0,
+      "wilcoxon_p": 1.9073486328125e-06
+    },
+    "mean_top10_comp_novelty": {
+      "nsga2_mean": 0.15268218897774327,
+      "random_mean": 0.11427734406865724,
+      "n_seeds_both": 20,
+      "mean_diff": 0.03840484490908601,
+      "seeds_nsga2_higher": 20,
+      "seeds_random_higher": 0,
+      "seeds_equal": 0,
+      "wilcoxon_p": 1.9073486328125e-06
+    }
+  },
+  "recurrence": {
+    "nsga2__floor_on": {
+      "unique_survivors": 1408,
+      "in_10plus_seeds": 7,
+      "max_seed_count": 20,
+      "seven_seed_counts": {
+        "Li2.1Mn0.7Cr0.3O2.865F0.135": 20,
+        "Li2.2Mn0.7Cr0.3O2.865F0.135": 19,
+        "Li2.15Mn0.7Cr0.3O2.865F0.135": 18,
+        "Li2.2Mn0.72Cr0.28O2.865F0.135": 12,
+        "Li1.95Mn0.72Cr0.28O2.865F0.135": 10,
+        "Li1.95Mn0.7Cr0.3O2.865F0.135": 10,
+        "Li1.9Mn0.7Cr0.3O2.865F0.135": 10
+      }
+    },
+    "random__floor_on": {
+      "unique_survivors": 314,
+      "in_10plus_seeds": 22,
+      "max_seed_count": 19,
+      "seven_seed_counts": {
+        "Li2.1Mn0.7Cr0.3O2.865F0.135": 2,
+        "Li2.2Mn0.7Cr0.3O2.865F0.135": 3,
+        "Li2.15Mn0.7Cr0.3O2.865F0.135": 2,
+        "Li2.2Mn0.72Cr0.28O2.865F0.135": 0,
+        "Li1.95Mn0.72Cr0.28O2.865F0.135": 0,
+        "Li1.95Mn0.7Cr0.3O2.865F0.135": 0,
+        "Li1.9Mn0.7Cr0.3O2.865F0.135": 3
+      }
+    }
+  },
+  "seven_in_random_pool_seed_count": {
+    "Li2.1Mn0.7Cr0.3O2.865F0.135": 2,
+    "Li2.2Mn0.7Cr0.3O2.865F0.135": 3,
+    "Li2.15Mn0.7Cr0.3O2.865F0.135": 2,
+    "Li2.2Mn0.72Cr0.28O2.865F0.135": 0,
+    "Li1.95Mn0.72Cr0.28O2.865F0.135": 0,
+    "Li1.95Mn0.7Cr0.3O2.865F0.135": 0,
+    "Li1.9Mn0.7Cr0.3O2.865F0.135": 3
+  },
+  "seven_in_nsga2_pool_seed_count": {
+    "Li2.1Mn0.7Cr0.3O2.865F0.135": 20,
+    "Li2.2Mn0.7Cr0.3O2.865F0.135": 20,
+    "Li2.15Mn0.7Cr0.3O2.865F0.135": 20,
+    "Li2.2Mn0.72Cr0.28O2.865F0.135": 20,
+    "Li1.95Mn0.72Cr0.28O2.865F0.135": 10,
+    "Li1.95Mn0.7Cr0.3O2.865F0.135": 10,
+    "Li1.9Mn0.7Cr0.3O2.865F0.135": 10
+  }
+}

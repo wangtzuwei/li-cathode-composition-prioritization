@@ -1,0 +1,479 @@
+{
+  "n_added_candidates": 26,
+  "with_zhang": {
+    "layered": {
+      "P90": 0.07268665957457213,
+      "P95": 0.09452711624144164,
+      "n": 61,
+      "max": 0.09907840073626241
+    },
+    "added": [
+      {
+        "source": "Ammundsen 2002",
+        "sample": NaN,
+        "Formula": "Li1.2Cr0.4Mn0.4O2",
+        "G3": 0.09907840073626241
+      },
+      {
+        "source": "Zhang 2013",
+        "sample": "E（x = 1/12）",
+        "Formula": "Li1.16667Mn0.383333Ni0.05Cr0.4O2",
+        "G3": 0.09746444372947835
+      },
+      {
+        "source": "Zhang 2013",
+        "sample": "D（x = 1/15）",
+        "Formula": "Li1.13333Mn0.366667Ni0.1Cr0.4O2",
+        "G3": 0.09595049003615744
+      },
+      {
+        "source": "Zhang 2013",
+        "sample": "C（x = 1/20）",
+        "Formula": "Li1.1Mn0.35Ni0.15Cr0.4O2",
+        "G3": 0.09452711624144164
+      },
+      {
+        "source": "Zhang 2013",
+        "sample": "B（x = 1/30）",
+        "Formula": "Li1.06667Mn0.333333Ni0.2Cr0.4O2",
+        "G3": 0.09318594560731683
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.075",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.85F0.15",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.10",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.8F0.2",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.025",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.95F0.05",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.05",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.9F0.1",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O2",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Lee et al. 2015",
+        "sample": "Cr-0.2",
+        "Formula": "Li1.2Ni0.1Mn0.5Cr0.2O2",
+        "G3": 0.07216878364870319
+      },
+      {
+        "source": "Zhang 2013",
+        "sample": "A（x = 1/60）",
+        "Formula": "Li1.03333Mn0.316667Ni0.25Cr0.4O2",
+        "G3": 0.06518314804026208
+      },
+      {
+        "source": "Lee et al. 2015",
+        "sample": "Cr-0.1",
+        "Formula": "Li1.2Ni0.15Mn0.55Cr0.1O2",
+        "G3": 0.053890957068624123
+      },
+      {
+        "source": "Ming 2018",
+        "sample": "x = 0.05",
+        "Formula": "Li1.2Mn0.49Co0.13Ni0.13O1.7Nb0.05F0.3",
+        "G3": 0.05089435048054707
+      },
+      {
+        "source": "Lee et al. 2015",
+        "sample": "Cr-0.05",
+        "Formula": "Li1.2Ni0.175Mn0.575Cr0.05O2",
+        "G3": 0.04185912342598408
+      },
+      {
+        "source": "Ming 2018",
+        "sample": "x = 0.03",
+        "Formula": "Li1.2Mn0.51Co0.13Ni0.13O1.82Nb0.03F0.18",
+        "G3": 0.04173091754009246
+      },
+      {
+        "source": "Ming 2018",
+        "sample": "x = 0.01",
+        "Formula": "Li1.2Mn0.53Co0.13Ni0.13O1.94Nb0.01F0.06",
+        "G3": 0.02987815333381955
+      },
+      {
+        "source": "Wang et al. 2024",
+        "sample": "LNMO-F5",
+        "Formula": "Li1.2Ni0.2Mn0.6O1.95F0.05",
+        "G3": 0.024497697324672156
+      },
+      {
+        "source": "Wang et al. 2024",
+        "sample": "LNMO-F2.5",
+        "Formula": "Li1.2Ni0.2Mn0.6O1.975F0.025",
+        "G3": 0.024497697324672156
+      },
+      {
+        "source": "Wang et al. 2024",
+        "sample": "LNMO-F1",
+        "Formula": "Li1.2Ni0.2Mn0.6O1.99F0.01",
+        "G3": 0.024497697324672156
+      },
+      {
+        "source": "Nakayama 2020",
+        "sample": "單晶",
+        "Formula": "Li2MnO3",
+        "G3": 0.0
+      }
+    ],
+    "P95": {
+      "class_thresholds": {
+        "layered": 0.09452711624144164,
+        "olivine": 0.0787407684180534,
+        "spinel": 0.1253424827573925
+      },
+      "union": 9815,
+      "consensus_n": 7,
+      "consensus": [
+        {
+          "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 20
+        },
+        {
+          "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 19
+        },
+        {
+          "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 18
+        },
+        {
+          "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 12
+        },
+        {
+          "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        },
+        {
+          "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+          "proto_name": "Li2MnO3",
+          "topk_seed_count": 10
+        }
+      ],
+      "seven_retained": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "seven_dropped": [],
+      "new": [],
+      "per_seed_mean": 291.45,
+      "per_seed_min": 225,
+      "per_seed_max": 403
+    },
+    "P90": {
+      "class_thresholds": {
+        "layered": 0.07268665957457213,
+        "olivine": 0.0549484174452334,
+        "spinel": 0.1160032622534313
+      },
+      "union": 9815,
+      "consensus_n": 0,
+      "consensus": [],
+      "seven_retained": [],
+      "seven_dropped": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "new": [],
+      "per_seed_mean": 190.6,
+      "per_seed_min": 117,
+      "per_seed_max": 304
+    },
+    "seven": [
+      {
+        "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": true,
+        "pass_P90": false,
+        "n_controls_below": 56
+      },
+      {
+        "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": true,
+        "pass_P90": false,
+        "n_controls_below": 56
+      },
+      {
+        "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": true,
+        "pass_P90": false,
+        "n_controls_below": 56
+      },
+      {
+        "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "G3": 0.08486372129829817,
+        "pass_P95": true,
+        "pass_P90": false,
+        "n_controls_below": 56
+      },
+      {
+        "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "G3": 0.08486372129829817,
+        "pass_P95": true,
+        "pass_P90": false,
+        "n_controls_below": 56
+      },
+      {
+        "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": true,
+        "pass_P90": false,
+        "n_controls_below": 56
+      },
+      {
+        "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": true,
+        "pass_P90": false,
+        "n_controls_below": 56
+      }
+    ]
+  },
+  "without_zhang": {
+    "layered": {
+      "P90": 0.07268665957457213,
+      "P95": 0.07268665957457213,
+      "n": 56,
+      "max": 0.09907840073626241
+    },
+    "added": [
+      {
+        "source": "Ammundsen 2002",
+        "sample": NaN,
+        "Formula": "Li1.2Cr0.4Mn0.4O2",
+        "G3": 0.09907840073626241
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.075",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.85F0.15",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.10",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.8F0.2",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.025",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.95F0.05",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0.05",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O1.9F0.1",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Kucuk et al. 2026",
+        "sample": "MNF502010 x=0",
+        "Formula": "Li1.2Mn0.5Ni0.2Fe0.1O2",
+        "G3": 0.07268665957457213
+      },
+      {
+        "source": "Lee et al. 2015",
+        "sample": "Cr-0.2",
+        "Formula": "Li1.2Ni0.1Mn0.5Cr0.2O2",
+        "G3": 0.07216878364870319
+      },
+      {
+        "source": "Lee et al. 2015",
+        "sample": "Cr-0.1",
+        "Formula": "Li1.2Ni0.15Mn0.55Cr0.1O2",
+        "G3": 0.053890957068624123
+      },
+      {
+        "source": "Ming 2018",
+        "sample": "x = 0.05",
+        "Formula": "Li1.2Mn0.49Co0.13Ni0.13O1.7Nb0.05F0.3",
+        "G3": 0.05089435048054707
+      },
+      {
+        "source": "Lee et al. 2015",
+        "sample": "Cr-0.05",
+        "Formula": "Li1.2Ni0.175Mn0.575Cr0.05O2",
+        "G3": 0.04185912342598408
+      },
+      {
+        "source": "Ming 2018",
+        "sample": "x = 0.03",
+        "Formula": "Li1.2Mn0.51Co0.13Ni0.13O1.82Nb0.03F0.18",
+        "G3": 0.04173091754009246
+      },
+      {
+        "source": "Ming 2018",
+        "sample": "x = 0.01",
+        "Formula": "Li1.2Mn0.53Co0.13Ni0.13O1.94Nb0.01F0.06",
+        "G3": 0.02987815333381955
+      },
+      {
+        "source": "Wang et al. 2024",
+        "sample": "LNMO-F5",
+        "Formula": "Li1.2Ni0.2Mn0.6O1.95F0.05",
+        "G3": 0.024497697324672156
+      },
+      {
+        "source": "Wang et al. 2024",
+        "sample": "LNMO-F2.5",
+        "Formula": "Li1.2Ni0.2Mn0.6O1.975F0.025",
+        "G3": 0.024497697324672156
+      },
+      {
+        "source": "Wang et al. 2024",
+        "sample": "LNMO-F1",
+        "Formula": "Li1.2Ni0.2Mn0.6O1.99F0.01",
+        "G3": 0.024497697324672156
+      },
+      {
+        "source": "Nakayama 2020",
+        "sample": "單晶",
+        "Formula": "Li2MnO3",
+        "G3": 0.0
+      }
+    ],
+    "P95": {
+      "class_thresholds": {
+        "layered": 0.07268665957457213,
+        "olivine": 0.0787407684180534,
+        "spinel": 0.1253424827573925
+      },
+      "union": 9815,
+      "consensus_n": 0,
+      "consensus": [],
+      "seven_retained": [],
+      "seven_dropped": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "new": [],
+      "per_seed_mean": 193.0,
+      "per_seed_min": 117,
+      "per_seed_max": 307
+    },
+    "P90": {
+      "class_thresholds": {
+        "layered": 0.07268665957457213,
+        "olivine": 0.0549484174452334,
+        "spinel": 0.1160032622534313
+      },
+      "union": 9815,
+      "consensus_n": 0,
+      "consensus": [],
+      "seven_retained": [],
+      "seven_dropped": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "new": [],
+      "per_seed_mean": 190.6,
+      "per_seed_min": 117,
+      "per_seed_max": 304
+    },
+    "seven": [
+      {
+        "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": false,
+        "pass_P90": false,
+        "n_controls_below": 55
+      },
+      {
+        "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": false,
+        "pass_P90": false,
+        "n_controls_below": 55
+      },
+      {
+        "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": false,
+        "pass_P90": false,
+        "n_controls_below": 55
+      },
+      {
+        "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "G3": 0.08486372129829817,
+        "pass_P95": false,
+        "pass_P90": false,
+        "n_controls_below": 55
+      },
+      {
+        "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "G3": 0.08486372129829817,
+        "pass_P95": false,
+        "pass_P90": false,
+        "n_controls_below": 55
+      },
+      {
+        "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": false,
+        "pass_P90": false,
+        "n_controls_below": 55
+      },
+      {
+        "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "G3": 0.08784229695837566,
+        "pass_P95": false,
+        "pass_P90": false,
+        "n_controls_below": 55
+      }
+    ]
+  }
+}

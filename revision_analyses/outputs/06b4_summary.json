@@ -1,0 +1,832 @@
+{
+  "saved_overall_r2": 0.10538098986201172,
+  "replicate_r2": 0.10538098986201172,
+  "runs": {
+    "nearest00": {
+      "n_drop_per_family": 0,
+      "overall": {
+        "r2": 0.10538098986201172,
+        "mae": 37.36120701618891,
+        "rmse": 49.13587209463573,
+        "spearman": 0.33696153084897956
+      },
+      "overall_ci95": {
+        "r2": [
+          -0.14090030540269835,
+          0.26881212049382197
+        ],
+        "mae": [
+          30.863172079527576,
+          45.86322156708535
+        ],
+        "rmse": [
+          41.118027252516505,
+          58.573394222387364
+        ],
+        "spearman": [
+          0.16942733755083228,
+          0.49417258634943784
+        ]
+      },
+      "n_records": 652,
+      "by_family": {
+        "layered": {
+          "n_records": 234,
+          "r2": 0.09141620086328028,
+          "mae": 46.0440051349884,
+          "rmse": 56.39678766591506,
+          "spearman": 0.5996812317425171
+        },
+        "olivine": {
+          "n_records": 320,
+          "r2": -0.06038127052580289,
+          "mae": 25.768927914543234,
+          "rmse": 35.499728896150984,
+          "spearman": 0.33023381625817444
+        },
+        "spinel": {
+          "n_records": 98,
+          "r2": -3.453590285651747,
+          "mae": 54.48115143177599,
+          "rmse": 65.97866285585495,
+          "spearman": 0.3852471822830811
+        }
+      },
+      "training": {
+        "layered": {
+          "extra_compositions": 0,
+          "extra_records": 0,
+          "train_records": 673
+        },
+        "olivine": {
+          "extra_compositions": 0,
+          "extra_records": 0,
+          "train_records": 587
+        },
+        "spinel": {
+          "extra_compositions": 0,
+          "extra_records": 0,
+          "train_records": 809
+        }
+      },
+      "dropped": {
+        "layered": [],
+        "olivine": [],
+        "spinel": []
+      }
+    },
+    "nearest05": {
+      "n_drop_per_family": 5,
+      "overall": {
+        "r2": 0.15250628577934122,
+        "mae": 36.110088780341265,
+        "rmse": 47.82421501384527,
+        "spearman": 0.4523705089618186
+      },
+      "overall_ci95": {
+        "r2": [
+          -0.009243049951044994,
+          0.2718694092121243
+        ],
+        "mae": [
+          30.76720668772324,
+          42.807368087266575
+        ],
+        "rmse": [
+          41.243763349387336,
+          55.379310934126174
+        ],
+        "spearman": [
+          0.2622389017713056,
+          0.5932090293548878
+        ]
+      },
+      "n_records": 652,
+      "by_family": {
+        "layered": {
+          "n_records": 234,
+          "r2": -0.1121466443348631,
+          "mae": 51.10593161649945,
+          "rmse": 62.39544709976136,
+          "spearman": 0.6204733658168202
+        },
+        "olivine": {
+          "n_records": 320,
+          "r2": -0.27454940476683287,
+          "mae": 28.286516768615662,
+          "rmse": 38.919956804797295,
+          "spearman": 0.2975734305694988
+        },
+        "spinel": {
+          "n_records": 98,
+          "r2": 0.0030924894793590285,
+          "mae": 25.85004612821043,
+          "rmse": 31.215896579546214,
+          "spearman": 0.6293015767534905
+        }
+      },
+      "training": {
+        "layered": {
+          "extra_compositions": 5,
+          "extra_records": 37,
+          "train_records": 636
+        },
+        "olivine": {
+          "extra_compositions": 5,
+          "extra_records": 11,
+          "train_records": 576
+        },
+        "spinel": {
+          "extra_compositions": 5,
+          "extra_records": 20,
+          "train_records": 789
+        }
+      },
+      "dropped": {
+        "layered": [
+          {
+            "formula": "Li2.05Mn1Al0.05Si0.95O4",
+            "n_records": 3,
+            "min_distance": 0.24844719999999992
+          },
+          {
+            "formula": "Li2Mn1Si1O4",
+            "n_records": 26,
+            "min_distance": 0.24999999999999997
+          },
+          {
+            "formula": "Li2Mn1V0.25Si0.75O4",
+            "n_records": 2,
+            "min_distance": 0.24999999999999997
+          },
+          {
+            "formula": "Li2Mn0.94Cr0.06Si1O4",
+            "n_records": 2,
+            "min_distance": 0.265
+          },
+          {
+            "formula": "Na0.1Li1.9Mn1Si1O4",
+            "n_records": 4,
+            "min_distance": 0.275
+          }
+        ],
+        "olivine": [
+          {
+            "formula": "Li0.5Mn1P1O4",
+            "n_records": 2,
+            "min_distance": 0.08144796235294129
+          },
+          {
+            "formula": "Li3Mg0.45V1.7P3O12",
+            "n_records": 1,
+            "min_distance": 0.24104926285714276
+          },
+          {
+            "formula": "Li3Mn0.2V1.8P3O12",
+            "n_records": 4,
+            "min_distance": 0.2514285799999999
+          },
+          {
+            "formula": "Li3Mg0.3V1.8P3O12",
+            "n_records": 2,
+            "min_distance": 0.25586354285714275
+          },
+          {
+            "formula": "Li3V1.85Co0.15P3O12",
+            "n_records": 2,
+            "min_distance": 0.2658022971919769
+          }
+        ],
+        "spinel": [
+          {
+            "formula": "Li1Mn1.95Si0.05O4",
+            "n_records": 8,
+            "min_distance": 0.014285719999999943
+          },
+          {
+            "formula": "Li0.41Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.045245077595308006
+          },
+          {
+            "formula": "Li0.34Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.08212146203592822
+          },
+          {
+            "formula": "Li0.28Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.11498258000000003
+          },
+          {
+            "formula": "Li0.23Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.14329941999999996
+          }
+        ]
+      }
+    },
+    "nearest10": {
+      "n_drop_per_family": 10,
+      "overall": {
+        "r2": 0.21829928336455162,
+        "mae": 34.81652906804449,
+        "rmse": 45.9303613759255,
+        "spearman": 0.48412277504822493
+      },
+      "overall_ci95": {
+        "r2": [
+          0.07216278393631431,
+          0.32083525618179587
+        ],
+        "mae": [
+          29.84285206779738,
+          40.929754481288825
+        ],
+        "rmse": [
+          39.946101789578556,
+          52.67916439880007
+        ],
+        "spearman": [
+          0.3004838510021899,
+          0.620562976032874
+        ]
+      },
+      "n_records": 652,
+      "by_family": {
+        "layered": {
+          "n_records": 234,
+          "r2": 0.012190609502830685,
+          "mae": 47.95259903920179,
+          "rmse": 58.80421385741016,
+          "spearman": 0.6738648395909157
+        },
+        "olivine": {
+          "n_records": 320,
+          "r2": -0.2629699175305047,
+          "mae": 28.29851471260622,
+          "rmse": 38.742756365430985,
+          "spearman": 0.25934095972276033
+        },
+        "spinel": {
+          "n_records": 98,
+          "r2": 0.1024101216656903,
+          "mae": 24.734123154671398,
+          "rmse": 29.62015675562122,
+          "spearman": 0.5776624272481695
+        }
+      },
+      "training": {
+        "layered": {
+          "extra_compositions": 10,
+          "extra_records": 54,
+          "train_records": 619
+        },
+        "olivine": {
+          "extra_compositions": 10,
+          "extra_records": 30,
+          "train_records": 557
+        },
+        "spinel": {
+          "extra_compositions": 10,
+          "extra_records": 29,
+          "train_records": 780
+        }
+      },
+      "dropped": {
+        "layered": [
+          {
+            "formula": "Li2.05Mn1Al0.05Si0.95O4",
+            "n_records": 3,
+            "min_distance": 0.24844719999999992
+          },
+          {
+            "formula": "Li2Mn1Si1O4",
+            "n_records": 26,
+            "min_distance": 0.24999999999999997
+          },
+          {
+            "formula": "Li2Mn1V0.25Si0.75O4",
+            "n_records": 2,
+            "min_distance": 0.24999999999999997
+          },
+          {
+            "formula": "Li2Mn0.94Cr0.06Si1O4",
+            "n_records": 2,
+            "min_distance": 0.265
+          },
+          {
+            "formula": "Na0.1Li1.9Mn1Si1O4",
+            "n_records": 4,
+            "min_distance": 0.275
+          },
+          {
+            "formula": "Li1.8Mn1Si0.8P0.2O4",
+            "n_records": 2,
+            "min_distance": 0.2820512799999999
+          },
+          {
+            "formula": "Li2Mn0.33Fe0.33Si1Ni0.33O4",
+            "n_records": 3,
+            "min_distance": 0.3329161566708385
+          },
+          {
+            "formula": "Li2Mn0.5Fe0.5Si1O4",
+            "n_records": 1,
+            "min_distance": 0.375
+          },
+          {
+            "formula": "Li1Mn1.95Si0.05O4",
+            "n_records": 8,
+            "min_distance": 0.3832379800000001
+          },
+          {
+            "formula": "Li0.41Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.42848305759530797
+          }
+        ],
+        "olivine": [
+          {
+            "formula": "Li0.5Mn1P1O4",
+            "n_records": 2,
+            "min_distance": 0.08144796235294129
+          },
+          {
+            "formula": "Li3Mg0.45V1.7P3O12",
+            "n_records": 1,
+            "min_distance": 0.24104926285714276
+          },
+          {
+            "formula": "Li3Mn0.2V1.8P3O12",
+            "n_records": 4,
+            "min_distance": 0.2514285799999999
+          },
+          {
+            "formula": "Li3Mg0.3V1.8P3O12",
+            "n_records": 2,
+            "min_distance": 0.25586354285714275
+          },
+          {
+            "formula": "Li3V1.85Co0.15P3O12",
+            "n_records": 2,
+            "min_distance": 0.2658022971919769
+          },
+          {
+            "formula": "Li3V1.5Cr0.5P3O12",
+            "n_records": 2,
+            "min_distance": 0.2693409773065901
+          },
+          {
+            "formula": "Li3V1.8Cr0.2P3O12",
+            "n_records": 2,
+            "min_distance": 0.2693409773065901
+          },
+          {
+            "formula": "Li3Mg0.15V1.9P3O12",
+            "n_records": 1,
+            "min_distance": 0.2707516830067687
+          },
+          {
+            "formula": "Li3V1.9Cr0.1P3O12",
+            "n_records": 5,
+            "min_distance": 0.2708022971919769
+          },
+          {
+            "formula": "Li3Al0.02V1.98P3O12",
+            "n_records": 9,
+            "min_distance": 0.2714285799999999
+          }
+        ],
+        "spinel": [
+          {
+            "formula": "Li1Mn1.95Si0.05O4",
+            "n_records": 8,
+            "min_distance": 0.014285719999999943
+          },
+          {
+            "formula": "Li0.41Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.045245077595308006
+          },
+          {
+            "formula": "Li0.34Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.08212146203592822
+          },
+          {
+            "formula": "Li0.28Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.11498258000000003
+          },
+          {
+            "formula": "Li0.23Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.14329941999999996
+          },
+          {
+            "formula": "Li0.21Mn1O2",
+            "n_records": 1,
+            "min_distance": 0.15487315999999995
+          },
+          {
+            "formula": "Li0.19Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.16659201999999998
+          },
+          {
+            "formula": "Li1Mn0.8Si1Ni0.2O4",
+            "n_records": 1,
+            "min_distance": 0.2857142828571428
+          },
+          {
+            "formula": "Li0.5Mn1P1O4",
+            "n_records": 2,
+            "min_distance": 0.391508151469534
+          },
+          {
+            "formula": "Li1.8Mn1Si0.8P0.2O4",
+            "n_records": 2,
+            "min_distance": 0.4312103628673836
+          }
+        ]
+      }
+    },
+    "nearest20": {
+      "n_drop_per_family": 20,
+      "overall": {
+        "r2": 0.021629596952807528,
+        "mae": 37.828247314933,
+        "rmse": 51.384396537225385,
+        "spearman": 0.33808405126030594
+      },
+      "overall_ci95": {
+        "r2": [
+          -0.15065185761372912,
+          0.13847398589345208
+        ],
+        "mae": [
+          31.71668512843586,
+          45.436278844577274
+        ],
+        "rmse": [
+          43.783658781763,
+          59.94155702514715
+        ],
+        "spearman": [
+          0.11013459503342063,
+          0.5046486340458479
+        ]
+      },
+      "n_records": 652,
+      "by_family": {
+        "layered": {
+          "n_records": 234,
+          "r2": -0.42254882000079164,
+          "mae": 58.144437382831015,
+          "rmse": 70.56761879191976,
+          "spearman": 0.4839631086450853
+        },
+        "olivine": {
+          "n_records": 320,
+          "r2": -0.25229787473116994,
+          "mae": 28.147435935381463,
+          "rmse": 38.578721776276524,
+          "spearman": 0.2706210211543265
+        },
+        "spinel": {
+          "n_records": 98,
+          "r2": 0.16505391727763563,
+          "mae": 20.928973494201987,
+          "rmse": 28.567852508768773,
+          "spearman": 0.5907599599009834
+        }
+      },
+      "training": {
+        "layered": {
+          "extra_compositions": 20,
+          "extra_records": 80,
+          "train_records": 593
+        },
+        "olivine": {
+          "extra_compositions": 20,
+          "extra_records": 124,
+          "train_records": 463
+        },
+        "spinel": {
+          "extra_compositions": 20,
+          "extra_records": 78,
+          "train_records": 731
+        }
+      },
+      "dropped": {
+        "layered": [
+          {
+            "formula": "Li2.05Mn1Al0.05Si0.95O4",
+            "n_records": 3,
+            "min_distance": 0.24844719999999992
+          },
+          {
+            "formula": "Li2Mn1Si1O4",
+            "n_records": 26,
+            "min_distance": 0.24999999999999997
+          },
+          {
+            "formula": "Li2Mn1V0.25Si0.75O4",
+            "n_records": 2,
+            "min_distance": 0.24999999999999997
+          },
+          {
+            "formula": "Li2Mn0.94Cr0.06Si1O4",
+            "n_records": 2,
+            "min_distance": 0.265
+          },
+          {
+            "formula": "Na0.1Li1.9Mn1Si1O4",
+            "n_records": 4,
+            "min_distance": 0.275
+          },
+          {
+            "formula": "Li1.8Mn1Si0.8P0.2O4",
+            "n_records": 2,
+            "min_distance": 0.2820512799999999
+          },
+          {
+            "formula": "Li2Mn0.33Fe0.33Si1Ni0.33O4",
+            "n_records": 3,
+            "min_distance": 0.3329161566708385
+          },
+          {
+            "formula": "Li2Mn0.5Fe0.5Si1O4",
+            "n_records": 1,
+            "min_distance": 0.375
+          },
+          {
+            "formula": "Li1Mn1.95Si0.05O4",
+            "n_records": 8,
+            "min_distance": 0.3832379800000001
+          },
+          {
+            "formula": "Li0.41Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.42848305759530797
+          },
+          {
+            "formula": "Li1Mn0.8Si1Ni0.2O4",
+            "n_records": 1,
+            "min_distance": 0.42857143428571437
+          },
+          {
+            "formula": "Li2Mn0.2Fe0.8Si1O4",
+            "n_records": 2,
+            "min_distance": 0.44999999999999996
+          },
+          {
+            "formula": "Li0.34Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.4653594420359282
+          },
+          {
+            "formula": "Li2.05Fe0.95Si0.95P0.05O4",
+            "n_records": 1,
+            "min_distance": 0.48749999999999993
+          },
+          {
+            "formula": "Li2Fe0.97Co0.03Si1O4",
+            "n_records": 2,
+            "min_distance": 0.49249999999999994
+          },
+          {
+            "formula": "Li0.28Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.49822056000000003
+          },
+          {
+            "formula": "Li2V0.05Fe0.95Si1O4",
+            "n_records": 2,
+            "min_distance": 0.4999999999999999
+          },
+          {
+            "formula": "Li2Ca0.03Fe0.97Si1O4",
+            "n_records": 7,
+            "min_distance": 0.49999999999999994
+          },
+          {
+            "formula": "Li2Fe1Si1O4",
+            "n_records": 3,
+            "min_distance": 0.49999999999999994
+          },
+          {
+            "formula": "Li2Mg0.03Fe0.97Si1O4",
+            "n_records": 2,
+            "min_distance": 0.49999999999999994
+          }
+        ],
+        "olivine": [
+          {
+            "formula": "Li0.5Mn1P1O4",
+            "n_records": 2,
+            "min_distance": 0.08144796235294129
+          },
+          {
+            "formula": "Li3Mg0.45V1.7P3O12",
+            "n_records": 1,
+            "min_distance": 0.24104926285714276
+          },
+          {
+            "formula": "Li3Mn0.2V1.8P3O12",
+            "n_records": 4,
+            "min_distance": 0.2514285799999999
+          },
+          {
+            "formula": "Li3Mg0.3V1.8P3O12",
+            "n_records": 2,
+            "min_distance": 0.25586354285714275
+          },
+          {
+            "formula": "Li3V1.85Co0.15P3O12",
+            "n_records": 2,
+            "min_distance": 0.2658022971919769
+          },
+          {
+            "formula": "Li3V1.5Cr0.5P3O12",
+            "n_records": 2,
+            "min_distance": 0.2693409773065901
+          },
+          {
+            "formula": "Li3V1.8Cr0.2P3O12",
+            "n_records": 2,
+            "min_distance": 0.2693409773065901
+          },
+          {
+            "formula": "Li3Mg0.15V1.9P3O12",
+            "n_records": 1,
+            "min_distance": 0.2707516830067687
+          },
+          {
+            "formula": "Li3V1.9Cr0.1P3O12",
+            "n_records": 5,
+            "min_distance": 0.2708022971919769
+          },
+          {
+            "formula": "Li3Al0.02V1.98P3O12",
+            "n_records": 9,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Li3Al0.08V1.92P3O12",
+            "n_records": 1,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Li3Nb0.03V1.97P3O12",
+            "n_records": 2,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Li3V1.85Sn0.15P3O12",
+            "n_records": 8,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Li3V1.8Sn0.2P3O12",
+            "n_records": 1,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Li3V1.96Zn0.04P3O12",
+            "n_records": 4,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Li3V1.9Sn0.1P3O12",
+            "n_records": 2,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Li3V2P3O12",
+            "n_records": 64,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Na0.03Li2.97V2P3O12",
+            "n_records": 4,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Na0.05Li2.95V2P3O12",
+            "n_records": 4,
+            "min_distance": 0.2714285799999999
+          },
+          {
+            "formula": "Na0.07Li2.93V2P3O12",
+            "n_records": 4,
+            "min_distance": 0.2714285799999999
+          }
+        ],
+        "spinel": [
+          {
+            "formula": "Li1Mn1.95Si0.05O4",
+            "n_records": 8,
+            "min_distance": 0.014285719999999943
+          },
+          {
+            "formula": "Li0.41Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.045245077595308006
+          },
+          {
+            "formula": "Li0.34Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.08212146203592822
+          },
+          {
+            "formula": "Li0.28Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.11498258000000003
+          },
+          {
+            "formula": "Li0.23Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.14329941999999996
+          },
+          {
+            "formula": "Li0.21Mn1O2",
+            "n_records": 1,
+            "min_distance": 0.15487315999999995
+          },
+          {
+            "formula": "Li0.19Mn1O2",
+            "n_records": 3,
+            "min_distance": 0.16659201999999998
+          },
+          {
+            "formula": "Li1Mn0.8Si1Ni0.2O4",
+            "n_records": 1,
+            "min_distance": 0.2857142828571428
+          },
+          {
+            "formula": "Li0.5Mn1P1O4",
+            "n_records": 2,
+            "min_distance": 0.391508151469534
+          },
+          {
+            "formula": "Li1.8Mn1Si0.8P0.2O4",
+            "n_records": 2,
+            "min_distance": 0.4312103628673836
+          },
+          {
+            "formula": "Li2Mn1Si1O4",
+            "n_records": 26,
+            "min_distance": 0.4632616428673836
+          },
+          {
+            "formula": "Li2Mn1V0.25Si0.75O4",
+            "n_records": 2,
+            "min_distance": 0.4632616428673836
+          },
+          {
+            "formula": "Na0.1Li1.9Mn1Si1O4",
+            "n_records": 4,
+            "min_distance": 0.4632616428673836
+          },
+          {
+            "formula": "Li2.05Mn1Al0.05Si0.95O4",
+            "n_records": 3,
+            "min_distance": 0.4710256228673836
+          },
+          {
+            "formula": "Li2Mn0.94Cr0.06Si1O4",
+            "n_records": 2,
+            "min_distance": 0.4782616428673836
+          },
+          {
+            "formula": "Li3Mg0.45V1.7P3O12",
+            "n_records": 1,
+            "min_distance": 0.5428571454285714
+          },
+          {
+            "formula": "Li3Mg0.3V1.8P3O12",
+            "n_records": 2,
+            "min_distance": 0.5428571454285716
+          },
+          {
+            "formula": "Li3Mn0.2V1.8P3O12",
+            "n_records": 4,
+            "min_distance": 0.5463082543369174
+          },
+          {
+            "formula": "Li2Mn0.33Fe0.33Si1Ni0.33O4",
+            "n_records": 3,
+            "min_distance": 0.5468035745319642
+          },
+          {
+            "formula": "Li3V1.85Co0.15P3O12",
+            "n_records": 2,
+            "min_distance": 0.5564285657142857
+          }
+        ]
+      }
+    }
+  }
+}

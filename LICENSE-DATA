@@ -1,0 +1,42 @@
+Data licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Scope
+  Everything in this repository that is not source code is licensed under CC BY 4.0, that is, the
+  files under paper_release_v1/inputs/, paper_release_v1/data/, paper_release_v1/models/,
+  paper_release_v1/results/, paper_release_v1/figures/, revision_analyses/outputs/ and
+  revision_analyses/literature/.  Source code (*.py and the files under paper_release_v1/config/) is
+  licensed under the MIT licence in LICENSE.
+
+  Copyright (c) 2026 Tzu-Wei Wang, Gerfried Millner, Zhengquan Wang, Wenhao Zhou, and
+  Eason Yi-Sheng Chen.
+
+  Licence summary: https://creativecommons.org/licenses/by/4.0/
+  Legal code:      https://creativecommons.org/licenses/by/4.0/legalcode
+
+Source data and required attribution
+  The capacity records in paper_release_v1/inputs/final.csv, and all data derived from them,
+  were built from the battery materials database of Huang and Cole, which is distributed under
+  CC BY 4.0:
+
+    Huang, S. & Cole, J. M. A database of battery materials auto-generated using
+    ChemDataExtractor. Scientific Data 7, 260 (2020). https://doi.org/10.1038/s41597-020-00602-2
+    Dataset: Figshare, https://doi.org/10.6084/m9.figshare.11888115.v2
+
+  The records were filtered, cleaned and manually checked against the original journal articles
+  (2025).  Capacities, compositions and test conditions were corrected where the articles differed
+  from the database.  These changes are part of this work; the original database is unchanged and
+  remains available from its own record.
+
+  When you use or redistribute these data, cite both this repository and the Huang and Cole
+  database above, and indicate any changes you make.
+
+Other sources in revision_analyses/
+  - revision_analyses/outputs/mp_table4/ contains records returned by the Materials Project API
+    (CC BY 4.0).  Cite: Jain, A. et al. Commentary: The Materials Project: A materials genome
+    approach to accelerating materials innovation. APL Materials 1, 011002 (2013),
+    https://doi.org/10.1063/1.4812323
+  - The tables in revision_analyses/literature/ hold values compiled from published articles, each
+    with its page, table or figure reference.  revision_analyses/literature/candidate_refs.bib is
+    bibliographic metadata returned by the Crossref API.
+
+  No article text or article PDF is redistributed here.

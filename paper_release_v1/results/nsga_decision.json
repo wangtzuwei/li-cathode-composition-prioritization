@@ -1,0 +1,12 @@
+{
+  "primary_metric": "post_screen_feasible_hypervolume",
+  "proposal_effect_floor_on_mean_paired_delta": 2.2402302253063486,
+  "proposal_effect_floor_on_positive_seeds": 20,
+  "proposal_effect_floor_on_total_seeds": 20,
+  "proposal_effect_floor_on_paired_bootstrap_ci95": [
+    1.8982386562594837,
+    2.5840036675353435
+  ],
+  "retain_nsga2_as_substantive_performance_claim": true,
+  "interpretation": "Matched seeds support a consistent feasible-hypervolume gain."
+}

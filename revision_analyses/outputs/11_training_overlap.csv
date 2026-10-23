@@ -1,0 +1,42 @@
+﻿DOI,files,n_records_any_tier,tiers,records,in_verification_pdfs,in_BDE_pipeline_tables
+10.1039/C4TA02924K,Task_B_verified_synthesis_evidence.csv; Task_C_degradation_mechanisms_verified.csv,16,"{""G"": 13, ""A"": 2, ""E"": 1}",Li1.2Mn0.567Co0.066Ni0.167O2 115.0 (E); Li2Mn1O2.9795 213.0 (A); Li2Mn1O2.9795 94.7 (A); Li2Mn1O2.9795 66.0 (G); Li2Mn1O2.939F0.015 241.0 (G); Li2Mn1O2.939F0.015 96.0 (G); Li2Mn1O2.9145F0.03 299.0 (G); Li2Mn1O2.9145F0.03 258.0 (G); Li2Mn1O2.9145F0.03 200.0 (G); Li2Mn1O2.9145F0.03 115.0 (G); Li2Mn1O2.9145F0.03 183.0 (G); Li2Mn1O2.9145F0.03 168.4 (G); Li2Mn1O2.903F0.045 258.0 (G); Li2Mn1O2.903F0.045,True,True
+10.1016/j.jpowsour.2015.02.085,Cr_F_LiRich_excluded_screening.csv; Task_B_fulltext_and_SI_pending.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,True
+10.1039/C5TA01214G,Cr_F_LiRich_primary_verified_samples.csv; Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1021/acsenergylett.3c02697,Cr_F_LiRich_primary_verified_samples.csv; Task_B_fulltext_and_SI_pending.csv; Task_C_degradation_mechanisms_verified.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.3390/batteries12040126,Cr_F_LiRich_primary_verified_samples.csv; Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1149/2.0861908jes,Cr_F_LiRich_primary_verified_samples.csv,0,{},,False,False
+10.1007/s10832-012-9778-4,Cr_F_LiRich_excluded_screening.csv; Task_B_fulltext_and_SI_pending.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1021/acs.chemmater.7b02930,Cr_F_LiRich_excluded_screening.csv; Task_B_fulltext_and_SI_pending.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1007/s42247-018-0014-0,Cr_F_LiRich_excluded_screening.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.electacta.2017.08.039,Cr_F_LiRich_excluded_screening.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.ijhydene.2018.04.203,Cr_F_LiRich_excluded_screening.csv; Task_B_fulltext_and_SI_pending.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.jpowsour.2016.02.058,Cr_F_LiRich_excluded_screening.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.electacta.2013.04.150,Cr_F_LiRich_excluded_screening.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.partic.2024.09.009,Cr_F_LiRich_excluded_screening.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.inoche.2024.113857,Cr_F_LiRich_excluded_screening.csv; Task_B_fulltext_and_SI_pending.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.matlet.2019.06.047,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.1039/D4RA04925J,Cr_F_LiRich_excluded_screening.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.mtcomm.2025.113929,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.36410/jcpr.2016.17.1.54,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.3389/fchem.2018.00076,Cr_F_LiRich_excluded_screening.csv; Task_B_verified_synthesis_evidence.csv; Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1016/j.jpowsour.2013.07.026,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.1016/j.jcis.2020.05.015,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.1021/acsami.9b13838,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.1016/j.matchemphys.2013.01.030,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.4028/www.scientific.net/AMR.652-654.848,Cr_F_LiRich_excluded_screening.csv,0,{},,False,False
+10.3724/SP.J.1077.2013.12412,Task_B_verified_synthesis_evidence.csv,0,{},,False,False
+10.1021/acsenergylett.3c02509,Task_B_fulltext_and_SI_pending.csv; Task_B_verified_synthesis_evidence.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1039/D4MA01287A,Task_B_fulltext_and_SI_pending.csv; Task_B_verified_synthesis_evidence.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1021/acsmaterialsau.2c00064,Task_B_verified_synthesis_evidence.csv,0,{},,False,False
+10.1021/acs.chemmater.3c03138,Task_B_fulltext_and_SI_pending.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1021/acsaem.4c00869,Task_B_fulltext_and_SI_pending.csv; Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1038/s41563-024-01833-z,Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1038/s41467-019-13240-z,Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1038/s41467-018-05802-4,Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1038/s41467-020-18285-z,Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1149/1.1456535,Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1002/aenm.202502157,Task_C_degradation_mechanisms_verified.csv,0,{},,False,False
+10.1149/2.045301jes,Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.jpowsour.2014.09.082,Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1039/D1CC06865B,Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False
+10.1016/j.ensm.2022.05.002,Tasks_ABC_prioritized_paper_downloads.csv,0,{},,False,False

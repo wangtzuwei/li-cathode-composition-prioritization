@@ -1,0 +1,170 @@
+{
+  "flag_rule": "untemplated composition u is flagged for family f if, for some member m of f, Manhattan(u, m) < Manhattan(m, nearest other member of f); atomic-fraction vectors",
+  "flagged_by_family": {
+    "layered": [],
+    "olivine": [],
+    "spinel": []
+  },
+  "saved_overall": {
+    "n_records": 652,
+    "n_canonical_compositions": 112,
+    "r2": 0.10538098986201172,
+    "mae": 37.36120701618891,
+    "rmse": 49.13587209463573,
+    "spearman": 0.33696153084897956,
+    "cluster_bootstrap_ci95": {
+      "r2": [
+        -0.14090030540269835,
+        0.26881212049382197
+      ],
+      "mae": [
+        30.863172079527576,
+        45.86322156708535
+      ],
+      "rmse": [
+        41.118027252516505,
+        58.573394222387364
+      ],
+      "spearman": [
+        0.16942733755083228,
+        0.49417258634943784
+      ]
+    },
+    "bootstrap_unit": "canonical_composition",
+    "bootstrap_repetitions": 20000
+  },
+  "replicate_original": {
+    "overall": {
+      "r2": 0.10538098986201172,
+      "mae": 37.36120701618891,
+      "rmse": 49.13587209463573,
+      "spearman": 0.33696153084897956
+    },
+    "overall_ci95": {
+      "r2": [
+        -0.14090030540269835,
+        0.26881212049382197
+      ],
+      "mae": [
+        30.863172079527576,
+        45.86322156708535
+      ],
+      "rmse": [
+        41.118027252516505,
+        58.573394222387364
+      ],
+      "spearman": [
+        0.16942733755083228,
+        0.49417258634943784
+      ]
+    },
+    "n_records": 652,
+    "by_family": {
+      "layered": {
+        "n_records": 234,
+        "r2": 0.09141620086328028,
+        "mae": 46.0440051349884,
+        "rmse": 56.39678766591506,
+        "spearman": 0.5996812317425171
+      },
+      "olivine": {
+        "n_records": 320,
+        "r2": -0.06038127052580289,
+        "mae": 25.768927914543234,
+        "rmse": 35.499728896150984,
+        "spearman": 0.33023381625817444
+      },
+      "spinel": {
+        "n_records": 98,
+        "r2": -3.453590285651747,
+        "mae": 54.48115143177599,
+        "rmse": 65.97866285585495,
+        "spearman": 0.3852471822830811
+      }
+    },
+    "training": {
+      "layered": {
+        "extra_compositions": 0,
+        "extra_records": 0,
+        "train_records": 673
+      },
+      "olivine": {
+        "extra_compositions": 0,
+        "extra_records": 0,
+        "train_records": 587
+      },
+      "spinel": {
+        "extra_compositions": 0,
+        "extra_records": 0,
+        "train_records": 809
+      }
+    }
+  },
+  "flagged_removed": {
+    "overall": {
+      "r2": 0.10538098986201172,
+      "mae": 37.36120701618891,
+      "rmse": 49.13587209463573,
+      "spearman": 0.33696153084897956
+    },
+    "overall_ci95": {
+      "r2": [
+        -0.14090030540269835,
+        0.26881212049382197
+      ],
+      "mae": [
+        30.863172079527576,
+        45.86322156708535
+      ],
+      "rmse": [
+        41.118027252516505,
+        58.573394222387364
+      ],
+      "spearman": [
+        0.16942733755083228,
+        0.49417258634943784
+      ]
+    },
+    "n_records": 652,
+    "by_family": {
+      "layered": {
+        "n_records": 234,
+        "r2": 0.09141620086328028,
+        "mae": 46.0440051349884,
+        "rmse": 56.39678766591506,
+        "spearman": 0.5996812317425171
+      },
+      "olivine": {
+        "n_records": 320,
+        "r2": -0.06038127052580289,
+        "mae": 25.768927914543234,
+        "rmse": 35.499728896150984,
+        "spearman": 0.33023381625817444
+      },
+      "spinel": {
+        "n_records": 98,
+        "r2": -3.453590285651747,
+        "mae": 54.48115143177599,
+        "rmse": 65.97866285585495,
+        "spearman": 0.3852471822830811
+      }
+    },
+    "training": {
+      "layered": {
+        "extra_compositions": 0,
+        "extra_records": 0,
+        "train_records": 673
+      },
+      "olivine": {
+        "extra_compositions": 0,
+        "extra_records": 0,
+        "train_records": 587
+      },
+      "spinel": {
+        "extra_compositions": 0,
+        "extra_records": 0,
+        "train_records": 809
+      }
+    }
+  }
+}

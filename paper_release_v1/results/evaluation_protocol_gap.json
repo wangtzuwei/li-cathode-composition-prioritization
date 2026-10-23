@@ -1,0 +1,15 @@
+{
+  "comparison": "record_level_cv_minus_exact_canonical_composition_holdout",
+  "record_level_r2": 0.7049890878835565,
+  "canonical_composition_heldout_r2": 0.5271508689429464,
+  "delta_r2": 0.17783821894061014,
+  "cluster_bootstrap_ci95": [
+    0.11816615970773978,
+    0.2501300353900836
+  ],
+  "bootstrap_unit": "canonical_composition",
+  "bootstrap_repetitions": 10000,
+  "clustered_sign_flip_p_two_sided": 9.99990000099999e-06,
+  "permutation_unit": "canonical_composition",
+  "permutation_repetitions": 100000
+}

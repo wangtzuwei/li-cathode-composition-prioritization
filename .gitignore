@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+paper_release_v1/logs/
+.DS_Store
+revision_analyses/models_local/
+revision_analyses/outputs/figures/

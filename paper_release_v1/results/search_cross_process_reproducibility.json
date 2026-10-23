@@ -1,0 +1,24 @@
+{
+  "independent_runs": 2,
+  "python_hash_seeds": [
+    0,
+    123
+  ],
+  "search_seeds_each_run": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "matched_outputs": true,
+  "files_compared": {
+    "search_seed_summary.csv": "96747ac9cfbbd1aa1514c8ae5c95d7fd6d0a507ce0961ede66b860fed8935e3b",
+    "search_paired_seed_comparisons.csv": "5f12fb86f499f41e123f5f0562cf343e915225968a00f5f98f466e6f0103aee6",
+    "nsga_generation_history.csv": "d80ea247749c9b0d21005d5ec04eb77e8c48fb4168da6e00e76eb05aea679ddf",
+    "nsga_decision.json": "fabfffb8026f3a226848e1f35086007038b3a0aab23ad8e78e0a97bbfa8804b3"
+  },
+  "topk_files_compared": 20,
+  "all_topk_sha256_matches": true,
+  "interpretation": "Sorting all set-derived element orders removed hash-order drift; two independent processes produced byte-identical uncompressed summaries, histories, decisions, and all screened TopK tables for the final corrected model and screening implementation."
+}

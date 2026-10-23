@@ -1,0 +1,9 @@
+﻿Formula,valences,G3_original,G3_valence_A,G3_valence_B,pass_original_pooled_P95,pass_original_pooled_P90,pass_original_layered_P95,pass_original_layered_P90,pass_valence_A_pooled_P95,pass_valence_A_pooled_P90,pass_valence_A_layered_P95,pass_valence_A_layered_P90,pass_valence_B_pooled_P95,pass_valence_B_pooled_P90,pass_valence_B_layered_P95,pass_valence_B_layered_P90
+Li2.1Mn0.7Cr0.3O2.865F0.135,"Cr+3.217, Mn+4.000",0.08784229695837566,0.07328803403095839,0.07328803403095839,True,True,False,False,True,True,True,True,True,True,True,True
+Li2.2Mn0.7Cr0.3O2.865F0.135,"Cr+3.000, Mn+3.950",0.08784229695837566,0.08831002522566603,0.08831002522566603,True,True,False,False,True,True,True,True,True,True,True,True
+Li2.15Mn0.7Cr0.3O2.865F0.135,"Cr+3.050, Mn+4.000",0.08784229695837566,0.08448362089820226,0.08448362089820226,True,True,False,False,True,True,True,True,True,True,True,True
+Li2.2Mn0.72Cr0.28O2.865F0.135,"Cr+3.000, Mn+3.924",0.08486372129829817,0.08602125313928996,0.08602125313928996,True,True,False,False,True,True,True,True,True,True,True,True
+Li1.95Mn0.72Cr0.28O2.865F0.135,"Cr+3.696, Mn+4.000",0.08486372129829817,0.039668441153090865,0.039668441153090865,True,True,False,False,True,True,True,True,True,True,True,True
+Li1.95Mn0.7Cr0.3O2.865F0.135,"Cr+3.717, Mn+4.000",0.08784229695837566,0.03970127342922653,0.03970127342922653,True,True,False,False,True,True,True,True,True,True,True,True
+Li1.9Mn0.7Cr0.3O2.865F0.135,"Cr+3.883, Mn+4.000",0.08784229695837566,0.028505686561982428,0.028505686561982428,True,True,False,False,True,True,True,True,True,True,True,True
+Li2Mn0.7Cr0.3O2.865F0.135,"Cr+3.550, Mn+4.000",0.08784229695837566,0.050896860296470524,0.050896860296470524,True,True,False,False,True,True,True,True,True,True,True,True

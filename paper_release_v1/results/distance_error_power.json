@@ -1,0 +1,8 @@
+{
+  "distance_error_observed_rho": 0.13008375932992536,
+  "n_canonical_compositions": 171,
+  "two_sided_alpha": 0.05,
+  "fisher_z_approximate_power_at_observed_rho": 0.3959113018586409,
+  "fisher_z_approximate_minimum_detectable_abs_rho_for_80_percent_power": 0.2128426349315107,
+  "interpretation": "The observed weak positive association is statistically inconclusive; the analysis is not powered to establish absence of weak association."
+}

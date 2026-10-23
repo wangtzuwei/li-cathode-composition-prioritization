@@ -1,0 +1,44 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "imputer",
+      "SimpleImputer(strategy='median')"
+    ],
+    [
+      "scaler",
+      "RobustScaler()"
+    ],
+    [
+      "model",
+      "Ridge()"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "imputer": "SimpleImputer(strategy='median')",
+  "scaler": "RobustScaler()",
+  "model": "Ridge()",
+  "imputer__add_indicator": false,
+  "imputer__copy": true,
+  "imputer__fill_value": null,
+  "imputer__keep_empty_features": false,
+  "imputer__missing_values": NaN,
+  "imputer__strategy": "median",
+  "scaler__copy": true,
+  "scaler__quantile_range": [
+    25.0,
+    75.0
+  ],
+  "scaler__unit_variance": false,
+  "scaler__with_centering": true,
+  "scaler__with_scaling": true,
+  "model__alpha": 1.0,
+  "model__copy_X": true,
+  "model__fit_intercept": true,
+  "model__max_iter": null,
+  "model__positive": false,
+  "model__random_state": null,
+  "model__solver": "auto",
+  "model__tol": 0.0001
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 3,
+  "seed": 55,
+  "model_sha256": "e7550729a9905879894be6486bdbe5bf601892853c8db1cce887b7182ee13bf9",
+  "runtime_sha256": "d9f689e857994ca8f5e786b3f848fcf01477e27d3df0fe5f4363946f67418a27",
+  "algorithm": "canonical_elitist_nsga2_parent_offspring_union",
+  "g3_descriptor": "concentration_weighted_rms_radius_mismatch",
+  "shared_initial_batch_per_prototype": 100,
+  "evaluations_per_prototype_per_arm": 2500,
+  "sha256": {
+    "nsga_pool": "d5eac1f74a739df35ed7318f6fdc8d0a7948782ffa87d220de46bac54d3f9ecf",
+    "random_pool": "862258635fa40d324cf9348b143a7e24736516a1904a578f5311299a7ec2c7f1",
+    "history": "839b677e7ae27dafefbedf6d3a685c8a7b9fb333a9b300501e97181f34ab75c5",
+    "summary": "53aaf744d8baf5a6bad3c2839388533119e24d3918633238bd7b618e92a8eb67",
+    "threshold": "c0e9b1961f87797956b81c9c0fa8ecd81321b7896473b2be8cc8221008e3fffa"
+  }
+}

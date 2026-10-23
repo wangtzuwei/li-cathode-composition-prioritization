@@ -1,0 +1,21 @@
+﻿DOI,年份,論文或關鍵詞,判定,排除或暫緩理由,已確認資訊_不得當作正式樣品資料,可核對URL
+10.1007/s10832-012-9778-4,2013,Kim et al. Effects of transition metal doping and surface treatment to improve the electrochemical performance of Li2MnO3,暫緩：高度相關,僅取得摘要，未核對原始全文的共同電流/電壓/完整處理條件；不能放入符合嚴格規則的主CSV,摘要提純Li2MnO3 x≈1 mol% Cr: 234.9 對未摻205.0 mAh/g；未作正式抽取,https://doi.org/10.1007/s10832-012-9778-4
+10.1021/acs.chemmater.7b02930,2017,Pang et al. Effects of fluorine and chromium doping on lithium-rich Li1+xMO2,暫緩：最高優先,出版商頁僅能讀摘要，未取得全文主文與圖表內含的測試條件；不使用摘要%換算假容量,摘要提Cr約2%、F約5%、未摻約270、200圈保持79%；Cr改善保持、F容量+4–5%但保持下降,https://doi.org/10.1021/acs.chemmater.7b02930
+10.1007/s42247-018-0014-0,2018,Nisar et al. Cr-doped Li1.2Ni0.16Mn0.56Co0.08−xCrxO2,暫緩,研究機構只提供摘要與引用，無法核對每樣品容量的圖表與內文,Cr 取代 Co，x=0/.01/.02；並非Mn位取代,https://doi.org/10.1007/s42247-018-0014-0
+10.1016/j.electacta.2017.08.039,2017,Ramesha et al. Co/Cr/Fe cation substitution for Mn in Li-rich NMC,暫緩,只取得論文摘要與出版商節錄，無法逐樣品核對電化學表格,研究比較 Cr/Co/Fe 的取代系列,https://doi.org/10.1016/j.electacta.2017.08.039
+10.1016/j.ijhydene.2018.04.203,2018,Cr-substituted Li1.2[Mn0.54Ni0.13Co0.13]1−xCrxO2,暫緩,能看到 x 系列的摘要數據，但尚未核對完整電化學結果與共同條件,x=0/.003/.005/.007；x=.005 摘要報10C 119.3 mAh/g,https://doi.org/10.1016/j.ijhydene.2018.04.203
+10.1016/j.jpowsour.2015.02.085,2015,F-substituted lithium-rich Li1.2−xMn0.54Ni0.13Co0.13O2−xFx,暫緩，並有共變因,只獲摘要；另外名義 Li 與 O 同時隨 x 減少，非純粹 O→F,x=0/.02/.05/.08,https://doi.org/10.1016/j.jpowsour.2015.02.085
+10.1016/j.jpowsour.2016.02.058,2016,Song et al. F-doped Li[Li1/6Ni1/6Co1/6Mn1/2]O2−xFx,暫緩,出版社僅可見摘要及零碎章節，缺少同條件各樣品可回溯容量,x=0/.02/.05/.07,https://doi.org/10.1016/j.jpowsour.2016.02.058
+10.1016/j.electacta.2013.04.150,2013,Zheng et al. fluorinated Li-rich Li[Li0.2Mn0.54Ni0.13Co0.13]O2−xFx,暫緩,只取得摘要，無法抽出全部同條件容量/電解液/合成條件,x=0/.05/.1,https://doi.org/10.1016/j.electacta.2013.04.150
+10.1016/j.partic.2024.09.009,2024,F-doping concentration series in Li-rich layered cathode,暫緩,未核對完整原始結果；摘要中的5C容量不得當作對照值,摘要指出x=.05最佳,https://doi.org/10.1016/j.partic.2024.09.009
+10.1016/j.inoche.2024.113857,2025,F-doped Li-rich layered cathode,暫緩,只有摘要的單一最佳摻雜量結果，沒有足夠原始對照測試細節,僅摘要x≈.05,https://doi.org/10.1016/j.inoche.2024.113857
+10.1016/j.matlet.2019.06.047,2019,F-doped Li-rich layered oxide,暫緩,只取得摘要，未讀實驗正文,未報告,https://doi.org/10.1016/j.matlet.2019.06.047
+10.1039/D4RA04925J,2024,First-principles calculations of F-doped Li2MnO3,排除,純DFT計算，無符合條件的未摻/摻雜實驗容量數據,無實驗容量,https://doi.org/10.1039/D4RA04925J
+10.1016/j.mtcomm.2025.113929,2025,Cr/F co-doping Li2MnO3 simulation,排除,理論/DFT 方向，非同一篇實驗對照容量,無實驗容量,https://doi.org/10.1016/j.mtcomm.2025.113929
+10.36410/jcpr.2016.17.1.54,2016,Cr and V substituted Li2MnO3,排除主分析,Cr和V同步共摻，且出現多相；無法獨立識別 Cr 效果,名義Li2[Mn1−2xCrxVx]O3,https://doi.org/10.36410/jcpr.2016.17.1.54
+10.3389/fchem.2018.00076,2018,Nb/F dual doping Li-rich Li1.2Mn0.54−xNbxCo0.13Ni0.13O2−6xF6x,排除主分析,Nb與F同時變，不能歸因於F；雖有可讀全文但不符合 Cr/F 的獨立效應問題,x=0/.01/.03/.05,https://doi.org/10.3389/fchem.2018.00076
+10.1016/j.jpowsour.2013.07.026,2014,Cr substituted LiFe1−xCrxO2·Li2MnO3 composite,暫緩/次要,Cr替代Fe而非Mn；僅取得出版商部分內文章節，缺乏匹配對照完整容量,x=0/.1/.25/.5,https://doi.org/10.1016/j.jpowsour.2013.07.026
+10.1016/j.jcis.2020.05.015,2020,Cr-doping + Li3PO4 coating Li-rich cathode,排除主分析,Cr doping與表面 Li3PO4 coating 共變，無純摻雜 matched baseline,有額外塗層共變因,https://doi.org/10.1016/j.jcis.2020.05.015
+10.1021/acsami.9b13838,2019,Na and F codoping Li-Mn-rich layered oxide,排除主分析,Na與F共摻（非Cr/F），無法單獨判斷F方向,非指定 Cr/F 類型,https://doi.org/10.1021/acsami.9b13838
+10.1016/j.matchemphys.2013.01.030,2013,Cr-doped LiMnO2 (Pechini),排除,雖有原始實驗比較，但材料是LiMnO2而不是Li2MnO3/Li-rich layered composite,無Li2MnO3 component,https://doi.org/10.1016/j.matchemphys.2013.01.030
+10.4028/www.scientific.net/AMR.652-654.848,2013,Cr-doped spinel LiMn2O4,排除,單相 sp​inel LiMn2O4，非目標Li-rich layered材料,無Li2MnO3 component,https://doi.org/10.4028/www.scientific.net/AMR.652-654.848

@@ -1,0 +1,10 @@
+﻿source,DOI,file,reason,material
+Dong 2015,10.1039/C4TA02924K,Task B; Task C,已在 06b 第 1 項（[64]，x = 0、0.015、0.03、0.045）,
+Lee 2015,10.1039/C5TA01214G,Task C,已在 06b 第 1 項（primary CSV，x = 0、0.05、0.1、0.2）,
+Wang 2024,10.1021/acsenergylett.3c02697,Task C,已在 06b 第 1 項（primary CSV，LNMO、F1、F2.5、F5）,
+Kucuk 2026,10.3390/batteries12040126,Task C,已在 06b 第 1 項（primary CSV，x = 0–0.10）,
+Fan 2024,10.1021/acsenergylett.3c02509,Task B,摻雜樣的完整名義式正文未報告（CSV 註明 SI 未取得）,Cr-doped Li1.2Ni0.2Mn0.6O2（CLNMO，Cr 3%／5%／7%）
+Hua 2019,10.1038/s41467-019-13240-z,Task C,x、y 未給定,LixNi0.2Mn0.6Oy
+Myeong 2018,10.1038/s41467-018-05802-4,Task C,x、y、z 未給定,Li1+xNiyCozMn1−x−y−zO2（有序／失序對照）
+Moździerz 2025,10.1002/aenm.202502157,Task C,CSV 未寫化學式,LCT-HE（多陽離子置換）
+Huang 2021（[65]）,10.1007/s10853-021-05922-1,06b,仍查不到共摻樣品的化學式（同 06b）,Cr/F 共摻 Li1.2Ni0.13Co0.13Mn0.54O2

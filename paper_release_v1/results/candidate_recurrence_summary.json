@@ -1,0 +1,32 @@
+{
+  "reference_arm": "nsga2__floor_on",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "recurrence_rule": "present in at least 10 of 20 independent matched-search seeds",
+  "primary_scientific_shortlist_rule": "recurrence rule plus G1, G2, G4 and control-P95 G3 pass in every occurrence; P90 is a nested conservative flag",
+  "union_candidates": 9815,
+  "recurrence_consensus_candidates": 7,
+  "primary_consensus_candidates": 7,
+  "p90_threshold": 0.1016949152542372,
+  "p95_threshold": 0.10867468190417125
+}

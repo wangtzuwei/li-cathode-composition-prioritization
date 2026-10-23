@@ -1,0 +1,13 @@
+proto_name,applicable_n,g1_survivors_n,g1_g2_survivors_n,g3_p90_survivors_n,g3_p90_losses_after_g1_g2_n,g3_p95_survivors_n,g3_p95_losses_after_g1_g2_n,final_p90_survivors_n,final_p95_survivors_n
+LNMO-spinel,7,7,7,7,0,7,0,7,7
+Li-rich-NMC,17,17,13,13,0,13,0,13,13
+Li2MnO3,4,4,4,4,0,4,0,4,4
+LiCoO2,2,2,2,2,0,2,0,2,2
+LiFePO4,21,21,21,21,0,21,0,20,20
+LiMn2O4,11,11,11,2,9,6,5,2,6
+LiMnPO4,29,29,29,28,1,28,1,28,28
+LiNiO2,7,7,7,7,0,7,0,7,7
+NCA,1,1,1,1,0,1,0,1,1
+NMC-532,6,6,6,6,0,6,0,6,6
+NMC-622,1,1,1,1,0,1,0,1,1
+NMC-811,6,6,6,6,0,6,0,6,6

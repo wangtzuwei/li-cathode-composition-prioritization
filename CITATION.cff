@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below, and also cite the Huang & Cole (2020) battery database it was built from."
+title: "Composition-Level Prioritization of Lithium-Ion Cathode Candidates: code and data"
+version: 1.0.0
+license: MIT
+type: software
+authors:
+  - family-names: Wang
+    given-names: Tzu-Wei
+    affiliation: "School of Materials Science and Engineering, Nanyang Technological University, Singapore"
+    orcid: "https://orcid.org/0009-0006-1092-3820"
+  - family-names: Millner
+    given-names: Gerfried
+    affiliation: "School of Materials Science and Engineering, Nanyang Technological University, Singapore"
+    email: gerfried.millner@ntu.edu.sg
+  - family-names: Wang
+    given-names: Zhengquan
+    affiliation: "Shaanxi Key Laboratory of Biomedical Metallic Materials, Northwest Institute for Non-Ferrous Metal Research, Xi'an, China"
+    orcid: "https://orcid.org/0000-0001-6213-8281"
+  - family-names: Zhou
+    given-names: Wenhao
+    affiliation: "Shaanxi Key Laboratory of Biomedical Metallic Materials, Northwest Institute for Non-Ferrous Metal Research, Xi'an, China"
+    orcid: "https://orcid.org/0000-0001-7956-9395"
+  - family-names: Chen
+    given-names: "Eason Yi-Sheng"
+    affiliation: "School of Materials Science and Engineering, Nanyang Technological University, Singapore"
+    email: eason.chen@ntu.edu.sg
+keywords:
+  - lithium-ion cathode
+  - canonical composition
+  - leakage-resistant validation
+  - NSGA-II
+  - positive control
+  - candidate recurrence
+references:
+  - type: article
+    title: "A database of battery materials auto-generated using ChemDataExtractor"
+    authors:
+      - family-names: Huang
+        given-names: Shu
+      - family-names: Cole
+        given-names: Jacqueline M.
+    journal: "Scientific Data"
+    volume: 7
+    start: 260
+    year: 2020
+    doi: "10.1038/s41597-020-00602-2"
+  - type: dataset
+    title: "A database of battery materials auto-generated using ChemDataExtractor (dataset)"
+    authors:
+      - family-names: Huang
+        given-names: Shu
+      - family-names: Cole
+        given-names: Jacqueline M.
+    year: 2020
+    doi: "10.6084/m9.figshare.11888115.v2"
+    license: CC-BY-4.0

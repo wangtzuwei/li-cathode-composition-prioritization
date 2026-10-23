@@ -1,0 +1,70 @@
+run_id: paper_release_v1_canonical_rebuild
+seed: 42
+python_hash_seed: 0
+data:
+  raw_file: inputs/final.csv
+  legacy_audit_file: inputs/legacy_features_for_audit.csv
+  identity_source: raw_formula_column
+  canonical_parser: pymatgen.core.Composition
+  canonical_representation: sorted_fractional_composition
+  canonical_round_decimals: 8
+  sensitivity_round_decimals: [6, 8, 10]
+features:
+  composition:
+    - 86 elemental atomic fractions
+    - 6 matminer Stoichiometry descriptors
+    - 110 matminer Magpie ElementProperty descriptors
+    - anion_fraction_sum
+    - tm_site_fraction_sum
+  measurement_context:
+    - temperature_K
+    - log1p_current_rate_C
+    - log1p_cycle_number
+    - log1p_current_rate_x_cycle
+validation:
+  secondary_record_cv:
+    type: stratified_10_fold
+    target_quantile_bins: 10
+  primary_composition_cv:
+    type: leave_one_canonical_composition_out
+  bootstrap_unit: canonical_composition
+  bootstrap_repetitions: 5000
+distance_error:
+  neighbors: 5
+  scaling: fold_local_RobustScaler
+  reference: training_rows_only
+  formula_aggregation: median
+  bootstrap_repetitions: 10000
+  permutation_repetitions: 100000
+models:
+  required: [dummy_median, ridge, random_forest, catboost]
+  feature_sets: [composition_only, composition_plus_context]
+  catboost:
+    iterations: 500
+    depth: 6
+    learning_rate: 0.05
+    l2_leaf_reg: 3.0
+    loss_function: RMSE
+search_benchmark:
+  proposal_mechanisms: [nsga2, random]
+  prototype_floor: [off, on]
+  seeds: [42, 43, 44, 45, 46]
+  population_per_prototype: 100
+  generations: 25
+  objective_evaluations_per_prototype: 2500
+  top_k: 500
+  floor_per_prototype: 10
+  shared_parameter_projection:
+    li_excess: [-0.10, 0.20]
+    maximum_nonbase_framework_dopant_fraction: 0.30
+    framework_cation_total_preserved: true
+    anion_total_preserved: true
+  hard_knn_gate: false
+  chemistry_filter_inside_search: false
+  primary_metric: post_screen_feasible_hypervolume
+  seed_is_inference_unit: true
+scope:
+  claim: composition-level candidate prioritization
+  excluded: [DFT, PyXtal, MACE, CHGNet, E_hull_validation, experimental_validation]
+  filter_in_optimizer: false
+  hautier_role: supplementary_soft_plausibility_check

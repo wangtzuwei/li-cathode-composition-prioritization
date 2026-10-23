@@ -1,0 +1,275 @@
+{
+  "redox_upper": {
+    "Mn": 4,
+    "Ni": 4,
+    "Co": 4,
+    "Fe": 3,
+    "Cr": 6,
+    "V": 5,
+    "Cu": 3,
+    "Ti": 4
+  },
+  "fixed_valence": {
+    "Li": 1,
+    "Na": 1,
+    "K": 1,
+    "Mg": 2,
+    "Zn": 2,
+    "Al": 3,
+    "Ga": 3,
+    "La": 3,
+    "Nd": 3,
+    "Sm": 3,
+    "Gd": 3,
+    "Zr": 4,
+    "Nb": 5,
+    "Mo": 6,
+    "P": 5,
+    "O": -2,
+    "F": -1
+  },
+  "p95": 0.10867468190417125,
+  "controls_by_prototype": [
+    {
+      "proto_name": "LNMO-spinel",
+      "n": 7,
+      "median_exceeds_strict": 0,
+      "max_exceeds_strict": 0,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "Li-rich-NMC",
+      "n": 17,
+      "median_exceeds_strict": 14,
+      "max_exceeds_strict": 17,
+      "prediction_exceeds_strict": 14,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "Li2MnO3",
+      "n": 4,
+      "median_exceeds_strict": 4,
+      "max_exceeds_strict": 4,
+      "prediction_exceeds_strict": 4,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "LiCoO2",
+      "n": 2,
+      "median_exceeds_strict": 0,
+      "max_exceeds_strict": 0,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "LiFePO4",
+      "n": 21,
+      "median_exceeds_strict": 1,
+      "max_exceeds_strict": 2,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 1
+    },
+    {
+      "proto_name": "LiMn2O4",
+      "n": 11,
+      "median_exceeds_strict": 1,
+      "max_exceeds_strict": 2,
+      "prediction_exceeds_strict": 2,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "LiMnPO4",
+      "n": 29,
+      "median_exceeds_strict": 1,
+      "max_exceeds_strict": 2,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "LiNiO2",
+      "n": 7,
+      "median_exceeds_strict": 0,
+      "max_exceeds_strict": 0,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "NCA",
+      "n": 1,
+      "median_exceeds_strict": 0,
+      "max_exceeds_strict": 0,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "NMC-532",
+      "n": 6,
+      "median_exceeds_strict": 0,
+      "max_exceeds_strict": 0,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "NMC-622",
+      "n": 1,
+      "median_exceeds_strict": 0,
+      "max_exceeds_strict": 0,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    },
+    {
+      "proto_name": "NMC-811",
+      "n": 6,
+      "median_exceeds_strict": 0,
+      "max_exceeds_strict": 0,
+      "prediction_exceeds_strict": 0,
+      "original_g4_fail": 0
+    }
+  ],
+  "controls_totals": {
+    "n": 112,
+    "median_exceeds_strict": 21,
+    "max_exceeds_strict": 27,
+    "prediction_exceeds_strict": 20,
+    "original_g4_fail": 1
+  },
+  "recurrence": {
+    "union": 9815,
+    "original_consensus": [
+      "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "Li2.2Mn0.7Cr0.3O2.865F0.135"
+    ],
+    "strict_consensus": [
+      {
+        "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+        "proto_name": "Li2MnO3",
+        "topk_seed_count": 19,
+        "strict_budget_mAh_g": 212.8562778529435,
+        "y_pred_mean": 208.42781287680745
+      }
+    ],
+    "original_retained": [
+      "Li2.2Mn0.7Cr0.3O2.865F0.135"
+    ],
+    "original_dropped": [
+      "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "Li2.2Mn0.72Cr0.28O2.865F0.135"
+    ],
+    "new_recurrent": [],
+    "candidates_with_10plus_seeds": 7,
+    "per_seed_p95_survivors": [
+      {
+        "seed": 42,
+        "p95_final_original": 269,
+        "p95_final_strict": 206
+      },
+      {
+        "seed": 43,
+        "p95_final_original": 341,
+        "p95_final_strict": 277
+      },
+      {
+        "seed": 44,
+        "p95_final_original": 250,
+        "p95_final_strict": 181
+      },
+      {
+        "seed": 45,
+        "p95_final_original": 240,
+        "p95_final_strict": 196
+      },
+      {
+        "seed": 46,
+        "p95_final_original": 334,
+        "p95_final_strict": 251
+      },
+      {
+        "seed": 47,
+        "p95_final_original": 415,
+        "p95_final_strict": 344
+      },
+      {
+        "seed": 48,
+        "p95_final_original": 324,
+        "p95_final_strict": 283
+      },
+      {
+        "seed": 49,
+        "p95_final_original": 266,
+        "p95_final_strict": 219
+      },
+      {
+        "seed": 50,
+        "p95_final_original": 256,
+        "p95_final_strict": 204
+      },
+      {
+        "seed": 51,
+        "p95_final_original": 265,
+        "p95_final_strict": 174
+      },
+      {
+        "seed": 52,
+        "p95_final_original": 281,
+        "p95_final_strict": 215
+      },
+      {
+        "seed": 53,
+        "p95_final_original": 328,
+        "p95_final_strict": 231
+      },
+      {
+        "seed": 54,
+        "p95_final_original": 234,
+        "p95_final_strict": 177
+      },
+      {
+        "seed": 55,
+        "p95_final_original": 406,
+        "p95_final_strict": 317
+      },
+      {
+        "seed": 56,
+        "p95_final_original": 398,
+        "p95_final_strict": 335
+      },
+      {
+        "seed": 57,
+        "p95_final_original": 273,
+        "p95_final_strict": 200
+      },
+      {
+        "seed": 58,
+        "p95_final_original": 252,
+        "p95_final_strict": 199
+      },
+      {
+        "seed": 59,
+        "p95_final_original": 281,
+        "p95_final_strict": 228
+      },
+      {
+        "seed": 60,
+        "p95_final_original": 324,
+        "p95_final_strict": 239
+      },
+      {
+        "seed": 61,
+        "p95_final_original": 419,
+        "p95_final_strict": 334
+      }
+    ],
+    "per_seed_mean_original": 307.8,
+    "per_seed_mean_strict": 240.5
+  }
+}

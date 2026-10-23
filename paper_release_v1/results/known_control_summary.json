@@ -1,0 +1,51 @@
+{
+  "canonical_compositions_total": 171,
+  "template_applicable_controls": 112,
+  "template_not_applicable_controls": 59,
+  "g1_survivors": 112,
+  "g2_survivors": 108,
+  "g3_conservative_p90_survivors": 98,
+  "g3_reference_p95_survivors": 102,
+  "g4_survivors": 101,
+  "positive_control_radius_p90_after_g1_g2": 0.1016949152542372,
+  "positive_control_radius_p95_after_g1_g2": 0.10867468190417125,
+  "cross_fitted_policy_validation": {
+    "g1_g2_denominator": 108,
+    "descriptor": "concentration-weighted RMS relative radius mismatch",
+    "policies": {
+      "P90": {
+        "quantile": 0.9,
+        "full_control_threshold": 0.1016949152542372,
+        "leave_one_control_out_successes": 96,
+        "leave_one_control_out_total": 108,
+        "leave_one_control_out_retention": 0.8888888888888888,
+        "leave_one_control_out_wilson_ci95": [
+          0.8157758339314041,
+          0.9352873307101626
+        ],
+        "threshold_bootstrap_ci95": [
+          0.06462643039307338,
+          0.10839913546943956
+        ],
+        "threshold_bootstrap_repetitions": 20000
+      },
+      "P95": {
+        "quantile": 0.95,
+        "full_control_threshold": 0.10867468190417125,
+        "leave_one_control_out_successes": 101,
+        "leave_one_control_out_total": 108,
+        "leave_one_control_out_retention": 0.9351851851851852,
+        "leave_one_control_out_wilson_ci95": [
+          0.8722236366714627,
+          0.9682518094750524
+        ],
+        "threshold_bootstrap_ci95": [
+          0.0981609827854318,
+          0.11867622774380505
+        ],
+        "threshold_bootstrap_repetitions": 20000
+      }
+    }
+  },
+  "specificity_estimable": false
+}

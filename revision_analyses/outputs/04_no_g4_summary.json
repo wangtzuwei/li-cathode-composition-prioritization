@@ -1,0 +1,242 @@
+{
+  "p95": 0.10867468190417125,
+  "per_seed_mean_original": 307.8,
+  "per_seed_mean_no_g4": 331.4,
+  "per_seed_p95_survivors": [
+    {
+      "seed": 42,
+      "p95_final_original": 269,
+      "p95_final_no_g4": 298
+    },
+    {
+      "seed": 43,
+      "p95_final_original": 341,
+      "p95_final_no_g4": 362
+    },
+    {
+      "seed": 44,
+      "p95_final_original": 250,
+      "p95_final_no_g4": 273
+    },
+    {
+      "seed": 45,
+      "p95_final_original": 240,
+      "p95_final_no_g4": 264
+    },
+    {
+      "seed": 46,
+      "p95_final_original": 334,
+      "p95_final_no_g4": 361
+    },
+    {
+      "seed": 47,
+      "p95_final_original": 415,
+      "p95_final_no_g4": 439
+    },
+    {
+      "seed": 48,
+      "p95_final_original": 324,
+      "p95_final_no_g4": 358
+    },
+    {
+      "seed": 49,
+      "p95_final_original": 266,
+      "p95_final_no_g4": 285
+    },
+    {
+      "seed": 50,
+      "p95_final_original": 256,
+      "p95_final_no_g4": 288
+    },
+    {
+      "seed": 51,
+      "p95_final_original": 265,
+      "p95_final_no_g4": 301
+    },
+    {
+      "seed": 52,
+      "p95_final_original": 281,
+      "p95_final_no_g4": 295
+    },
+    {
+      "seed": 53,
+      "p95_final_original": 328,
+      "p95_final_no_g4": 357
+    },
+    {
+      "seed": 54,
+      "p95_final_original": 234,
+      "p95_final_no_g4": 253
+    },
+    {
+      "seed": 55,
+      "p95_final_original": 406,
+      "p95_final_no_g4": 433
+    },
+    {
+      "seed": 56,
+      "p95_final_original": 398,
+      "p95_final_no_g4": 422
+    },
+    {
+      "seed": 57,
+      "p95_final_original": 273,
+      "p95_final_no_g4": 297
+    },
+    {
+      "seed": 58,
+      "p95_final_original": 252,
+      "p95_final_no_g4": 265
+    },
+    {
+      "seed": 59,
+      "p95_final_original": 281,
+      "p95_final_no_g4": 293
+    },
+    {
+      "seed": 60,
+      "p95_final_original": 324,
+      "p95_final_no_g4": 354
+    },
+    {
+      "seed": 61,
+      "p95_final_original": 419,
+      "p95_final_no_g4": 430
+    }
+  ],
+  "union": 9815,
+  "candidates_with_10plus_seeds": 7,
+  "consensus_no_g4": [
+    {
+      "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 20,
+      "y_pred_mean": 215.35295733093773
+    },
+    {
+      "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 19,
+      "y_pred_mean": 208.42781287680745
+    },
+    {
+      "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 18,
+      "y_pred_mean": 214.50922696933085
+    },
+    {
+      "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 12,
+      "y_pred_mean": 207.8838933445513
+    },
+    {
+      "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 10,
+      "y_pred_mean": 217.81180850522765
+    },
+    {
+      "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 10,
+      "y_pred_mean": 220.81442312143787
+    },
+    {
+      "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 10,
+      "y_pred_mean": 217.14211833930025
+    }
+  ],
+  "original_retained": [
+    "Li1.95Mn0.72Cr0.28O2.865F0.135",
+    "Li1.95Mn0.7Cr0.3O2.865F0.135",
+    "Li1.9Mn0.7Cr0.3O2.865F0.135",
+    "Li2.15Mn0.7Cr0.3O2.865F0.135",
+    "Li2.1Mn0.7Cr0.3O2.865F0.135",
+    "Li2.2Mn0.72Cr0.28O2.865F0.135",
+    "Li2.2Mn0.7Cr0.3O2.865F0.135"
+  ],
+  "original_dropped": [],
+  "new_recurrent": [],
+  "controls_total": 112,
+  "controls_retained_original": 101,
+  "controls_retained_no_g4": 102,
+  "controls_by_prototype": [
+    {
+      "proto_name": "LNMO-spinel",
+      "n": 7,
+      "retained_original": 7,
+      "retained_no_g4": 7
+    },
+    {
+      "proto_name": "Li-rich-NMC",
+      "n": 17,
+      "retained_original": 13,
+      "retained_no_g4": 13
+    },
+    {
+      "proto_name": "Li2MnO3",
+      "n": 4,
+      "retained_original": 4,
+      "retained_no_g4": 4
+    },
+    {
+      "proto_name": "LiCoO2",
+      "n": 2,
+      "retained_original": 2,
+      "retained_no_g4": 2
+    },
+    {
+      "proto_name": "LiFePO4",
+      "n": 21,
+      "retained_original": 20,
+      "retained_no_g4": 21
+    },
+    {
+      "proto_name": "LiMn2O4",
+      "n": 11,
+      "retained_original": 6,
+      "retained_no_g4": 6
+    },
+    {
+      "proto_name": "LiMnPO4",
+      "n": 29,
+      "retained_original": 28,
+      "retained_no_g4": 28
+    },
+    {
+      "proto_name": "LiNiO2",
+      "n": 7,
+      "retained_original": 7,
+      "retained_no_g4": 7
+    },
+    {
+      "proto_name": "NCA",
+      "n": 1,
+      "retained_original": 1,
+      "retained_no_g4": 1
+    },
+    {
+      "proto_name": "NMC-532",
+      "n": 6,
+      "retained_original": 6,
+      "retained_no_g4": 6
+    },
+    {
+      "proto_name": "NMC-622",
+      "n": 1,
+      "retained_original": 1,
+      "retained_no_g4": 1
+    },
+    {
+      "proto_name": "NMC-811",
+      "n": 6,
+      "retained_original": 6,
+      "retained_no_g4": 6
+    }
+  ],
+  "candidates_failing_only_g4_per_seed_mean": 23.6
+}

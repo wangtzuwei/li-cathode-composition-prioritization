@@ -1,0 +1,261 @@
+{
+  "motif_definition": "template + set of elements not in the template base composition (ratios ignored)",
+  "survivor_rule": "P95 final (G1, G2, G4 and G3 <= P95) in the reference arm nsga2__floor_on",
+  "rank_rule": "rank = number of seeds (ties share the minimum rank); listed order breaks ties by mean distinct formulas per seed",
+  "catboost": {
+    "n_motifs": 155,
+    "top10": [
+      {
+        "motif": "Li2MnO3 | Cr+F",
+        "seed_count": 20,
+        "formulas_per_seed_mean": 69.25,
+        "formulas_per_seed_min": 44,
+        "formulas_per_seed_max": 101,
+        "distinct_formulas_all_seeds": 1269,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 1,
+        "position": 1
+      },
+      {
+        "motif": "LiCoO2 | Al+Cr",
+        "seed_count": 20,
+        "formulas_per_seed_mean": 65.45,
+        "formulas_per_seed_min": 29,
+        "formulas_per_seed_max": 136,
+        "distinct_formulas_all_seeds": 1305,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 1,
+        "position": 2
+      },
+      {
+        "motif": "LiCoO2 | Al+Cr+Fe",
+        "seed_count": 19,
+        "formulas_per_seed_mean": 24.94736842105263,
+        "formulas_per_seed_min": 2,
+        "formulas_per_seed_max": 79,
+        "distinct_formulas_all_seeds": 474,
+        "seeds_list": "42;43;44;45;46;47;48;49;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 3,
+        "position": 3
+      },
+      {
+        "motif": "NMC-532 | Al+Cr",
+        "seed_count": 19,
+        "formulas_per_seed_mean": 4.894736842105263,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 10,
+        "distinct_formulas_all_seeds": 93,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60",
+        "rank": 3,
+        "position": 4
+      },
+      {
+        "motif": "NMC-532 | Al+Cr+Fe",
+        "seed_count": 18,
+        "formulas_per_seed_mean": 5.944444444444445,
+        "formulas_per_seed_min": 2,
+        "formulas_per_seed_max": 10,
+        "distinct_formulas_all_seeds": 107,
+        "seeds_list": "43;44;45;46;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 5,
+        "position": 5
+      },
+      {
+        "motif": "NMC-622 | Al+Cr+Fe",
+        "seed_count": 18,
+        "formulas_per_seed_mean": 5.666666666666667,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 10,
+        "distinct_formulas_all_seeds": 102,
+        "seeds_list": "44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 5,
+        "position": 6
+      },
+      {
+        "motif": "NCA | Cr+Fe",
+        "seed_count": 17,
+        "formulas_per_seed_mean": 12.470588235294118,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 26,
+        "distinct_formulas_all_seeds": 212,
+        "seeds_list": "42;45;46;47;48;49;50;51;52;53;54;55;56;57;58;60;61",
+        "rank": 7,
+        "position": 7
+      },
+      {
+        "motif": "LiNiO2 | Al+Cr+Fe",
+        "seed_count": 17,
+        "formulas_per_seed_mean": 10.117647058823529,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 47,
+        "distinct_formulas_all_seeds": 172,
+        "seeds_list": "42;43;44;46;47;48;50;52;53;54;55;56;57;58;59;60;61",
+        "rank": 7,
+        "position": 8
+      },
+      {
+        "motif": "NMC-622 | Al+Cr",
+        "seed_count": 17,
+        "formulas_per_seed_mean": 5.764705882352941,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 10,
+        "distinct_formulas_all_seeds": 98,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;52;53;54;55;56;58;60;61",
+        "rank": 7,
+        "position": 9
+      },
+      {
+        "motif": "LiNiO2 | Al+Cr",
+        "seed_count": 16,
+        "formulas_per_seed_mean": 11.25,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 46,
+        "distinct_formulas_all_seeds": 180,
+        "seeds_list": "42;44;45;46;47;48;51;52;53;54;55;56;57;58;60;61",
+        "rank": 10,
+        "position": 10
+      }
+    ],
+    "target": {
+      "motif": "Li2MnO3 | Cr+F",
+      "seed_count": 20,
+      "formulas_per_seed_mean": 69.25,
+      "formulas_per_seed_min": 44,
+      "formulas_per_seed_max": 101,
+      "distinct_formulas_all_seeds": 1269,
+      "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+      "rank": 1,
+      "position": 1
+    },
+    "n_motifs_10plus_seeds": 28,
+    "n_motifs_20_seeds": 2
+  },
+  "rf": {
+    "n_motifs": 250,
+    "top10": [
+      {
+        "motif": "LiCoO2 | Al+Cr",
+        "seed_count": 20,
+        "formulas_per_seed_mean": 75.9,
+        "formulas_per_seed_min": 33,
+        "formulas_per_seed_max": 151,
+        "distinct_formulas_all_seeds": 1515,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 1,
+        "position": 1
+      },
+      {
+        "motif": "Li2MnO3 | Cr+F",
+        "seed_count": 20,
+        "formulas_per_seed_mean": 42.25,
+        "formulas_per_seed_min": 28,
+        "formulas_per_seed_max": 75,
+        "distinct_formulas_all_seeds": 774,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 1,
+        "position": 2
+      },
+      {
+        "motif": "LiCoO2 | Al+Cr+Fe",
+        "seed_count": 20,
+        "formulas_per_seed_mean": 27.75,
+        "formulas_per_seed_min": 2,
+        "formulas_per_seed_max": 84,
+        "distinct_formulas_all_seeds": 555,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 1,
+        "position": 3
+      },
+      {
+        "motif": "Li2MnO3 | Cr+F+Fe",
+        "seed_count": 19,
+        "formulas_per_seed_mean": 13.0,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 31,
+        "distinct_formulas_all_seeds": 247,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;55;56;57;58;59;60;61",
+        "rank": 4,
+        "position": 4
+      },
+      {
+        "motif": "LiCoO2 | Cr+Fe",
+        "seed_count": 19,
+        "formulas_per_seed_mean": 10.578947368421053,
+        "formulas_per_seed_min": 2,
+        "formulas_per_seed_max": 37,
+        "distinct_formulas_all_seeds": 201,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;52;53;54;55;56;57;58;59;60;61",
+        "rank": 4,
+        "position": 5
+      },
+      {
+        "motif": "LiCoO2 | Cr",
+        "seed_count": 19,
+        "formulas_per_seed_mean": 7.315789473684211,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 19,
+        "distinct_formulas_all_seeds": 85,
+        "seeds_list": "42;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+        "rank": 4,
+        "position": 6
+      },
+      {
+        "motif": "LiCoO2 | Al+Cr+Mg",
+        "seed_count": 18,
+        "formulas_per_seed_mean": 6.833333333333333,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 46,
+        "distinct_formulas_all_seeds": 123,
+        "seeds_list": "42;43;44;45;47;48;49;50;51;52;53;54;56;57;58;59;60;61",
+        "rank": 7,
+        "position": 7
+      },
+      {
+        "motif": "Li2MnO3 | Co",
+        "seed_count": 18,
+        "formulas_per_seed_mean": 1.0,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 1,
+        "distinct_formulas_all_seeds": 1,
+        "seeds_list": "43;44;45;46;47;48;49;50;52;53;54;55;56;57;58;59;60;61",
+        "rank": 7,
+        "position": 8
+      },
+      {
+        "motif": "LiCoO2 | Cr+Mg",
+        "seed_count": 17,
+        "formulas_per_seed_mean": 3.3529411764705883,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 7,
+        "distinct_formulas_all_seeds": 55,
+        "seeds_list": "42;44;45;46;47;48;49;50;52;53;54;55;56;57;58;59;61",
+        "rank": 9,
+        "position": 9
+      },
+      {
+        "motif": "NMC-622 | Cr+Mg",
+        "seed_count": 17,
+        "formulas_per_seed_mean": 3.235294117647059,
+        "formulas_per_seed_min": 1,
+        "formulas_per_seed_max": 8,
+        "distinct_formulas_all_seeds": 55,
+        "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;57;58;60;61",
+        "rank": 9,
+        "position": 10
+      }
+    ],
+    "target": {
+      "motif": "Li2MnO3 | Cr+F",
+      "seed_count": 20,
+      "formulas_per_seed_mean": 42.25,
+      "formulas_per_seed_min": 28,
+      "formulas_per_seed_max": 75,
+      "distinct_formulas_all_seeds": 774,
+      "seeds_list": "42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61",
+      "rank": 1,
+      "position": 2
+    },
+    "n_motifs_10plus_seeds": 46,
+    "n_motifs_20_seeds": 3
+  }
+}

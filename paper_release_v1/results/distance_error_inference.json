@@ -1,0 +1,11 @@
+{
+  "n_canonical_compositions": 171,
+  "spearman_rho": 0.13008375932992536,
+  "rho_bootstrap_ci95": [
+    -0.026057693815066705,
+    0.28638529348810715
+  ],
+  "formula_label_permutation_p_two_sided": 0.08975910240897592,
+  "bootstrap_repetitions": 10000,
+  "permutation_repetitions": 100000
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Composition-Level Prioritization of Lithium-Ion Cathode Candidates: code and data",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Analysis code, processed data, fitted CatBoost surrogate and numerical outputs for the study <em>Composition-Level Prioritization of Lithium-Ion Cathode Candidates</em> (Wang, Millner, Wang, Zhou and Chen; manuscript submitted).</p><p>The package contains the composition-aware data pipeline (canonical composition identities, cross-validation folds, composition and test-context features), model validation from record-level to composition-, context- and family-level holdout, the matched 20-seed elitist NSGA-II and random search with all saved candidate pools and TopK tables, the G1–G4 chemistry screens with positive-control calibration, candidate recurrence, uncertainty analyses, and Figures 1–5 with their source tables. The folder revision_analyses/ adds the scripts and output tables of the additional analyses carried out after submission (strict redox budgets, counterpart compositions, random-forest re-ranking, literature comparisons, valence-dependent G3, test-condition curves, model-seed robustness and others).</p><p>Licences: source code under MIT (LICENSE); data, model and result files under CC BY 4.0 (LICENSE-DATA). The capacity records were built from the battery materials database of Huang and Cole (Scientific Data 7, 260, 2020; Figshare doi:10.6084/m9.figshare.11888115.v2; CC BY 4.0), which must be cited together with this record.</p>",
+  "creators": [
+    {
+      "name": "Wang, Tzu-Wei",
+      "affiliation": "School of Materials Science and Engineering, Nanyang Technological University, Singapore",
+      "orcid": "0009-0006-1092-3820"
+    },
+    {
+      "name": "Millner, Gerfried",
+      "affiliation": "School of Materials Science and Engineering, Nanyang Technological University, Singapore"
+    },
+    {
+      "name": "Wang, Zhengquan",
+      "affiliation": "Shaanxi Key Laboratory of Biomedical Metallic Materials, Northwest Institute for Non-Ferrous Metal Research, Xi'an, China",
+      "orcid": "0000-0001-6213-8281"
+    },
+    {
+      "name": "Zhou, Wenhao",
+      "affiliation": "Shaanxi Key Laboratory of Biomedical Metallic Materials, Northwest Institute for Non-Ferrous Metal Research, Xi'an, China",
+      "orcid": "0000-0001-7956-9395"
+    },
+    {
+      "name": "Chen, Eason Yi-Sheng",
+      "affiliation": "School of Materials Science and Engineering, Nanyang Technological University, Singapore"
+    }
+  ],
+  "keywords": [
+    "lithium-ion cathode",
+    "canonical composition",
+    "leakage-resistant validation",
+    "NSGA-II",
+    "positive control",
+    "candidate recurrence",
+    "battery informatics",
+    "CatBoost"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wangtzuwei/li-cathode-composition-prioritization",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.11888115.v2",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1038/s41597-020-00602-2",
+      "relation": "references",
+      "resource_type": "publication-datapaper",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1063/1.4812323",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Supplement to the manuscript 'Composition-Level Prioritization of Lithium-Ion Cathode Candidates' (submitted). The related-paper DOI will be added when the article is published. Code: MIT. Data: CC BY 4.0 (see LICENSE-DATA). Corresponding authors: Gerfried Millner (gerfried.millner@ntu.edu.sg); Eason Yi-Sheng Chen (eason.chen@ntu.edu.sg)."
+}

@@ -1,0 +1,65 @@
+{
+  "n_new": 19,
+  "n_combined": 49,
+  "not_added": [
+    {
+      "source": "Dong 2015",
+      "DOI": "10.1039/C4TA02924K",
+      "file": "Task B; Task C",
+      "reason": "已在 06b 第 1 項（[64]，x = 0、0.015、0.03、0.045）"
+    },
+    {
+      "source": "Lee 2015",
+      "DOI": "10.1039/C5TA01214G",
+      "file": "Task C",
+      "reason": "已在 06b 第 1 項（primary CSV，x = 0、0.05、0.1、0.2）"
+    },
+    {
+      "source": "Wang 2024",
+      "DOI": "10.1021/acsenergylett.3c02697",
+      "file": "Task C",
+      "reason": "已在 06b 第 1 項（primary CSV，LNMO、F1、F2.5、F5）"
+    },
+    {
+      "source": "Kucuk 2026",
+      "DOI": "10.3390/batteries12040126",
+      "file": "Task C",
+      "reason": "已在 06b 第 1 項（primary CSV，x = 0–0.10）"
+    },
+    {
+      "source": "Fan 2024",
+      "DOI": "10.1021/acsenergylett.3c02509",
+      "file": "Task B",
+      "material": "Cr-doped Li1.2Ni0.2Mn0.6O2（CLNMO，Cr 3%／5%／7%）",
+      "reason": "摻雜樣的完整名義式正文未報告（CSV 註明 SI 未取得）"
+    },
+    {
+      "source": "Hua 2019",
+      "DOI": "10.1038/s41467-019-13240-z",
+      "file": "Task C",
+      "material": "LixNi0.2Mn0.6Oy",
+      "reason": "x、y 未給定"
+    },
+    {
+      "source": "Myeong 2018",
+      "DOI": "10.1038/s41467-018-05802-4",
+      "file": "Task C",
+      "material": "Li1+xNiyCozMn1−x−y−zO2（有序／失序對照）",
+      "reason": "x、y、z 未給定"
+    },
+    {
+      "source": "Moździerz 2025",
+      "DOI": "10.1002/aenm.202502157",
+      "file": "Task C",
+      "material": "LCT-HE（多陽離子置換）",
+      "reason": "CSV 未寫化學式"
+    },
+    {
+      "source": "Huang 2021（[65]）",
+      "DOI": "10.1007/s10853-021-05922-1",
+      "file": "06b",
+      "material": "Cr/F 共摻 Li1.2Ni0.13Co0.13Mn0.54O2",
+      "reason": "仍查不到共摻樣品的化學式（同 06b）"
+    }
+  ]
+}

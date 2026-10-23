@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-filters.ipynb",
+    "size_bytes": 477077,
+    "sha256": "96a55526e33e528f1b0e7cb6a43bf841a1f28b2f267370010550d58b4d266ab0"
+  },
+  {
+    "file": "02-random_screened.csv",
+    "size_bytes": 143222,
+    "sha256": "7131453451d5fde842565e7bfcfab9cc3577060d664b45b1a32d1dd7219bd461"
+  },
+  {
+    "file": "03-prototype_v7_optimizer_topk.csv",
+    "size_bytes": 100940,
+    "sha256": "f5507243583782c54a36ec259f5684c61869a4c36fb4301c1cb1c3de2c2c103c"
+  },
+  {
+    "file": "04-oof_catboost_componly.csv",
+    "size_bytes": 32078,
+    "sha256": "c0aa77b8dec7da89949ae8a367cff7d965f5c32da17d030a1a3f49b333ada048"
+  },
+  {
+    "file": "05-optimizer_final_survivors.csv",
+    "size_bytes": 37992,
+    "sha256": "7cc919ebc72c885678a33e13a14b62247714e1d25ca06aa9edfe66db64b971a2"
+  },
+  {
+    "file": "06-features_componly.csv",
+    "size_bytes": 1315041,
+    "sha256": "9f9ec361a074e72be0cb76a16b030c6315264e394a2fbac45fad72bce71cbc2c"
+  },
+  {
+    "file": "07-SHAP.ipynb",
+    "size_bytes": 408020,
+    "sha256": "7dee28cffa238ba3f249b61a51efb0e3087db7f8a5688b94636db937d3fba906"
+  },
+  {
+    "file": "08-filters_new.ipynb",
+    "size_bytes": 34513,
+    "sha256": "3e3ccd201dd6bb7608f5ca7008387b9a3fbf574311128423302333c5a83986ec"
+  },
+  {
+    "file": "09-generator.ipynb",
+    "size_bytes": 471198,
+    "sha256": "a863e7a400b224a355eb678ed1397785796d95a6ec5951663b036b2b6d630137"
+  },
+  {
+    "file": "10-prototype_v7_random_topk.csv",
+    "size_bytes": 68664,
+    "sha256": "a10a2daf29deaaa3bc411d5071eaed2accb72c6b197ccf42ea3b4061c0aab22d"
+  },
+  {
+    "file": "11-prototype_v7_random_candidates.csv",
+    "size_bytes": 1432009,
+    "sha256": "ce9eaf34449d34cb471f352821aac9d12c8c48c86dbc6bcb8993dd32c119ed2c"
+  },
+  {
+    "file": "12-waterfall_stages.csv",
+    "size_bytes": 190,
+    "sha256": "7bd56a9493fc9a4d7e33a3dcfa7820ebd9c5271eecae96278693376c559d20e7"
+  },
+  {
+    "file": "13-preprocess_pipeline.ipynb",
+    "size_bytes": 299625,
+    "sha256": "0f29f94b2be6945bf06edcafe86cf1e784383abdc219d727da59c4f071443c30"
+  },
+  {
+    "file": "14-final.csv",
+    "size_bytes": 160885,
+    "sha256": "e365935f76e858d59ebcc6314976bc49a2238e3b4c2c26f761a9671555f33fdb"
+  },
+  {
+    "file": "15-model.ipynb",
+    "size_bytes": 577859,
+    "sha256": "f8b5e690764f5d6dcbb658bc905038050cce5dbb60e7082cbcae375af19c6752"
+  },
+  {
+    "file": "16-optimizer_screened.csv",
+    "size_bytes": 183147,
+    "sha256": "8005387c3d31cd2a9fc9337f449a1e77ef93b4e8eb8c2a772dd672b49cd1f863"
+  }
+]

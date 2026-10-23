@@ -1,0 +1,359 @@
+{
+  "scenarios": {
+    "exclude_Vhigh_ge_4.8": {
+      "n_dropped": 33,
+      "n_train": 874,
+      "dropped": [
+        {
+          "row_id": 41,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 164.6,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 43,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 172.3,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 44,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 177.8,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 50,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 186.7,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 42,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 189.3,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 49,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 213.7,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 48,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 223.3,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 47,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 259.3,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 40,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 271.9,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 46,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 276.9,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 39,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 280.8,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 45,
+          "formula_raw": "Li1.14Mn0.48Ni0.19Co0.19O2",
+          "Value": 303.4,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.nanoen.2016.01.014"
+        },
+        {
+          "row_id": 110,
+          "formula_raw": "Li1.231Mn0.525Ni0.154Co0.12O2",
+          "Value": 180.7,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4RA11894D"
+        },
+        {
+          "row_id": 109,
+          "formula_raw": "Li1.231Mn0.525Ni0.154Co0.12O2",
+          "Value": 189.0,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4RA11894D"
+        },
+        {
+          "row_id": 108,
+          "formula_raw": "Li1.231Mn0.525Ni0.154Co0.12O2",
+          "Value": 204.6,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4RA11894D"
+        },
+        {
+          "row_id": 107,
+          "formula_raw": "Li1.231Mn0.525Ni0.154Co0.12O2",
+          "Value": 239.2,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4RA11894D"
+        },
+        {
+          "row_id": 106,
+          "formula_raw": "Li1.231Mn0.525Ni0.154Co0.12O2",
+          "Value": 266.6,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4RA11894D"
+        },
+        {
+          "row_id": 105,
+          "formula_raw": "Li1.231Mn0.525Ni0.154Co0.12O2",
+          "Value": 280.7,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4RA11894D"
+        },
+        {
+          "row_id": 8,
+          "formula_raw": "Li1.2Ni0.18Mn0.58Co0.04O2",
+          "Value": 161.4,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4TA01217H"
+        },
+        {
+          "row_id": 6,
+          "formula_raw": "Li1.2Ni0.18Mn0.58Co0.04O2",
+          "Value": 288.3,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4TA01217H"
+        },
+        {
+          "row_id": 2,
+          "formula_raw": "Li1.2Ni0.18Mn0.58Co0.04O2",
+          "Value": 338.0,
+          "V_high": "4.8",
+          "DOI": "10.1039/C4TA01217H"
+        },
+        {
+          "row_id": 37,
+          "formula_raw": "Li1.2Mn0.5Co0.25Ni0.05O2",
+          "Value": 68.0,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.jpowsour.2014.02.011"
+        },
+        {
+          "row_id": 38,
+          "formula_raw": "Li1.2Mn0.5Co0.25Ni0.05O2",
+          "Value": 158.1,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.jpowsour.2014.02.011"
+        },
+        {
+          "row_id": 36,
+          "formula_raw": "Li1.2Mn0.5Co0.25Ni0.05O2",
+          "Value": 190.9,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.jpowsour.2014.02.011"
+        },
+        {
+          "row_id": 35,
+          "formula_raw": "Li1.2Mn0.5Co0.25Ni0.05O2",
+          "Value": 259.4,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.jpowsour.2014.02.011"
+        },
+        {
+          "row_id": 343,
+          "formula_raw": "Li1.2Ni0.2Mn0.6O2",
+          "Value": 153.7,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.jpowsour.2016.09.028"
+        },
+        {
+          "row_id": 395,
+          "formula_raw": "LiCo0.94Cr0.04PO4",
+          "Value": 91.0,
+          "V_high": "5.0",
+          "DOI": "10.1016/j.jssc.2017.08.039"
+        },
+        {
+          "row_id": 397,
+          "formula_raw": "LiCo0.94Cr0.04PO4",
+          "Value": 102.0,
+          "V_high": "5.0",
+          "DOI": "10.1016/j.jssc.2017.08.039"
+        },
+        {
+          "row_id": 394,
+          "formula_raw": "LiCo0.94Cr0.04PO4",
+          "Value": 107.0,
+          "V_high": "5.0",
+          "DOI": "10.1016/j.jssc.2017.08.039"
+        },
+        {
+          "row_id": 393,
+          "formula_raw": "LiCo0.94Cr0.04PO4",
+          "Value": 122.0,
+          "V_high": "5.0",
+          "DOI": "10.1016/j.jssc.2017.08.039"
+        },
+        {
+          "row_id": 392,
+          "formula_raw": "LiCo0.94Cr0.04PO4",
+          "Value": 144.0,
+          "V_high": "5.0",
+          "DOI": "10.1016/j.jssc.2017.08.039"
+        },
+        {
+          "row_id": 337,
+          "formula_raw": "Li3V1.5Cr0.5(PO4)3",
+          "Value": 96.4,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.electacta.2009.05.041"
+        },
+        {
+          "row_id": 336,
+          "formula_raw": "Li3V1.5Cr0.5(PO4)3",
+          "Value": 154.9,
+          "V_high": "4.8",
+          "DOI": "10.1016/j.electacta.2009.05.041"
+        }
+      ]
+    },
+    "exclude_Vhigh_lt_4.6": {
+      "n_dropped": 10,
+      "n_train": 897,
+      "dropped": [
+        {
+          "row_id": 900,
+          "formula_raw": "LiFe0.995Cr0.005BO3",
+          "Value": 91.8,
+          "V_high": "4.5",
+          "DOI": "10.1039/C7RA03028B"
+        },
+        {
+          "row_id": 899,
+          "formula_raw": "LiFe0.995Cr0.005BO3",
+          "Value": 153.8,
+          "V_high": "4.5",
+          "DOI": "10.1039/C7RA03028B"
+        },
+        {
+          "row_id": 898,
+          "formula_raw": "LiFe0.995Cr0.005BO3",
+          "Value": 161.9,
+          "V_high": "4.5",
+          "DOI": "10.1039/C7RA03028B"
+        },
+        {
+          "row_id": 897,
+          "formula_raw": "LiFe0.995Cr0.005BO3",
+          "Value": 180.0,
+          "V_high": "4.5",
+          "DOI": "10.1039/C7RA03028B"
+        },
+        {
+          "row_id": 896,
+          "formula_raw": "LiFe0.995Cr0.005BO3",
+          "Value": 196.3,
+          "V_high": "4.5",
+          "DOI": "10.1039/C7RA03028B"
+        },
+        {
+          "row_id": 906,
+          "formula_raw": "LiFe0.992Cr0.008BO3",
+          "Value": 178.2,
+          "V_high": "4.5",
+          "DOI": "10.1039/C7RA03028B"
+        },
+        {
+          "row_id": 583,
+          "formula_raw": "LiMn2O3.95F0.05",
+          "Value": 86.2,
+          "V_high": "4.35",
+          "DOI": "10.1016/j.apsusc.2013.09.044"
+        },
+        {
+          "row_id": 582,
+          "formula_raw": "LiMn2O3.95F0.05",
+          "Value": 90.2,
+          "V_high": "4.35",
+          "DOI": "10.1016/j.apsusc.2013.09.044"
+        },
+        {
+          "row_id": 581,
+          "formula_raw": "LiMn2O3.95F0.05",
+          "Value": 96.2,
+          "V_high": "4.35",
+          "DOI": "10.1016/j.apsusc.2013.09.044"
+        },
+        {
+          "row_id": 580,
+          "formula_raw": "LiMn2O3.95F0.05",
+          "Value": 121.9,
+          "V_high": "4.35",
+          "DOI": "10.1016/j.apsusc.2013.09.044"
+        }
+      ]
+    }
+  },
+  "candidate_rank": {
+    "exclude_Vhigh_ge_4.8": {
+      "saved_order": [
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135"
+      ],
+      "retrained_order": [
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135"
+      ]
+    },
+    "exclude_Vhigh_lt_4.6": {
+      "saved_order": [
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135"
+      ],
+      "retrained_order": [
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ]
+    }
+  }
+}

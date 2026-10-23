@@ -1,0 +1,58 @@
+{
+  "top_seed_candidate": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+  "top_seed_count": 20,
+  "rates": [
+    0.05,
+    0.0834,
+    0.1391,
+    0.2321,
+    0.3871,
+    0.6458,
+    1.0772,
+    1.7969,
+    2.9974,
+    5.0
+  ],
+  "cycles": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    13,
+    22,
+    36,
+    60,
+    100
+  ],
+  "prediction_clip": [
+    16.439,
+    301.0680000000001
+  ],
+  "above_all_three_counts": [
+    {
+      "sweep": "C-rate",
+      "focus": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "sum": 10,
+      "size": 10
+    },
+    {
+      "sweep": "C-rate",
+      "focus": "Li2Mn0.7Cr0.3O2.865F0.135",
+      "sum": 10,
+      "size": 10
+    },
+    {
+      "sweep": "cycle",
+      "focus": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "sum": 10,
+      "size": 10
+    },
+    {
+      "sweep": "cycle",
+      "focus": "Li2Mn0.7Cr0.3O2.865F0.135",
+      "sum": 10,
+      "size": 10
+    }
+  ]
+}

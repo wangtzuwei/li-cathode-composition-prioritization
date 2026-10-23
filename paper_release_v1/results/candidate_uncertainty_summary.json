@@ -1,0 +1,69 @@
+{
+  "model_bootstrap_repetitions": 100,
+  "model_bootstrap_unit": "canonical_composition",
+  "model_prediction_context": {
+    "temperature_K": 298.15,
+    "current_rate_C": 0.5,
+    "cycle": 1
+  },
+  "context_grid": {
+    "temperature_K": [
+      298.15
+    ],
+    "current_rate_C": [
+      0.1,
+      0.5,
+      1.0,
+      5.0
+    ],
+    "cycle": [
+      1,
+      50,
+      100,
+      200
+    ]
+  },
+  "candidate_union_n": 9815,
+  "primary_consensus_n": 7,
+  "threshold_robust_reference_n": 7,
+  "consensus_model_interval_width_range": [
+    47.81376335754237,
+    57.43762450583114
+  ],
+  "consensus_context_minimum_range": [
+    119.46743892795749,
+    125.43307387198954
+  ],
+  "training_support_for_elements_in_consensus": [
+    {
+      "element": "F",
+      "training_canonical_compositions": 4,
+      "training_records": 16,
+      "candidate_union_compositions": 1437
+    },
+    {
+      "element": "Cr",
+      "training_canonical_compositions": 8,
+      "training_records": 23,
+      "candidate_union_compositions": 9258
+    },
+    {
+      "element": "Mn",
+      "training_canonical_compositions": 103,
+      "training_records": 486,
+      "candidate_union_compositions": 4254
+    },
+    {
+      "element": "O",
+      "training_canonical_compositions": 170,
+      "training_records": 905,
+      "candidate_union_compositions": 9815
+    },
+    {
+      "element": "Li",
+      "training_canonical_compositions": 171,
+      "training_records": 907,
+      "candidate_union_compositions": 9815
+    }
+  ]
+}

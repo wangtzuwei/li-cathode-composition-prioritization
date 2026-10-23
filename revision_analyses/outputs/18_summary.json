@@ -1,0 +1,10 @@
+{
+  "Cr_relative_mismatch_vs_Li2MnO3_host": 0.16037735849056597,
+  "Mn_relative_mismatch": 0.0,
+  "layered_P95": 0.0659489882206248,
+  "pooled_P95": 0.10867468190417125,
+  "x_crossing_layered_P95": 0.1690947647603243,
+  "x_crossing_pooled_P95": 0.45916697359040326,
+  "first_grid_x_above_layered_P95": 0.2,
+  "first_grid_x_above_pooled_P95": 0.5
+}

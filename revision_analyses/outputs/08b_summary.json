@@ -1,0 +1,22 @@
+{
+  "n_samples": 31,
+  "n_in_training": 2,
+  "in_training": [
+    {
+      "paper": "Lee",
+      "sample": "Cr-0",
+      "Formula": "Li1.2Ni0.2Mn0.6O2"
+    },
+    {
+      "paper": "Wang",
+      "sample": "LNMO",
+      "Formula": "Li1.2Ni0.2Mn0.6O2"
+    }
+  ],
+  "pang_cr_substituted_in_training": false,
+  "v1_pairs_identical_to_08": true,
+  "prediction_clip": [
+    16.439,
+    301.0680000000001
+  ]
+}

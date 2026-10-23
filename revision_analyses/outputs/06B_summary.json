@@ -1,0 +1,379 @@
+{
+  "settings": {
+    "iterations": 500,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3.0,
+    "loss_function": "RMSE",
+    "random_seed": 42,
+    "allow_writing_files": false,
+    "verbose": false,
+    "thread_count": 4,
+    "training_table": "saved data/features_composition_context.csv + clean_rows Value",
+    "prediction_context": "298.15 K, 0.5 C, cycle 1 (unclipped model output)"
+  },
+  "baseline_check": {
+    "max_abs_diff_vs_saved_model": 0.0,
+    "identical": true,
+    "prediction_clip": [
+      16.439,
+      301.0680000000001
+    ]
+  },
+  "scenarios": [
+    {
+      "scenario": "baseline_all_data",
+      "label": "全部資料（檢查用）",
+      "dropped_keys": [],
+      "n_records_dropped": 0,
+      "n_records_train": 907
+    },
+    {
+      "scenario": "drop_Li1Cr0.005Fe0.995B1O3",
+      "label": "去掉 Li1Cr0.005Fe0.995B1O3",
+      "dropped_keys": [
+        "B:0.16666667|Cr:0.00083333|Fe:0.16583333|Li:0.16666667|O:0.50000000"
+      ],
+      "n_records_dropped": 5,
+      "n_records_train": 902
+    },
+    {
+      "scenario": "drop_Li1Cr0.008Fe0.992B1O3",
+      "label": "去掉 Li1Cr0.008Fe0.992B1O3",
+      "dropped_keys": [
+        "B:0.16666667|Cr:0.00133333|Fe:0.16533333|Li:0.16666667|O:0.50000000"
+      ],
+      "n_records_dropped": 1,
+      "n_records_train": 906
+    },
+    {
+      "scenario": "drop_Li1Cr0.04Co0.94P1O4",
+      "label": "去掉 Li1Cr0.04Co0.94P1O4",
+      "dropped_keys": [
+        "Co:0.13467049|Cr:0.00573066|Li:0.14326648|O:0.57306590|P:0.14326648"
+      ],
+      "n_records_dropped": 5,
+      "n_records_train": 902
+    },
+    {
+      "scenario": "drop_Li2Mn0.94Cr0.06Si1O4",
+      "label": "去掉 Li2Mn0.94Cr0.06Si1O4",
+      "dropped_keys": [
+        "Cr:0.00750000|Li:0.25000000|Mn:0.11750000|O:0.50000000|Si:0.12500000"
+      ],
+      "n_records_dropped": 2,
+      "n_records_train": 905
+    },
+    {
+      "scenario": "drop_Li3V1.5Cr0.5P3O12",
+      "label": "去掉 Li3V1.5Cr0.5P3O12",
+      "dropped_keys": [
+        "Cr:0.02500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.07500000"
+      ],
+      "n_records_dropped": 2,
+      "n_records_train": 905
+    },
+    {
+      "scenario": "drop_Li3V1.8Cr0.2P3O12",
+      "label": "去掉 Li3V1.8Cr0.2P3O12",
+      "dropped_keys": [
+        "Cr:0.01000000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09000000"
+      ],
+      "n_records_dropped": 2,
+      "n_records_train": 905
+    },
+    {
+      "scenario": "drop_Li3V1.95Cr0.05P3O12",
+      "label": "去掉 Li3V1.95Cr0.05P3O12",
+      "dropped_keys": [
+        "Cr:0.00250000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09750000"
+      ],
+      "n_records_dropped": 1,
+      "n_records_train": 906
+    },
+    {
+      "scenario": "drop_Li3V1.9Cr0.1P3O12",
+      "label": "去掉 Li3V1.9Cr0.1P3O12",
+      "dropped_keys": [
+        "Cr:0.00500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09500000"
+      ],
+      "n_records_dropped": 5,
+      "n_records_train": 902
+    },
+    {
+      "scenario": "drop_Li1Mn2O3.95F0.05",
+      "label": "去掉 Li1Mn2O3.95F0.05",
+      "dropped_keys": [
+        "F:0.00714286|Li:0.14285714|Mn:0.28571429|O:0.56428571"
+      ],
+      "n_records_dropped": 4,
+      "n_records_train": 903
+    },
+    {
+      "scenario": "drop_Li2Mn1O2.903F0.045",
+      "label": "去掉 Li2Mn1O2.903F0.045",
+      "dropped_keys": [
+        "F:0.00756557|Li:0.33624748|Mn:0.16812374|O:0.48806321"
+      ],
+      "n_records_dropped": 4,
+      "n_records_train": 903
+    },
+    {
+      "scenario": "drop_Li2Mn1O2.9145F0.03",
+      "label": "去掉 Li2Mn1O2.9145F0.03",
+      "dropped_keys": [
+        "F:0.00504668|Li:0.33644545|Mn:0.16822273|O:0.49028514"
+      ],
+      "n_records_dropped": 6,
+      "n_records_train": 901
+    },
+    {
+      "scenario": "drop_Li2Mn1O2.939F0.015",
+      "label": "去掉 Li2Mn1O2.939F0.015",
+      "dropped_keys": [
+        "F:0.00251931|Li:0.33590863|Mn:0.16795432|O:0.49361774"
+      ],
+      "n_records_dropped": 2,
+      "n_records_train": 905
+    },
+    {
+      "scenario": "drop_all_Cr",
+      "label": "去掉 8 個含 Cr 組成",
+      "dropped_keys": [
+        "B:0.16666667|Cr:0.00083333|Fe:0.16583333|Li:0.16666667|O:0.50000000",
+        "B:0.16666667|Cr:0.00133333|Fe:0.16533333|Li:0.16666667|O:0.50000000",
+        "Co:0.13467049|Cr:0.00573066|Li:0.14326648|O:0.57306590|P:0.14326648",
+        "Cr:0.00750000|Li:0.25000000|Mn:0.11750000|O:0.50000000|Si:0.12500000",
+        "Cr:0.02500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.07500000",
+        "Cr:0.01000000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09000000",
+        "Cr:0.00250000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09750000",
+        "Cr:0.00500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09500000"
+      ],
+      "n_records_dropped": 23,
+      "n_records_train": 884
+    },
+    {
+      "scenario": "drop_all_F",
+      "label": "去掉 4 個含 F 組成",
+      "dropped_keys": [
+        "F:0.00714286|Li:0.14285714|Mn:0.28571429|O:0.56428571",
+        "F:0.00756557|Li:0.33624748|Mn:0.16812374|O:0.48806321",
+        "F:0.00504668|Li:0.33644545|Mn:0.16822273|O:0.49028514",
+        "F:0.00251931|Li:0.33590863|Mn:0.16795432|O:0.49361774"
+      ],
+      "n_records_dropped": 16,
+      "n_records_train": 891
+    }
+  ],
+  "crf_compositions": [
+    {
+      "canonical_key": "B:0.16666667|Cr:0.00083333|Fe:0.16583333|Li:0.16666667|O:0.50000000",
+      "formula": "Li1Cr0.005Fe0.995B1O3",
+      "n_records": 5,
+      "median": 161.9,
+      "min": 91.8,
+      "max": 196.3,
+      "proto_name": NaN,
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "B:0.16666667|Cr:0.00133333|Fe:0.16533333|Li:0.16666667|O:0.50000000",
+      "formula": "Li1Cr0.008Fe0.992B1O3",
+      "n_records": 1,
+      "median": 178.2,
+      "min": 178.2,
+      "max": 178.2,
+      "proto_name": NaN,
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "Co:0.13467049|Cr:0.00573066|Li:0.14326648|O:0.57306590|P:0.14326648",
+      "formula": "Li1Cr0.04Co0.94P1O4",
+      "n_records": 5,
+      "median": 107.0,
+      "min": 91.0,
+      "max": 144.0,
+      "proto_name": "LiFePO4",
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "Cr:0.00750000|Li:0.25000000|Mn:0.11750000|O:0.50000000|Si:0.12500000",
+      "formula": "Li2Mn0.94Cr0.06Si1O4",
+      "n_records": 2,
+      "median": 276.5,
+      "min": 247.0,
+      "max": 306.0,
+      "proto_name": NaN,
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "Cr:0.02500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.07500000",
+      "formula": "Li3V1.5Cr0.5P3O12",
+      "n_records": 2,
+      "median": 125.65,
+      "min": 96.4,
+      "max": 154.9,
+      "proto_name": NaN,
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "Cr:0.01000000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09000000",
+      "formula": "Li3V1.8Cr0.2P3O12",
+      "n_records": 2,
+      "median": 130.7,
+      "min": 96.4,
+      "max": 165.0,
+      "proto_name": NaN,
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "Cr:0.00250000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09750000",
+      "formula": "Li3V1.95Cr0.05P3O12",
+      "n_records": 1,
+      "median": 111.8,
+      "min": 111.8,
+      "max": 111.8,
+      "proto_name": NaN,
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "Cr:0.00500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09500000",
+      "formula": "Li3V1.9Cr0.1P3O12",
+      "n_records": 5,
+      "median": 116.1,
+      "min": 115.3,
+      "max": 171.4,
+      "proto_name": NaN,
+      "has_Cr": true,
+      "has_F": false
+    },
+    {
+      "canonical_key": "F:0.00714286|Li:0.14285714|Mn:0.28571429|O:0.56428571",
+      "formula": "Li1Mn2O3.95F0.05",
+      "n_records": 4,
+      "median": 93.2,
+      "min": 86.2,
+      "max": 121.9,
+      "proto_name": "LiMn2O4",
+      "has_Cr": false,
+      "has_F": true
+    },
+    {
+      "canonical_key": "F:0.00756557|Li:0.33624748|Mn:0.16812374|O:0.48806321",
+      "formula": "Li2Mn1O2.903F0.045",
+      "n_records": 4,
+      "median": 172.0,
+      "min": 125.0,
+      "max": 258.0,
+      "proto_name": "Li2MnO3",
+      "has_Cr": false,
+      "has_F": true
+    },
+    {
+      "canonical_key": "F:0.00504668|Li:0.33644545|Mn:0.16822273|O:0.49028514",
+      "formula": "Li2Mn1O2.9145F0.03",
+      "n_records": 6,
+      "median": 191.5,
+      "min": 115.0,
+      "max": 299.0,
+      "proto_name": "Li2MnO3",
+      "has_Cr": false,
+      "has_F": true
+    },
+    {
+      "canonical_key": "F:0.00251931|Li:0.33590863|Mn:0.16795432|O:0.49361774",
+      "formula": "Li2Mn1O2.939F0.015",
+      "n_records": 2,
+      "median": 168.5,
+      "min": 96.0,
+      "max": 241.0,
+      "proto_name": "Li2MnO3",
+      "has_Cr": false,
+      "has_F": true
+    }
+  ],
+  "li2mno3_by_scenario": [
+    {
+      "scenario": "baseline_all_data",
+      "pred_unclipped": 146.9743417674126,
+      "change_vs_baseline": 0.0
+    },
+    {
+      "scenario": "drop_Li1Cr0.005Fe0.995B1O3",
+      "pred_unclipped": 143.8123092144148,
+      "change_vs_baseline": -3.1620325529978004
+    },
+    {
+      "scenario": "drop_Li1Cr0.008Fe0.992B1O3",
+      "pred_unclipped": 144.81920511267387,
+      "change_vs_baseline": -2.155136654738726
+    },
+    {
+      "scenario": "drop_Li1Cr0.04Co0.94P1O4",
+      "pred_unclipped": 144.54295391391616,
+      "change_vs_baseline": -2.4313878534964317
+    },
+    {
+      "scenario": "drop_Li2Mn0.94Cr0.06Si1O4",
+      "pred_unclipped": 150.69540040795818,
+      "change_vs_baseline": 3.7210586405455786
+    },
+    {
+      "scenario": "drop_Li3V1.5Cr0.5P3O12",
+      "pred_unclipped": 143.62445536401276,
+      "change_vs_baseline": -3.349886403399836
+    },
+    {
+      "scenario": "drop_Li3V1.8Cr0.2P3O12",
+      "pred_unclipped": 143.3907326582241,
+      "change_vs_baseline": -3.583609109188501
+    },
+    {
+      "scenario": "drop_Li3V1.95Cr0.05P3O12",
+      "pred_unclipped": 145.4791447349303,
+      "change_vs_baseline": -1.4951970324823094
+    },
+    {
+      "scenario": "drop_Li3V1.9Cr0.1P3O12",
+      "pred_unclipped": 147.47199432974057,
+      "change_vs_baseline": 0.4976525623279713
+    },
+    {
+      "scenario": "drop_Li1Mn2O3.95F0.05",
+      "pred_unclipped": 148.54522226224486,
+      "change_vs_baseline": 1.5708804948322665
+    },
+    {
+      "scenario": "drop_Li2Mn1O2.903F0.045",
+      "pred_unclipped": 141.46840353569368,
+      "change_vs_baseline": -5.505938231718915
+    },
+    {
+      "scenario": "drop_Li2Mn1O2.9145F0.03",
+      "pred_unclipped": 153.38616849393887,
+      "change_vs_baseline": 6.411826726526272
+    },
+    {
+      "scenario": "drop_Li2Mn1O2.939F0.015",
+      "pred_unclipped": 143.1756016610155,
+      "change_vs_baseline": -3.798740106397105
+    },
+    {
+      "scenario": "drop_all_Cr",
+      "pred_unclipped": 145.69363204063214,
+      "change_vs_baseline": -1.280709726780458
+    },
+    {
+      "scenario": "drop_all_F",
+      "pred_unclipped": 146.20814413316813,
+      "change_vs_baseline": -0.7661976342444632
+    }
+  ]
+}

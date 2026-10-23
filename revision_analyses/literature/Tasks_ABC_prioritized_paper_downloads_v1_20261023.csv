@@ -1,0 +1,21 @@
+﻿下載優先度,DOI,研究/作者,支援任務,請下載內容,下載用途,目前缺口,DOI網址
+P0,10.1021/acs.chemmater.7b02930,Pang et al. 2017,A+B+C,全文PDF+Supporting Information,同篇比較 Cr 與 F 對氧氧化還原、容量及結構的效應；最重要的化學機制／共摻線索,只讀到摘要，主文和SI皆待核對,https://doi.org/10.1021/acs.chemmater.7b02930
+P0,10.1007/s10832-012-9778-4,Kim et al. 2013,A+B,全文PDF+Supporting Information（若有）,純Li2MnO3 Cr 摻雜同條件對照，是檢驗Cr方向最直接的研究,僅見摘要,https://doi.org/10.1007/s10832-012-9778-4
+P0,10.1016/j.jpowsour.2016.02.058,Song et al. 2016,A+C,全文PDF+SI（若有）,F 濃度系列、首圈不可逆容量與原位XAS；有機會直接對照氧活化機制,尚缺可逐組核對的正文,https://doi.org/10.1016/j.jpowsour.2016.02.058
+P0,10.1021/acs.chemmater.3c03138,Giovine et al. 2024,B,全文PDF+Supporting Information,高F含量下 F-ISE/19F ssNMR 與熱處理／球磨的mass balance，評估 F0.135 實際保留,僅取得不完整正文片段,https://doi.org/10.1021/acs.chemmater.3c03138
+P0,10.1149/2.045301jes,Yabuuchi et al. 2013（Li–Cr–Mn）,C,全文PDF+Supporting Information（若有）,"Li[Li,Cr,Mn]O2的Cr配位遷移、充放電與電壓遲滯原始證據",尚未取得可核對的全文,https://doi.org/10.1149/2.045301jes
+P1,10.1021/acsenergylett.3c02697,Wang et al. 2024,A+B+C,Supporting Information PDF，主文PDF建議同時下載,F 梯度、氧活性、spinel–layered成分與容量的直接對照,A已做部分全文抽取，本輪可讀正文索引，但SI仍缺,https://doi.org/10.1021/acsenergylett.3c02697
+P1,10.1021/acsenergylett.3c02509,Fan et al. 2024,B,Supporting Information PDF，主文PDF建議同時下載,Cr 共沉澱前驅物、熱處理、混排與成分判據,B正文已用；需SI,https://doi.org/10.1021/acsenergylett.3c02509
+P1,10.1039/D4RA04925J,Zeng et al. 2024,C,全文PDF,純Li2MnO3−xFx DFT：氧空缺能、氧釋放與Li擴散勢壘，辨別F可能的負面機制,已見原文索引 Results，但直接全文無法成功開啟，未收入嚴格核對C表,https://doi.org/10.1039/D4RA04925J
+P1,10.1016/j.jpowsour.2014.09.082,Lyu et al. LiCrO2,C,全文PDF,Cr氧化態與TM遷移對照材料；留意此類結果不能直接等同Cr3+/Cr6+,未取得可讀全文,https://doi.org/10.1016/j.jpowsour.2014.09.082
+P1,10.1039/D1CC06865B,Liu et al. 2022,B+C,全文PDF+Supporting Information,Li2MnO3-like 首圈操作中氟化與氧逸散；高F名義化學式但氧逸散未受抑制的反例,目前只有摘要與SI連結,https://doi.org/10.1039/D1CC06865B
+P1,10.1016/j.jpowsour.2015.02.085,Li et al. 2015,A+B,全文PDF+Supporting Information（若有）,F濃度系列同篇電化學對照；但Li量同步改變，需檢驗共變因,僅摘要,https://doi.org/10.1016/j.jpowsour.2015.02.085
+P1,10.1021/acsaem.4c00869,NH4F fluorinated LMR 2024,B,全文PDF+Supporting Information,NH4F 熱處理製程、表面/體相 F 判讀及是否保有層狀相,未取得完整SI,https://doi.org/10.1021/acsaem.4c00869
+P1,10.1016/j.ijhydene.2018.04.203,Cr-rich layered cathode 2018,A+B,全文PDF+SI（若有）,高Cr代入量的製程與濃度效應；與目標Mn被Cr替代30%較近,只讀摘要,https://doi.org/10.1016/j.ijhydene.2018.04.203
+P2,10.1007/s42247-018-0014-0,Nisar et al. Cr-series,A,全文PDF+SI（若有）,Cr濃度系列同篇對照；可擴增Task A樣本,只讀摘要,https://doi.org/10.1007/s42247-018-0014-0
+P2,10.1016/j.electacta.2017.08.039,Ramesha et al. Cr/Fe/Co,A,全文PDF+SI（若有）,Li-rich Cr 元素替換的比較，需要拆分實際共變因,只讀摘要,https://doi.org/10.1016/j.electacta.2017.08.039
+P2,10.1016/j.electacta.2013.04.150,Zheng et al. F doped,A,全文PDF+SI（若有）,F濃度系列及匹配pristine control,只讀摘要,https://doi.org/10.1016/j.electacta.2013.04.150
+P2,10.1016/j.partic.2024.09.009,F-rich layered concentration series,A,全文PDF+SI（若有）,F在高倍率下的容量與階段行為,只讀摘要,https://doi.org/10.1016/j.partic.2024.09.009
+P2,10.1016/j.inoche.2024.113857,F-doped PVDF/related route,A+B,全文PDF+SI（若有）,F前驅物和固溶/表面 F 比例,只讀摘要,https://doi.org/10.1016/j.inoche.2024.113857
+P2,10.1039/D4MA01287A,Chambers et al. 2025,B,Supporting Information PDF,體相 F mass-balance、F-ISE及Rietveld 細節補齊,B正文已讀，SI待補,https://doi.org/10.1039/D4MA01287A
+P2,10.1016/j.ensm.2022.05.002,Fluorinated graphene-coated LRMLO,C,全文PDF+SI（若有）,表面氟化／包覆對氧釋放的效果，對比晶格內F替代,只讀摘要，且包覆混雜不能當純取代,https://doi.org/10.1016/j.ensm.2022.05.002

@@ -1,0 +1,13 @@
+proto_name,n,median_exceeds_strict,max_exceeds_strict,prediction_exceeds_strict,original_g4_fail
+LNMO-spinel,7,0,0,0,0
+Li-rich-NMC,17,14,17,14,0
+Li2MnO3,4,4,4,4,0
+LiCoO2,2,0,0,0,0
+LiFePO4,21,1,2,0,1
+LiMn2O4,11,1,2,2,0
+LiMnPO4,29,1,2,0,0
+LiNiO2,7,0,0,0,0
+NCA,1,0,0,0,0
+NMC-532,6,0,0,0,0
+NMC-622,1,0,0,0,0
+NMC-811,6,0,0,0,0

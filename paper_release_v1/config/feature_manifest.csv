@@ -1,0 +1,209 @@
+feature,category,definition,included_composition_only,included_context_model,constant_in_full_data,missing_count
+elemfrac_H,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_He,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Li,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Be,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_B,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_C,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_N,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_O,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_F,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Ne,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Na,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Mg,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Al,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Si,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_P,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_S,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Cl,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Ar,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_K,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Ca,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Sc,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Ti,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_V,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Cr,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Mn,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Fe,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Co,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Ni,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Cu,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Zn,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Ga,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Ge,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_As,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Se,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Br,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Kr,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Rb,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Sr,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Y,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Zr,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Nb,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Mo,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Tc,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Ru,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Rh,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Pd,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Ag,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Cd,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_In,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Sn,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Sb,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Te,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_I,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Xe,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Cs,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Ba,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_La,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Ce,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Pr,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Nd,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Pm,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Sm,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Eu,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Gd,element_fraction,Atomic fraction from canonical parsed formula,True,True,False,0
+elemfrac_Tb,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Dy,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Ho,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Er,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Tm,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Yb,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Lu,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Hf,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Ta,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_W,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Re,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Os,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Ir,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Pt,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Au,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Hg,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Tl,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Pb,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Bi,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Po,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_At,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+elemfrac_Rn,element_fraction,Atomic fraction from canonical parsed formula,True,True,True,0
+Stoich_0_norm,stoichiometry,matminer Stoichiometry descriptor,True,True,False,0
+Stoich_2_norm,stoichiometry,matminer Stoichiometry descriptor,True,True,False,0
+Stoich_3_norm,stoichiometry,matminer Stoichiometry descriptor,True,True,False,0
+Stoich_5_norm,stoichiometry,matminer Stoichiometry descriptor,True,True,False,0
+Stoich_7_norm,stoichiometry,matminer Stoichiometry descriptor,True,True,False,0
+Stoich_10_norm,stoichiometry,matminer Stoichiometry descriptor,True,True,False,0
+Magpie_MagpieData_minimum_Number,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_Number,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_Number,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_Number,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_Number,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_MendeleevNumber,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_MendeleevNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_MendeleevNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_MendeleevNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_MendeleevNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_AtomicWeight,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_AtomicWeight,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_AtomicWeight,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_AtomicWeight,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_AtomicWeight,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_MeltingT,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_maximum_MeltingT,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_MeltingT,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_MeltingT,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_MeltingT,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_Column,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_Column,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_Column,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_Column,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_Column,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_Row,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_Row,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_Row,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_Row,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_Row,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_minimum_CovalentRadius,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_maximum_CovalentRadius,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_CovalentRadius,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_CovalentRadius,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_CovalentRadius,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_Electronegativity,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_maximum_Electronegativity,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_Electronegativity,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_Electronegativity,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_Electronegativity,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_NsValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NsValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_mean_NsValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NsValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NsValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_NpValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NpValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NpValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NpValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NpValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_NdValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NdValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NdValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NdValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NdValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_minimum_NfValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NfValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NfValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NfValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NfValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_minimum_NValence,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NValence,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_NsUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NsUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_mean_NsUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NsUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NsUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_NpUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NpUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NpUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NpUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NpUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_NdUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NdUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NdUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NdUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NdUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_minimum_NfUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_NfUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NfUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NfUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NfUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_minimum_NUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_maximum_NUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_NUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_NUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_NUnfilled,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_GSvolume_pa,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_maximum_GSvolume_pa,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_GSvolume_pa,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_GSvolume_pa,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_GSvolume_pa,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_minimum_GSbandgap,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_GSbandgap,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_GSbandgap,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_GSbandgap,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_GSbandgap,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_minimum_GSmagmom,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_maximum_GSmagmom,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mean_GSmagmom,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_GSmagmom,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_GSmagmom,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_minimum_SpaceGroupNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_maximum_SpaceGroupNumber,magpie,matminer Magpie ElementProperty statistic,True,True,True,0
+Magpie_MagpieData_mean_SpaceGroupNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_avg_dev_SpaceGroupNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+Magpie_MagpieData_mode_SpaceGroupNumber,magpie,matminer Magpie ElementProperty statistic,True,True,False,0
+anion_fraction_sum,composition_engineered,Composition/curation-derived scalar,True,True,False,0
+tm_site_fraction_sum,composition_engineered,Composition/curation-derived scalar,True,True,False,0
+temperature_K,measurement_context,Recorded electrochemical test context,False,True,False,0
+log1p_current_rate_C,measurement_context,Recorded electrochemical test context,False,True,False,0
+log1p_cycle_number,measurement_context,Recorded electrochemical test context,False,True,False,0
+log1p_current_rate_x_cycle,measurement_context,Recorded electrochemical test context,False,True,False,0

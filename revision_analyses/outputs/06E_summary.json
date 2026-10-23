@@ -1,0 +1,353 @@
+{
+  "pooled_p95_saved": 0.10867468190417125,
+  "pooled_p90_saved": 0.1016949152542372,
+  "thresholds": [
+    {
+      "level": "template",
+      "name": "LNMO-spinel",
+      "n_reached_g3": 7,
+      "n_controls": 7,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0596878099515928,
+      "median": 0.0609791097945247,
+      "max": 0.0614035087719297
+    },
+    {
+      "level": "template",
+      "name": "Li-rich-NMC",
+      "n_reached_g3": 13,
+      "n_controls": 17,
+      "P90": 0.02689987637718428,
+      "P95": 0.02690000014465106,
+      "min": 0.0180792816571913,
+      "median": 0.0236971923927217,
+      "max": 0.0269001203810279
+    },
+    {
+      "level": "template",
+      "name": "Li2MnO3",
+      "n_reached_g3": 4,
+      "n_controls": 4,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 0.0
+    },
+    {
+      "level": "template",
+      "name": "LiCoO2",
+      "n_reached_g3": 2,
+      "n_controls": 2,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0,
+      "median": 0.0030771577672015,
+      "max": 0.006154315534403
+    },
+    {
+      "level": "template",
+      "name": "LiFePO4",
+      "n_reached_g3": 21,
+      "n_controls": 21,
+      "P90": 0.0453273577683683,
+      "P95": 0.0458150100782014,
+      "min": 0.0,
+      "median": 0.0022205779584216,
+      "max": 0.054468322528841
+    },
+    {
+      "level": "template",
+      "name": "LiMn2O4",
+      "n_reached_g3": 11,
+      "n_controls": 11,
+      "P90": 0.1200581588452636,
+      "P95": 0.13767257188569354,
+      "min": 0.1016949152542372,
+      "median": 0.1081629528110981,
+      "max": 0.1552869849261235
+    },
+    {
+      "level": "template",
+      "name": "LiMnPO4",
+      "n_reached_g3": 29,
+      "n_controls": 29,
+      "P90": 0.07471499298509672,
+      "P95": 0.0885254853673323,
+      "min": 0.0,
+      "median": 0.0296346358463827,
+      "max": 0.118676227743805
+    },
+    {
+      "level": "template",
+      "name": "LiNiO2",
+      "n_reached_g3": 7,
+      "n_controls": 7,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0,
+      "median": 0.0080357142857142,
+      "max": 0.0169407731794734
+    },
+    {
+      "level": "template",
+      "name": "NCA",
+      "n_reached_g3": 1,
+      "n_controls": 1,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0268942275732558,
+      "median": 0.0268942275732558,
+      "max": 0.0268942275732558
+    },
+    {
+      "level": "template",
+      "name": "NMC-532",
+      "n_reached_g3": 6,
+      "n_controls": 6,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0579897588235934,
+      "median": 0.06427958798574199,
+      "max": 0.0715686522451352
+    },
+    {
+      "level": "template",
+      "name": "NMC-622",
+      "n_reached_g3": 1,
+      "n_controls": 1,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0766504487461604,
+      "median": 0.0766504487461604,
+      "max": 0.0766504487461604
+    },
+    {
+      "level": "template",
+      "name": "NMC-811",
+      "n_reached_g3": 6,
+      "n_controls": 6,
+      "P90": NaN,
+      "P95": NaN,
+      "min": 0.0409822907724298,
+      "median": 0.042680508822396254,
+      "max": 0.0524376080198121
+    },
+    {
+      "level": "class",
+      "name": "layered",
+      "n_reached_g3": 40,
+      "n_controls": 44,
+      "P90": 0.06400211405987695,
+      "P95": 0.0659489882206248,
+      "min": 0.0,
+      "median": 0.023898980534157503,
+      "max": 0.0766504487461604
+    },
+    {
+      "level": "class",
+      "name": "olivine",
+      "n_reached_g3": 50,
+      "n_controls": 50,
+      "P90": 0.054948417445233454,
+      "P95": 0.07874076841805346,
+      "min": 0.0,
+      "median": 0.024285866504237752,
+      "max": 0.118676227743805
+    },
+    {
+      "level": "class",
+      "name": "spinel",
+      "n_reached_g3": 18,
+      "n_controls": 18,
+      "P90": 0.11600326225343136,
+      "P95": 0.12534248275739254,
+      "min": 0.0596878099515928,
+      "median": 0.1023579650576816,
+      "max": 0.1552869849261235
+    },
+    {
+      "level": "pooled",
+      "name": "all",
+      "n_reached_g3": 108,
+      "n_controls": 112,
+      "P90": 0.1016949152542372,
+      "P95": 0.10867468190417125,
+      "min": 0.0,
+      "median": 0.0269405780421661,
+      "max": 0.1552869849261235
+    }
+  ],
+  "rescreen": {
+    "P95": {
+      "class_thresholds": {
+        "layered": 0.0659489882206248,
+        "olivine": 0.07874076841805346,
+        "spinel": 0.12534248275739254
+      },
+      "union": 9815,
+      "consensus_n": 0,
+      "consensus": [],
+      "original_retained": [],
+      "original_dropped": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "new": [],
+      "per_seed_survivors_mean": 175.75,
+      "per_seed_survivors_min": 92,
+      "per_seed_survivors_max": 295
+    },
+    "P90": {
+      "class_thresholds": {
+        "layered": 0.06400211405987695,
+        "olivine": 0.054948417445233454,
+        "spinel": 0.11600326225343136
+      },
+      "union": 9815,
+      "consensus_n": 0,
+      "consensus": [],
+      "original_retained": [],
+      "original_dropped": [
+        "Li1.95Mn0.72Cr0.28O2.865F0.135",
+        "Li1.95Mn0.7Cr0.3O2.865F0.135",
+        "Li1.9Mn0.7Cr0.3O2.865F0.135",
+        "Li2.15Mn0.7Cr0.3O2.865F0.135",
+        "Li2.1Mn0.7Cr0.3O2.865F0.135",
+        "Li2.2Mn0.72Cr0.28O2.865F0.135",
+        "Li2.2Mn0.7Cr0.3O2.865F0.135"
+      ],
+      "new": [],
+      "per_seed_survivors_mean": 164.1,
+      "per_seed_survivors_min": 84,
+      "per_seed_survivors_max": 276
+    }
+  },
+  "seven_g3": [
+    {
+      "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "G3": 0.08784229695837566,
+      "n_layered_controls": 40,
+      "n_layered_controls_below": 40,
+      "percentile_in_layered": 100.0,
+      "layered_P95": 0.0659489882206248,
+      "layered_P90": 0.06400211405987695,
+      "passes_layered_P95": false,
+      "passes_layered_P90": false
+    },
+    {
+      "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "G3": 0.08784229695837566,
+      "n_layered_controls": 40,
+      "n_layered_controls_below": 40,
+      "percentile_in_layered": 100.0,
+      "layered_P95": 0.0659489882206248,
+      "layered_P90": 0.06400211405987695,
+      "passes_layered_P95": false,
+      "passes_layered_P90": false
+    },
+    {
+      "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "G3": 0.08784229695837566,
+      "n_layered_controls": 40,
+      "n_layered_controls_below": 40,
+      "percentile_in_layered": 100.0,
+      "layered_P95": 0.0659489882206248,
+      "layered_P90": 0.06400211405987695,
+      "passes_layered_P95": false,
+      "passes_layered_P90": false
+    },
+    {
+      "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "G3": 0.08486372129829817,
+      "n_layered_controls": 40,
+      "n_layered_controls_below": 40,
+      "percentile_in_layered": 100.0,
+      "layered_P95": 0.0659489882206248,
+      "layered_P90": 0.06400211405987695,
+      "passes_layered_P95": false,
+      "passes_layered_P90": false
+    },
+    {
+      "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "G3": 0.08486372129829817,
+      "n_layered_controls": 40,
+      "n_layered_controls_below": 40,
+      "percentile_in_layered": 100.0,
+      "layered_P95": 0.0659489882206248,
+      "layered_P90": 0.06400211405987695,
+      "passes_layered_P95": false,
+      "passes_layered_P90": false
+    },
+    {
+      "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "G3": 0.08784229695837566,
+      "n_layered_controls": 40,
+      "n_layered_controls_below": 40,
+      "percentile_in_layered": 100.0,
+      "layered_P95": 0.0659489882206248,
+      "layered_P90": 0.06400211405987695,
+      "passes_layered_P95": false,
+      "passes_layered_P90": false
+    },
+    {
+      "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "G3": 0.08784229695837566,
+      "n_layered_controls": 40,
+      "n_layered_controls_below": 40,
+      "percentile_in_layered": 100.0,
+      "layered_P95": 0.0659489882206248,
+      "layered_P90": 0.06400211405987695,
+      "passes_layered_P95": false,
+      "passes_layered_P90": false
+    }
+  ],
+  "layered_controls_g3_sorted": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0031567267017256,
+    0.006154315534403,
+    0.006500098115429,
+    0.0080357142857142,
+    0.0094701801051769,
+    0.0133928571428571,
+    0.0169407731794734,
+    0.0180792816571913,
+    0.0213576112322613,
+    0.0216407331342967,
+    0.0224429623028533,
+    0.0226584727326461,
+    0.0231620328728685,
+    0.0236971923927217,
+    0.0241007686755933,
+    0.0244976973246721,
+    0.0268942275732558,
+    0.0268990566089634,
+    0.0268997019376554,
+    0.0268999199870665,
+    0.0269001203810279,
+    0.0409822907724298,
+    0.0420579940805966,
+    0.0424519732836037,
+    0.0429090443611888,
+    0.04537137023083,
+    0.0524376080198121,
+    0.0579897588235934,
+    0.0596013310946329,
+    0.0639327455784107,
+    0.0646264303930733,
+    0.0656532164298611,
+    0.0715686522451352,
+    0.0766504487461604
+  ]
+}

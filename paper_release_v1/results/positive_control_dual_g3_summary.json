@@ -1,0 +1,41 @@
+{
+  "g1_g2_denominator": 108,
+  "p90_threshold": 0.1016949152542372,
+  "p95_threshold": 0.10867468190417125,
+  "p90_g3_survivors_full_sample": 98,
+  "p95_g3_survivors_full_sample": 102,
+  "p90_final_survivors_full_sample": 97,
+  "p95_final_survivors_full_sample": 101,
+  "p90_leave_one_control_out": {
+    "quantile": 0.9,
+    "full_control_threshold": 0.1016949152542372,
+    "leave_one_control_out_successes": 96,
+    "leave_one_control_out_total": 108,
+    "leave_one_control_out_retention": 0.8888888888888888,
+    "leave_one_control_out_wilson_ci95": [
+      0.8157758339314041,
+      0.9352873307101626
+    ],
+    "threshold_bootstrap_ci95": [
+      0.06462643039307338,
+      0.10839913546943956
+    ],
+    "threshold_bootstrap_repetitions": 20000
+  },
+  "p95_leave_one_control_out": {
+    "quantile": 0.95,
+    "full_control_threshold": 0.10867468190417125,
+    "leave_one_control_out_successes": 101,
+    "leave_one_control_out_total": 108,
+    "leave_one_control_out_retention": 0.9351851851851852,
+    "leave_one_control_out_wilson_ci95": [
+      0.8722236366714627,
+      0.9682518094750524
+    ],
+    "threshold_bootstrap_ci95": [
+      0.0981609827854318,
+      0.11867622774380505
+    ],
+    "threshold_bootstrap_repetitions": 20000
+  }
+}

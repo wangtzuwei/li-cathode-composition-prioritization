@@ -1,0 +1,63 @@
+{
+  "trace_status_1008": {
+    "C' 組成相符，候選中有多篇在驗證 PDF 中": 434,
+    "C 組成相符，且候選中只有一篇在驗證 PDF 中": 230,
+    "F 追不到": 140,
+    "A 唯一 DOI（數值、C-rate、cycle、組成相符）": 90,
+    "A' 多個 DOI（數值、C-rate、cycle、組成相符）": 34,
+    "E 數值、C-rate、cycle 相符，但組成不符": 31,
+    "B 以「化學式 數值」命名的驗證 PDF（組成、數值相符）": 25,
+    "G 人工核對：化學式與容量見於來源 PDF（Verification/285.pdf）": 13,
+    "D 只有組成相符（候選論文不在驗證 PDF 中）": 11
+  },
+  "trace_status_907": {
+    "C' 組成相符，候選中有多篇在驗證 PDF 中": 376,
+    "C 組成相符，且候選中只有一篇在驗證 PDF 中": 222,
+    "F 追不到": 124,
+    "A 唯一 DOI（數值、C-rate、cycle、組成相符）": 80,
+    "A' 多個 DOI（數值、C-rate、cycle、組成相符）": 32,
+    "E 數值、C-rate、cycle 相符，但組成不符": 25,
+    "B 以「化學式 數值」命名的驗證 PDF（組成、數值相符）": 24,
+    "G 人工核對：化學式與容量見於來源 PDF（Verification/285.pdf）": 13,
+    "D 只有組成相符（候選論文不在驗證 PDF 中）": 11
+  },
+  "pairing_1008": {
+    "identical": 546,
+    "same position, edited": 441,
+    "not paired": 21
+  },
+  "unique_dois_907": 338,
+  "records_to_check": 140,
+  "flagged": 36,
+  "keyword_counts_907": {
+    "discharge": 224,
+    "charge": 10,
+    "initial": 0,
+    "first": 0,
+    "reversible": 18,
+    "specific": 21,
+    "theoretical": 2,
+    "capacity": 162
+  },
+  "keyword_counts_Li2MnO3": {
+    "discharge": 4,
+    "charge": 0,
+    "initial": 0,
+    "first": 0,
+    "reversible": 0,
+    "specific": 0,
+    "theoretical": 0,
+    "capacity": 1
+  },
+  "keyword_counts_LiRichNMC": {
+    "discharge": 11,
+    "charge": 0,
+    "initial": 0,
+    "first": 0,
+    "reversible": 1,
+    "specific": 0,
+    "theoretical": 0,
+    "capacity": 9
+  },
+  "no_specifier_907": 683
+}

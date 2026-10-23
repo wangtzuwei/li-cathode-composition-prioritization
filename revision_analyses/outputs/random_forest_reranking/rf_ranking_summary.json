@@ -1,0 +1,149 @@
+{
+  "rf_model": {
+    "file": "random_forest_full_context.joblib",
+    "sha256": "79f37f51d9820f2815e939add278e79e0702d4a96a7527d64bd30764d161d8ac",
+    "params": {
+      "model__bootstrap": "True",
+      "model__ccp_alpha": "0.0",
+      "model__criterion": "squared_error",
+      "model__max_depth": "None",
+      "model__max_features": "1.0",
+      "model__max_leaf_nodes": "None",
+      "model__max_samples": "None",
+      "model__min_impurity_decrease": "0.0",
+      "model__min_samples_leaf": "2",
+      "model__min_samples_split": "2",
+      "model__min_weight_fraction_leaf": "0.0",
+      "model__monotonic_cst": "None",
+      "model__n_estimators": "300",
+      "model__n_jobs": "4",
+      "model__oob_score": "False",
+      "model__random_state": "42",
+      "model__verbose": "0",
+      "model__warm_start": "False"
+    },
+    "training_rows": 907,
+    "features": 208
+  },
+  "prediction_clip": [
+    16.439,
+    301.0680000000001
+  ],
+  "unique_pool_compositions": 375416,
+  "reference_topk_union": 9507,
+  "reference_topk_mean_pairwise_jaccard": 0.014545834084709929,
+  "candidates_with_10plus_seeds": 23,
+  "rf_consensus": [
+    {
+      "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 20,
+      "rf_pred": 222.3190054232805,
+      "catboost_pred": 208.42781287680745
+    },
+    {
+      "Formula": "Li2Mn0.7Co0.3O3",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 18,
+      "rf_pred": 223.12454748677237,
+      "catboost_pred": 186.098027222885
+    },
+    {
+      "Formula": "Li1.2Cr0.25Co0.75O2",
+      "proto_name": "LiCoO2",
+      "topk_seed_count": 18,
+      "rf_pred": 201.3922701058199,
+      "catboost_pred": 186.42835534813287
+    },
+    {
+      "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 14,
+      "rf_pred": 222.3190054232805,
+      "catboost_pred": 207.8838933445513
+    },
+    {
+      "Formula": "Li1.2Ti0.6Mn1.4O4",
+      "proto_name": "LiMn2O4",
+      "topk_seed_count": 13,
+      "rf_pred": 138.1781186772485,
+      "catboost_pred": 117.08342002212542
+    },
+    {
+      "Formula": "Li1.2Mn1.4V0.6O4",
+      "proto_name": "LiMn2O4",
+      "topk_seed_count": 12,
+      "rf_pred": 129.31579246031745,
+      "catboost_pred": 112.37937104870133
+    },
+    {
+      "Formula": "Li2.2Mn0.7Cr0.3O2.91F0.09",
+      "proto_name": "Li2MnO3",
+      "topk_seed_count": 11,
+      "rf_pred": 222.66028320105823,
+      "catboost_pred": 207.37501853845617
+    },
+    {
+      "Formula": "Li1.2Cr0.3Co0.7O2",
+      "proto_name": "LiCoO2",
+      "topk_seed_count": 11,
+      "rf_pred": 199.24018095238083,
+      "catboost_pred": 187.60187100565778
+    },
+    {
+      "Formula": "Li1.15Cr0.3Co0.7O2",
+      "proto_name": "LiCoO2",
+      "topk_seed_count": 10,
+      "rf_pred": 200.22043677248664,
+      "catboost_pred": 184.75009760834956
+    },
+    {
+      "Formula": "Li1.15Ti0.6Mn1.4O4",
+      "proto_name": "LiMn2O4",
+      "topk_seed_count": 10,
+      "rf_pred": 138.53985280423268,
+      "catboost_pred": 119.35997691507896
+    }
+  ],
+  "original_retained": [
+    "Li2.2Mn0.72Cr0.28O2.865F0.135",
+    "Li2.2Mn0.7Cr0.3O2.865F0.135"
+  ],
+  "new_recurrent": [
+    "Li1.15Cr0.3Co0.7O2",
+    "Li1.15Ti0.6Mn1.4O4",
+    "Li1.2Cr0.25Co0.75O2",
+    "Li1.2Cr0.3Co0.7O2",
+    "Li1.2Mn1.4V0.6O4",
+    "Li1.2Ti0.6Mn1.4O4",
+    "Li2.2Mn0.7Cr0.3O2.91F0.09",
+    "Li2Mn0.7Co0.3O3"
+  ],
+  "per_arm_means": [
+    {
+      "arm": "nsga2__floor_off",
+      "g4_survivors": 277.85,
+      "feasible_hypervolume": 66.18748161093076,
+      "prototype_coverage": 6.35
+    },
+    {
+      "arm": "nsga2__floor_on",
+      "g4_survivors": 302.5,
+      "feasible_hypervolume": 66.18748161093076,
+      "prototype_coverage": 12.0
+    },
+    {
+      "arm": "random__floor_off",
+      "g4_survivors": 430.3,
+      "feasible_hypervolume": 65.34139009260966,
+      "prototype_coverage": 8.0
+    },
+    {
+      "arm": "random__floor_on",
+      "g4_survivors": 416.6,
+      "feasible_hypervolume": 65.34139009260966,
+      "prototype_coverage": 12.0
+    }
+  ],
+  "runtime_seconds": 795.4
+}

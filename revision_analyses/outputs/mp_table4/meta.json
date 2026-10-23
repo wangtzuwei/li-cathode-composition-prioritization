@@ -1,0 +1,56 @@
+{
+ "query_started_utc": "2026-10-22T23:58:55.845617+00:00",
+ "versions": {
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:12:15) [MSC v.1942 64 bit (AMD64)]",
+  "mp-api": "0.46.0",
+  "pymatgen": "2025.10.7",
+  "emmet-core": "0.86.3"
+ },
+ "manuscript_database_version": "v2025.09.25",
+ "queries": {
+  "table4_material_ids": [
+   "mp-18988",
+   "mp-775130",
+   "mp-850919",
+   "mp-753906"
+  ],
+  "neighbourhood_chemsys": [
+   "Li",
+   "Mn",
+   "Cr",
+   "O",
+   "F",
+   "Li-Mn",
+   "Cr-Li",
+   "Li-O",
+   "F-Li",
+   "Cr-Mn",
+   "Mn-O",
+   "F-Mn",
+   "Cr-O",
+   "Cr-F",
+   "F-O",
+   "Cr-Li-Mn",
+   "Li-Mn-O",
+   "F-Li-Mn",
+   "Cr-Li-O",
+   "Cr-F-Li",
+   "F-Li-O",
+   "Cr-Mn-O",
+   "Cr-F-Mn",
+   "F-Mn-O",
+   "Cr-F-O",
+   "Cr-Li-Mn-O",
+   "Cr-F-Li-Mn",
+   "F-Li-Mn-O",
+   "Cr-F-Li-O",
+   "Cr-F-Mn-O",
+   "Cr-F-Li-Mn-O"
+  ]
+ },
+ "errors": [],
+ "database_version": "2026.09.28",
+ "query_finished_utc": "2026-10-22T23:59:15.438040+00:00",
+ "n_table4_docs": 4,
+ "n_neighbourhood_docs": 2021
+}

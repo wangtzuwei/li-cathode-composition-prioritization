@@ -1,0 +1,29 @@
+{
+  "definition": "exact observed records at 298.15 K, 0.5 C, cycle 1 evaluated with canonical-composition-held-out OOF predictions",
+  "n_records": 56,
+  "n_canonical_compositions": 46,
+  "r2": 0.19904688005606563,
+  "mae": 22.84953546718105,
+  "rmse": 37.16524882481612,
+  "spearman": 0.6434899331980398,
+  "cluster_bootstrap_ci95": {
+    "r2": [
+      -0.05037889802685117,
+      0.5880330916657787
+    ],
+    "mae": [
+      15.847838157802322,
+      31.583186211951148
+    ],
+    "rmse": [
+      19.550991165356162,
+      54.443693575384536
+    ],
+    "spearman": [
+      0.3675183158696285,
+      0.8381590403302538
+    ]
+  },
+  "bootstrap_unit": "canonical_composition",
+  "bootstrap_repetitions": 20000
+}

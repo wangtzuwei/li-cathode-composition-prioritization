@@ -1,0 +1,26 @@
+{
+  "memory": null,
+  "steps": [
+    [
+      "imputer",
+      "SimpleImputer(strategy='median')"
+    ],
+    [
+      "model",
+      "DummyRegressor(strategy='median')"
+    ]
+  ],
+  "transform_input": null,
+  "verbose": false,
+  "imputer": "SimpleImputer(strategy='median')",
+  "model": "DummyRegressor(strategy='median')",
+  "imputer__add_indicator": false,
+  "imputer__copy": true,
+  "imputer__fill_value": null,
+  "imputer__keep_empty_features": false,
+  "imputer__missing_values": NaN,
+  "imputer__strategy": "median",
+  "model__constant": null,
+  "model__quantile": null,
+  "model__strategy": "median"
+}
