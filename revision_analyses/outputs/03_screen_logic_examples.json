@@ -1,0 +1,577 @@
+{
+  "p95_threshold": 0.10867468190417125,
+  "prediction_clip": [
+    16.439,
+    301.0680000000001
+  ],
+  "detail": {
+    "Li2.1Mn0.7Cr0.3O2.865F0.135": {
+      "amounts": {
+        "Li": 2.1,
+        "Mn": 0.7,
+        "Cr": 0.3,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li2.2Mn0.7Cr0.3O2.865F0.135": {
+      "amounts": {
+        "Li": 2.2,
+        "Mn": 0.7,
+        "Cr": 0.3,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li2.15Mn0.7Cr0.3O2.865F0.135": {
+      "amounts": {
+        "Li": 2.15,
+        "Mn": 0.7,
+        "Cr": 0.3,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li2.2Mn0.72Cr0.28O2.865F0.135": {
+      "amounts": {
+        "Li": 2.2,
+        "Mn": 0.72,
+        "Cr": 0.28,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li1.95Mn0.72Cr0.28O2.865F0.135": {
+      "amounts": {
+        "Li": 1.95,
+        "Mn": 0.72,
+        "Cr": 0.28,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li1.95Mn0.7Cr0.3O2.865F0.135": {
+      "amounts": {
+        "Li": 1.95,
+        "Mn": 0.7,
+        "Cr": 0.3,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li1.9Mn0.7Cr0.3O2.865F0.135": {
+      "amounts": {
+        "Li": 1.9,
+        "Mn": 0.7,
+        "Cr": 0.3,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li2MnO3": {
+      "amounts": {
+        "Li": 2.0,
+        "Mn": 1.0,
+        "O": 3.0
+      },
+      "allowed_states_used_by_G1": {
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li2Mn0.7Cr0.3O3": {
+      "amounts": {
+        "Li": 2.0,
+        "Mn": 0.7,
+        "Cr": 0.3,
+        "O": 3.0
+      },
+      "allowed_states_used_by_G1": {
+        "Cr": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    },
+    "Li2MnO2.865F0.135": {
+      "amounts": {
+        "Li": 2.0,
+        "Mn": 1.0,
+        "O": 2.865,
+        "F": 0.135
+      },
+      "allowed_states_used_by_G1": {
+        "F": [
+          -1
+        ],
+        "Li": [
+          1
+        ],
+        "Mn": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "O": [
+          -2
+        ]
+      }
+    }
+  },
+  "rows": [
+    {
+      "Formula": "Li2.1Mn0.7Cr0.3O2.865F0.135",
+      "Li_per_fu": 2.1,
+      "G1_charge_interval_min": -1.7650000000000006,
+      "G1_charge_interval_max": 2.9349999999999987,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 2.1,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08784229695837566,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 480.9082417921358,
+      "G4_Q_cationic_redox_mAh_g": 229.00392466292183,
+      "formula_weight_g_mol": 117.034626932,
+      "y_pred_unclipped": 215.35295733093767,
+      "y_pred": 215.35295733093767,
+      "y_pred_saved_pool_mean": 215.35295733093773,
+      "y_discounted": 215.35295733093767,
+      "model_distance": 5.526250685062963,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li2.2Mn0.7Cr0.3O2.865F0.135",
+      "Li_per_fu": 2.2,
+      "G1_charge_interval_min": -1.6650000000000005,
+      "G1_charge_interval_max": 3.0349999999999993,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 2.2,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08784229695837566,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 500.8383008304556,
+      "G4_Q_cationic_redox_mAh_g": 227.6537731047525,
+      "formula_weight_g_mol": 117.72872693199999,
+      "y_pred_unclipped": 208.42781287680745,
+      "y_pred": 208.42781287680745,
+      "y_pred_saved_pool_mean": 208.42781287680745,
+      "y_discounted": 208.42781287680745,
+      "model_distance": 5.69113136257681,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li2.15Mn0.7Cr0.3O2.865F0.135",
+      "Li_per_fu": 2.15,
+      "G1_charge_interval_min": -1.7150000000000007,
+      "G1_charge_interval_max": 2.9849999999999985,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 2.15,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08784229695837566,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 490.902733861031,
+      "G4_Q_cationic_redox_mAh_g": 228.32685295861907,
+      "formula_weight_g_mol": 117.38167693199999,
+      "y_pred_unclipped": 214.50922696933083,
+      "y_pred": 214.50922696933083,
+      "y_pred_saved_pool_mean": 214.50922696933085,
+      "y_discounted": 214.50922696933083,
+      "model_distance": 5.605796125392093,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li2.2Mn0.72Cr0.28O2.865F0.135",
+      "Li_per_fu": 2.2,
+      "G1_charge_interval_min": -1.6650000000000003,
+      "G1_charge_interval_max": 3.0549999999999997,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 2.2,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08486372129829817,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 500.58811504479485,
+      "G4_Q_cationic_redox_mAh_g": 227.54005229308854,
+      "formula_weight_g_mol": 117.787565832,
+      "y_pred_unclipped": 207.88389334455127,
+      "y_pred": 207.88389334455127,
+      "y_pred_saved_pool_mean": 207.8838933445513,
+      "y_discounted": 207.88389334455127,
+      "model_distance": 5.668893229015,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li1.95Mn0.72Cr0.28O2.865F0.135",
+      "Li_per_fu": 1.95,
+      "G1_charge_interval_min": -1.9150000000000005,
+      "G1_charge_interval_max": 2.8049999999999997,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 1.95,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08486372129829817,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 450.33748752579857,
+      "G4_Q_cationic_redox_mAh_g": 230.9423012952813,
+      "formula_weight_g_mol": 116.05231583199999,
+      "y_pred_unclipped": 217.81180850522765,
+      "y_pred": 217.81180850522765,
+      "y_pred_saved_pool_mean": 217.81180850522765,
+      "y_discounted": 217.81180850522765,
+      "model_distance": 5.317285388572123,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li1.95Mn0.7Cr0.3O2.865F0.135",
+      "Li_per_fu": 1.95,
+      "G1_charge_interval_min": -1.9150000000000005,
+      "G1_charge_interval_max": 2.784999999999999,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 1.95,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08784229695837566,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 450.565925909539,
+      "G4_Q_cationic_redox_mAh_g": 231.05944918437896,
+      "formula_weight_g_mol": 115.99347693200001,
+      "y_pred_unclipped": 220.81442312143784,
+      "y_pred": 220.81442312143784,
+      "y_pred_saved_pool_mean": 220.81442312143787,
+      "y_discounted": 220.81442312143784,
+      "model_distance": 5.338654899168466,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li1.9Mn0.7Cr0.3O2.865F0.135",
+      "Li_per_fu": 1.9,
+      "G1_charge_interval_min": -1.9650000000000007,
+      "G1_charge_interval_max": 2.7349999999999985,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 1.9,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08784229695837566,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 440.3304126190718,
+      "G4_Q_cationic_redox_mAh_g": 231.7528487468799,
+      "formula_weight_g_mol": 115.64642693199998,
+      "y_pred_unclipped": 217.14211833930025,
+      "y_pred": 217.14211833930025,
+      "y_pred_saved_pool_mean": 217.14211833930025,
+      "y_discounted": 217.14211833930025,
+      "model_distance": 5.297102965412371,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li2MnO3",
+      "Li_per_fu": 2.0,
+      "G1_charge_interval_min": -2.0,
+      "G1_charge_interval_max": 3.0,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 2.0,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.0,
+      "G3_max_diagnostic": 0.0,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 458.85621529220697,
+      "G4_Q_cationic_redox_mAh_g": 229.42810764610348,
+      "formula_weight_g_mol": 116.818245,
+      "y_pred_unclipped": 146.9743417674126,
+      "y_pred": 146.9743417674126,
+      "y_pred_saved_pool_mean": null,
+      "y_discounted": 146.9743417674126,
+      "model_distance": 2.7623845591793446,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li2Mn0.7Cr0.3O3",
+      "Li_per_fu": 2.0,
+      "G1_charge_interval_min": -2.0,
+      "G1_charge_interval_max": 2.6999999999999993,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 2.0,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.08784229695837566,
+      "G3_max_diagnostic": 0.16037735849056597,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 462.34935035737715,
+      "G4_Q_cationic_redox_mAh_g": 231.17467517868857,
+      "formula_weight_g_mol": 115.9356615,
+      "y_pred_unclipped": 187.38237102492357,
+      "y_pred": 187.38237102492357,
+      "y_pred_saved_pool_mean": null,
+      "y_discounted": 187.38237102492357,
+      "model_distance": 3.2192408688007275,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    },
+    {
+      "Formula": "Li2MnO2.865F0.135",
+      "Li_per_fu": 2.0,
+      "G1_charge_interval_min": -1.8650000000000004,
+      "G1_charge_interval_max": 3.135,
+      "G1_min_abs_charge": 0.0,
+      "G1_pauling_pass": true,
+      "G1_pass": true,
+      "G2_Li_TM_ratio": 2.0,
+      "G2_pass": true,
+      "G3_weighted_rms": 0.0,
+      "G3_max_diagnostic": 0.0,
+      "G3_pass_P95": true,
+      "G4_redox_electrons_per_fu": 1.0,
+      "G4_min_Li_redox_e": 1.0,
+      "G4_Q_Li_theoretical_mAh_g": 457.27141670474805,
+      "G4_Q_cationic_redox_mAh_g": 228.63570835237402,
+      "formula_weight_g_mol": 117.22311043200001,
+      "y_pred_unclipped": 189.2254081790961,
+      "y_pred": 189.2254081790961,
+      "y_pred_saved_pool_mean": null,
+      "y_discounted": 189.2254081790961,
+      "model_distance": 4.290298714391987,
+      "G4_pass": true,
+      "all_G1_G4_pass_P95": true
+    }
+  ]
+}

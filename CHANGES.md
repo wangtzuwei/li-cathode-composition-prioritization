@@ -32,9 +32,16 @@ Scripts and output tables of the additional analyses carried out after submissio
 - **Model writes:** scripts that retrain models write them to `revision_analyses/models_local/` (not distributed). `train_bootstrap_models.py` writes its uncertainty tables there instead of into `paper_release_v1/results/`.
 - **Not included:**
   - the check of the manuscript's citation order;
-  - analysis 03;
   - the raw Crossref responses (`11_crossref_raw.json`, which contain article abstracts);
   - the raw PDF text snippets of analysis 14 (`14_candidates.json`);
   - retrained models and cached feature matrices.
 - **Literature tables:** local PDF folder paths in the notes were shortened to `literature/pdfs/`; the PDFs themselves are not distributed.
 - **Compressed output:** the random-forest pool predictions are stored gzip-compressed (`rf_pool_predictions.csv.gz`).
+
+## Added on 24 October 2026 (before the first Zenodo publication)
+
+- `revision_analyses/scripts/screen_logic_examples.py` (analysis 03) and its tables `outputs/03_screen_logic_examples.csv` and `.json` (renamed with the analysis prefix; content unchanged).
+- `revision_analyses/scripts/family_holdout_conservative.py` (analysis 27) and its tables `outputs/27_*`.
+- `revision_analyses/scripts/figure3a_family_holdout.py`, which redraws Figure 3A with the analysis-27 value, and its output in `outputs/figure_3a/` (`Figure_3A_revised.png` and the source table `Figure3A_validation_hierarchy_revised.csv`).
+
+These three scripts were run from this folder layout; all their outputs were byte-identical to the saved files.

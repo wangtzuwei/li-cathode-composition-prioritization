@@ -1,0 +1,60 @@
+﻿canonical_formula,formula_as_recorded,canonical_key,n_records,release_rule,family,reason
+K0.15Li2.85V2P3O12,Li2.85K0.15V2(PO4)3,K:0.00750000|Li:0.14250000|O:0.60000000|P:0.15000000|V:0.10000000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li0.19Mn1O2,Li0.19MnO2,Li:0.05956113|Mn:0.31347962|O:0.62695925,3,outside_template_stoichiometry,,MO2 化學計量、Li 0.19–0.41；組成本身無法區分層狀（去鋰的 LiMnO2 或 birnessite 型）與隧道型 MnO2 （α／γ-MnO2 嵌鋰）等結構，不列為明確屬於某家族（另做層狀變體）
+Li0.21Mn1O2,Li0.21MnO2,Li:0.06542056|Mn:0.31152648|O:0.62305296,1,outside_template_stoichiometry,,MO2 化學計量、Li 0.19–0.41；組成本身無法區分層狀（去鋰的 LiMnO2 或 birnessite 型）與隧道型 MnO2 （α／γ-MnO2 嵌鋰）等結構，不列為明確屬於某家族（另做層狀變體）
+Li0.23Mn1O2,Li0.23MnO2,Li:0.07120743|Mn:0.30959752|O:0.61919505,3,outside_template_stoichiometry,,MO2 化學計量、Li 0.19–0.41；組成本身無法區分層狀（去鋰的 LiMnO2 或 birnessite 型）與隧道型 MnO2 （α／γ-MnO2 嵌鋰）等結構，不列為明確屬於某家族（另做層狀變體）
+Li0.28Mn1O2,Li0.28MnO2,Li:0.08536585|Mn:0.30487805|O:0.60975610,3,outside_template_stoichiometry,,MO2 化學計量、Li 0.19–0.41；組成本身無法區分層狀（去鋰的 LiMnO2 或 birnessite 型）與隧道型 MnO2 （α／γ-MnO2 嵌鋰）等結構，不列為明確屬於某家族（另做層狀變體）
+Li0.34Mn1O2,Li0.34MnO2,Li:0.10179641|Mn:0.29940120|O:0.59880240,3,outside_template_stoichiometry,,MO2 化學計量、Li 0.19–0.41；組成本身無法區分層狀（去鋰的 LiMnO2 或 birnessite 型）與隧道型 MnO2 （α／γ-MnO2 嵌鋰）等結構，不列為明確屬於某家族（另做層狀變體）
+Li0.41Mn1O2,Li0.41MnO2,Li:0.12023460|Mn:0.29325513|O:0.58651026,3,outside_template_stoichiometry,,MO2 化學計量、Li 0.19–0.41；組成本身無法區分層狀（去鋰的 LiMnO2 或 birnessite 型）與隧道型 MnO2 （α／γ-MnO2 嵌鋰）等結構，不列為明確屬於某家族（另做層狀變體）
+Li0.5Mn1P1O4,Li0.5MnPO4,Li:0.07692308|Mn:0.15384615|O:0.61538462|P:0.15384615,2,phosphate_outside_olivine_template,olivine,LiMPO4 化學計量的去鋰態（Li0.5MnPO4），即部分去鋰的 LiMnPO4
+Li1.8Mn1Si0.8P0.2O4,Li1.8MnSi0.8P0.2O4,Li:0.23076923|Mn:0.12820513|O:0.51282051|P:0.02564103|Si:0.10256410,2,phosphate_outside_olivine_template,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li1Cr0.005Fe0.995B1O3,LiFe0.995Cr0.005BO3,B:0.16666667|Cr:0.00083333|Fe:0.16583333|Li:0.16666667|O:0.50000000,5,chemistry_outside_12_templates,,LiMBO3 硼酸鹽，不屬於三個家族
+Li1Cr0.008Fe0.992B1O3,LiFe0.992Cr0.008BO3,B:0.16666667|Cr:0.00133333|Fe:0.16533333|Li:0.16666667|O:0.50000000,1,chemistry_outside_12_templates,,LiMBO3 硼酸鹽，不屬於三個家族
+Li1Fe1B1O3,LiFeBO3,B:0.16666667|Fe:0.16666667|Li:0.16666667|O:0.50000000,5,chemistry_outside_12_templates,,LiMBO3 硼酸鹽，不屬於三個家族
+Li1Mn0.8Si1Ni0.2O4,LiMn0.8Ni0.2SiO4,Li:0.14285714|Mn:0.11428571|Ni:0.02857143|O:0.57142857|Si:0.14285714,1,chemistry_outside_12_templates,,LiMSiO4（Li : M : Si : O = 1 : 1 : 1 : 4）；雖與 LiMPO4 同為 1 : 1 : 1 : 4，但以 Si 取代 P 的 olivine 不是已知的明確歸屬，不列入
+Li1Mn1.95Si0.05O4,LiSi0.05Mn1.95O4,Li:0.14285714|Mn:0.27857143|O:0.57142857|Si:0.00714286,8,chemistry_outside_12_templates,spinel,LiM2O4 化學計量（Li : M : O = 1 : 2 : 4），即 LiMn2O4 中 2.5% 的 Mn 由 Si 取代
+Li2.05Fe0.95Si0.95P0.05O4,Li2.05Fe0.95P0.05Si0.95O4,Fe:0.11875000|Li:0.25625000|O:0.50000000|P:0.00625000|Si:0.11875000,1,phosphate_outside_olivine_template,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2.05Mn1Al0.05Si0.95O4,Li2.05MnSi0.95Al0.05O4,Al:0.00621118|Li:0.25465839|Mn:0.12422360|O:0.49689441|Si:0.11801242,3,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2.96Ca0.02V2P3O12,Li2.96Ca0.02V2(PO4)3,Ca:0.00100100|Li:0.14814815|O:0.60060060|P:0.15015015|V:0.10010010,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li2Ca0.03Fe0.97Si1O4,Li2Fe0.97Ca0.03SiO4,Ca:0.00375000|Fe:0.12125000|Li:0.25000000|O:0.50000000|Si:0.12500000,7,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Fe0.97Co0.03Si1O4,Li2Fe0.97Co0.03SiO4,Co:0.00375000|Fe:0.12125000|Li:0.25000000|O:0.50000000|Si:0.12500000,2,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Fe1Si1O4,Li2FeSiO4,Fe:0.12500000|Li:0.25000000|O:0.50000000|Si:0.12500000,3,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Mg0.03Fe0.97Si1O4,Li2Fe0.97Mg0.03SiO4,Fe:0.12125000|Li:0.25000000|Mg:0.00375000|O:0.50000000|Si:0.12500000,2,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Mn0.2Fe0.8Si1O4,Li2Fe0.8Mn0.2SiO4,Fe:0.10000000|Li:0.25000000|Mn:0.02500000|O:0.50000000|Si:0.12500000,2,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Mn0.33Fe0.33Si1Ni0.33O4,Li2Fe0.33Mn0.33Ni0.33SiO4,Fe:0.04130163|Li:0.25031289|Mn:0.04130163|Ni:0.04130163|O:0.50062578|Si:0.12515645,3,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Mn0.5Fe0.5Si1O4,Li2Mn0.5Fe0.5SiO4,Fe:0.06250000|Li:0.25000000|Mn:0.06250000|O:0.50000000|Si:0.12500000,1,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Mn0.94Cr0.06Si1O4,Li2Mn0.94Cr0.06SiO4,Cr:0.00750000|Li:0.25000000|Mn:0.11750000|O:0.50000000|Si:0.12500000,2,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Mn1Si1O4,Li2MnSiO4,Li:0.25000000|Mn:0.12500000|O:0.50000000|Si:0.12500000,26,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Mn1V0.25Si0.75O4,Li2MnSi0.75V0.25O4,Li:0.25000000|Mn:0.12500000|O:0.50000000|Si:0.09375000|V:0.03125000,2,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2S1,Li2S,Li:0.66666667|S:0.33333333,2,chemistry_outside_12_templates,,硫化物，不屬於三個家族
+Li2V0.05Fe0.95Si1O4,Li2Fe0.95V0.05SiO4,Fe:0.11875000|Li:0.25000000|O:0.50000000|Si:0.12500000|V:0.00625000,2,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2V0.1Fe1Si0.9O4,Li2FeSi0.9V0.1O4,Fe:0.12500000|Li:0.25000000|O:0.50000000|Si:0.11250000|V:0.01250000,1,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li2Zn0.03Fe0.97Si1O4,Li2Fe0.97Zn0.03SiO4,Fe:0.12125000|Li:0.25000000|O:0.50000000|Si:0.12500000|Zn:0.00375000,2,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Li3Al0.02V1.98P3O12,Li3V1.98Al0.02(PO4)3,Al:0.00100000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09900000,9,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3Al0.08V1.92P3O12,Li3V1.92Al0.08(PO4)3,Al:0.00400000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09600000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3Mg0.15V1.9P3O12,Li3V1.9Mg0.15(PO4)3,Li:0.14962594|Mg:0.00748130|O:0.59850374|P:0.14962594|V:0.09476309,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3Mg0.3V1.8P3O12,Li3V1.8Mg0.30(PO4)3,Li:0.14925373|Mg:0.01492537|O:0.59701493|P:0.14925373|V:0.08955224,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3Mg0.45V1.7P3O12,Li3V1.7Mg0.45(PO4)3,Li:0.14888337|Mg:0.02233251|O:0.59553350|P:0.14888337|V:0.08436725,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3Mn0.2V1.8P3O12,Li3V1.8Mn0.2(PO4)3,Li:0.15000000|Mn:0.01000000|O:0.60000000|P:0.15000000|V:0.09000000,4,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3Nb0.03V1.97P3O12,Li3V1.97Nb0.03(PO4)3,Li:0.15000000|Nb:0.00150000|O:0.60000000|P:0.15000000|V:0.09850000,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.5Cr0.5P3O12,Li3V1.5Cr0.5(PO4)3,Cr:0.02500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.07500000,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.85Co0.15P3O12,Li3V1.85Co0.15(PO4)3,Co:0.00750000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09250000,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.85Sn0.15P3O12,Li3V1.85Sn0.15(PO4)3,Li:0.15000000|O:0.60000000|P:0.15000000|Sn:0.00750000|V:0.09250000,8,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.8Cr0.2P3O12,Li3V1.8Cr0.2(PO4)3,Cr:0.01000000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09000000,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.8Sn0.2P3O12,Li3V1.8Sn0.2(PO4)3,Li:0.15000000|O:0.60000000|P:0.15000000|Sn:0.01000000|V:0.09000000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.91Ge0.09P3O12,Li3V1.91Ge0.09(PO4)3,Ge:0.00450000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09550000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.95Cr0.05P3O12,Li3V1.95Cr0.05(PO4)3,Cr:0.00250000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09750000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.95Ge0.05P3O12,Li3V1.95Ge0.05(PO4)3,Ge:0.00250000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09750000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.96Zn0.04P3O12,Li3V1.96Zn0.04(PO4)3,Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09800000|Zn:0.00200000,4,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.99Ge0.01P3O12,Li3V1.99Ge0.01(PO4)3,Ge:0.00050000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09950000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.9Cr0.1P3O12,Li3V1.9Cr0.1(PO4)3,Cr:0.00500000|Li:0.15000000|O:0.60000000|P:0.15000000|V:0.09500000,5,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V1.9Sn0.1P3O12,Li3V1.9Sn0.1(PO4)3,Li:0.15000000|O:0.60000000|P:0.15000000|Sn:0.00500000|V:0.09500000,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V2B0.09P2.91O12,Li3V2(P0.97B0.03O4)3,B:0.00450000|Li:0.15000000|O:0.60000000|P:0.14550000|V:0.10000000,1,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V2B0.15P2.85O12,Li3V2(P0.95B0.05O4)3,B:0.00750000|Li:0.15000000|O:0.60000000|P:0.14250000|V:0.10000000,8,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V2P2.99Cl0.01O11.96,Li3V2(PO4)2.99Cl0.01,Cl:0.00050100|Li:0.15030060|O:0.59919840|P:0.14979960|V:0.10020040,2,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Li3V2P3O12,Li3V2(PO4)3,Li:0.15000000|O:0.60000000|P:0.15000000|V:0.10000000,64,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Na0.03Li2.97V2P3O12,Li2.97Na0.03V2(PO4)3,Li:0.14850000|Na:0.00150000|O:0.60000000|P:0.15000000|V:0.10000000,4,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Na0.05Li2.95V2P3O12,Li2.95Na0.05V2(PO4)3,Li:0.14750000|Na:0.00250000|O:0.60000000|P:0.15000000|V:0.10000000,4,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Na0.07Li2.93V2P3O12,Li2.93Na0.07V2(PO4)3,Li:0.14650000|Na:0.00350000|O:0.60000000|P:0.15000000|V:0.10000000,4,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族
+Na0.1Li1.9Mn1Si1O4,Li1.9Na0.1MnSiO4,Li:0.23750000|Mn:0.12500000|Na:0.01250000|O:0.50000000|Si:0.12500000,4,chemistry_outside_12_templates,,Li2MSiO4 型正矽酸鹽（含部分 P 或 Al 取代），四面體結構，不屬於三個家族
+Na0.4Li2.6V2P3O12,Li2.6Na0.4V2(PO4)3,Li:0.13000000|Na:0.02000000|O:0.60000000|P:0.15000000|V:0.10000000,10,phosphate_outside_olivine_template,,Li3V2(PO4)3 型（NASICON 磷酸鹽），不屬於三個家族

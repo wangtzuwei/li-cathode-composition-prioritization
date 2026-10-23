@@ -7,7 +7,7 @@ Analysis numbers are internal labels; they also appear as the prefixes of the ou
 | Folder | Content |
 |---|---|
 | `scripts/` | Analysis scripts |
-| `outputs/` | Tables written by the scripts. `outputs/random_forest_reranking/` holds the random-forest re-ranking (`rf_pool_predictions.csv.gz` is gzip-compressed); `outputs/mp_table4/` holds the Materials Project query. |
+| `outputs/` | Tables written by the scripts. `outputs/random_forest_reranking/` holds the random-forest re-ranking (`rf_pool_predictions.csv.gz` is gzip-compressed); `outputs/mp_table4/` holds the Materials Project query; `outputs/figure_3a/` holds the redrawn Figure 3A and its source table. |
 | `literature/` | Literature tables read by the scripts (values extracted from published articles, with page references) |
 | `models_local/` | Created when scripts are run; not distributed |
 
@@ -16,6 +16,7 @@ Analysis numbers are internal labels; they also appear as the prefixes of the ou
 | No. | Script | Analysis | Outputs |
 |---|---|---|---|
 | — | `train_bootstrap_models.py` | Regenerates the 100 composition-bootstrap CatBoost models of the release (same generator, seeds and parameters) and saves them to `models_local/bootstrap_models/`. Run this first: the scripts marked † need these models. | `models_local/bootstrap_models/` |
+| 03 | `screen_logic_examples.py` | G1–G4 evaluated step by step with the release's own screening functions for the seven candidates, Li2MnO3, and the Cr-only and F-only Li2MnO3 variants (prediction only) | `03_screen_logic_examples.*` |
 | 04 | `strict_redox_budget.py` | Strict cation redox budget (Mn to 4+, Ni to 4+, Co to 4+, Fe to 3+, Cr to 6+, ...) for the candidates and positive controls; recurrence under that budget | `04_strict_redox_*` |
 | 04 | `screen_without_g4.py` | Screening and recurrence with the G4 capacity gate removed | `04_no_g4_*` |
 | 05 | `composition_counterparts.py` † | Counterpart compositions of the seven candidates (without F; without Cr; without both) scored with the 100 bootstrap models; check of the candidate intervals | `05_counterpart_controls.csv`, `05_table3_interval_check.csv` |
@@ -42,6 +43,8 @@ Analysis numbers are internal labels; they also appear as the prefixes of the ou
 | 23 | `model_seed_robustness.py` | Five CatBoost full models with different `random_seed`; re-ranking, screening and recurrence (needs `models_local/pool_features_composition.npz` from `random_forest_reranking.py`) | `23_*` |
 | 24 | `experimental_context.py` | Measured vs predicted capacities of synthesized Cr- or F-substituted Li2MnO3 | `24_*` |
 | 25 | `precursor_masses.py` | Precursor amounts for 5 g of Li2Mn0.7Cr0.3O2.865F0.135 | `25_*` |
+| 27 | `family_holdout_conservative.py` | Family holdout after removing, whenever a family is held out, the untemplated training compositions that clearly belong to it by stoichiometry and chemistry (LiMn1.95Si0.05O4, spinel; Li0.5MnPO4, olivine); a variant also treats six LixMnO2 compositions as layered; the unmodified run is repeated as a check (retrains) | `27_*` |
+| 27 | `figure3a_family_holdout.py` | Figure 3A redrawn with the analysis-27 family-holdout value (filled marker) and the release value (open marker), in the style of `make_figures.py` | `figure_3a/` |
 
 Inputs that are not distributed:
 
@@ -63,7 +66,7 @@ python context_curves.py
 
 Each script writes into `../outputs/` and overwrites the saved table of the same name. Some scripts read tables written by others (for example, `candidate_checks.py` reads `05_counterpart_controls.csv` and the `04_strict_redox_*` tables), and the saved copies of those tables are included.
 
-The authors re-ran `precursor_masses.py`, `local_reliability.py`, `g3_valence_radii.py` and `context_curves.py` from this folder layout; their outputs were byte-identical to the saved tables.
+The authors re-ran `precursor_masses.py`, `local_reliability.py`, `g3_valence_radii.py`, `context_curves.py`, `screen_logic_examples.py`, `family_holdout_conservative.py` and `figure3a_family_holdout.py` from this folder layout; their outputs were byte-identical to the saved files. Run `figure3a_family_holdout.py` after `family_holdout_conservative.py`.
 
 ## Sources
 
