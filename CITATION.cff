@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below, and also cite the Huang & Cole (2020) battery database it was built from."
 title: "Composition-Level Prioritization of Lithium-Ion Cathode Candidates: code and data"
 version: 1.0.0
+doi: 10.5281/zenodo.23605091
+repository-code: "https://github.com/wangtzuwei/li-cathode-composition-prioritization"
 license: MIT
 type: software
 authors:

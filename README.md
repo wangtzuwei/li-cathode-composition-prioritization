@@ -95,6 +95,8 @@ The records were built from the Huang & Cole database (CC BY 4.0). Cite that dat
 
 ## Citation and contact
 
+Archived release: https://doi.org/10.5281/zenodo.23605091 (Zenodo). Repository: https://github.com/wangtzuwei/li-cathode-composition-prioritization.
+
 See `CITATION.cff`. The article reference will be added when it is published.
 
 Corresponding authors: Gerfried Millner (gerfried.millner@ntu.edu.sg) and Eason Yi-Sheng Chen (eason.chen@ntu.edu.sg).
